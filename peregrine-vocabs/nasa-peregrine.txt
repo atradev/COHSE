@@ -1,0 +1,3402 @@
+# ErasmusMC ontology file
+VR 1.0
+ON Test SKOS Conv 01
+--
+ID 1
+NA Aerodynamics	@lang=en;match=ci,no
+TM Aerodynamics	@lang=en;match=ci,no
+TM hypersonic aerodynamics	@lang=en;match=ci,no
+TM spacecraft aerodynamics	@lang=en;match=ci,no
+TM unsteady flow (aerodynamics)	@lang=en;match=ci,no
+TM aerothermodynamics	@lang=en;match=ci,no
+TM subsonic aerodynamics	@lang=en;match=ci,no
+TM propeller aerodynamics	@lang=en;match=ci,no
+TM lifting body aerodynamics	@lang=en;match=ci,no
+TM Rogallo wing aerodynamics	@lang=en;match=ci,no
+TM Coriolis forces (aerodynamics)	@lang=en;match=ci,no
+TM control surface aerodynamics	@lang=en;match=ci,no
+TM aerodynamics of protuberances and substructures	@lang=en;match=ci,no
+TM air flow separation	@lang=en;match=ci,no
+TM balloon aerodynamics	@lang=en;match=ci,no
+TM supersonic aerodynamics	@lang=en;match=ci,no
+TM laminar flow (aerodynamics)	@lang=en;match=ci,no
+TM ultralight aircraft (aerodynamics)	@lang=en;match=ci,no
+TM wakes (effects of turbulent flow behind aircraft)	@lang=en;match=ci,no
+TM cascade aerodynamics	@lang=en;match=ci,no
+TM aerodynamic wakes	@lang=en;match=ci,no
+TM airfoil aerodynamics	@lang=en;match=ci,no
+TM aerodynamic noise (airframe generated)	@lang=en;match=ci,no
+TM exit aerodynamics	@lang=en;match=ci,no
+TM land transportation vehicles (aerodynamics)	@lang=en;match=ci,no
+TM rocket aerodynamics	@lang=en;match=ci,no
+TM reentry vehicle aerodynamics	@lang=en;match=ci,no
+TM lighter-than-air craft (balloons, airships) aerodynamics	@lang=en;match=ci,no
+TM canard aerodynamics	@lang=en;match=ci,no
+TM transitional flow (aerodynamics)	@lang=en;match=ci,no
+TM autogyro aerodynamics	@lang=en;match=ci,no
+TM boundary layer flow (aerodynamics)	@lang=en;match=ci,no
+TM VSTOL aerodynamics	@lang=en;match=ci,no
+TM riblets (aerodynamics)	@lang=en;match=ci,no
+TM boundary layer aerodynamics	@lang=en;match=ci,no
+TM supercritical airfoils	@lang=en;match=ci,no
+TM stabilization surfaces (aerodynamics)	@lang=en;match=ci,no
+TM VTOL aerodynamics	@lang=en;match=ci,no
+TM ground effect machine aerodynamics	@lang=en;match=ci,no
+TM rotor aerodynamics	@lang=en;match=ci,no
+TM aerodynamic heating	@lang=en;match=ci,no
+TM supercritical wings	@lang=en;match=ci,no
+TM launch vehicle aerodynamics	@lang=en;match=ci,no
+TM high speed aerodynamics	@lang=en;match=ci,no
+TM wind tunnel tests (aerodynamics)	@lang=en;match=ci,no
+TM wing aerodynamics	@lang=en;match=ci,no
+TM airship aerodynamics	@lang=en;match=ci,no
+TM transonic aerodynamics	@lang=en;match=ci,no
+TM STOL aerodynamics	@lang=en;match=ci,no
+TM helicopter aerodynamics	@lang=en;match=ci,no
+TM parachute aerodynamics	@lang=en;match=ci,no
+TM sailplane aerodynamics	@lang=en;match=ci,no
+TM sonic boom (aerodynamically generated)	@lang=en;match=ci,no
+TM air launched weapons (aerodynamics)	@lang=en;match=ci,no
+TM turbulent flow (aerodynamics)	@lang=en;match=ci,no
+TM rotary wing aircraft aerodynamics	@lang=en;match=ci,no
+TM hovercraft aerodynamics	@lang=en;match=ci,no
+TM internal flow in turbomachinery (theory)	@lang=en;match=ci,no
+TM aeroelasticity (theory)	@lang=en;match=ci,no
+TM drag reduction (effects and techniques)	@lang=en;match=ci,no
+TM low speed aerodynamics	@lang=en;match=ci,no
+TM buffeting	@lang=en;match=ci,no
+TM air cushion vehicle aerodynamics	@lang=en;match=ci,no
+TM aerodynamic derivatives	@lang=en;match=ci,no
+TM inlet aerodynamics	@lang=en;match=ci,no
+TM missile aerodynamics	@lang=en;match=ci,no
+TM glider aerodynamics	@lang=en;match=ci,no
+TM aerodynamic studies of skin friction	@lang=en;match=ci,no
+TM compressible flow (aerodynamics)	@lang=en;match=ci,no
+TM aerodynamic flow fields	@lang=en;match=ci,no
+TM aircraft aerodynamics	@lang=en;match=ci,no
+TM |DEFINITION|Includes aerodynamics of flight vehicles, test bodies,    airframe components and combinations, wings, and control    surfaces. Also includes aerodynamics of rotors, stators,    fans, and other elements of turbomachinery. For related    information see also 34 Fluid Mechanics and Thermodynamics.  
+--
+ID 2
+NA Oceanography	@lang=en;match=ci,no
+TM Oceanography	@lang=en;match=ci,no
+TM ocean currents	@lang=en;match=ci,no
+TM temperature variations (oceanography)	@lang=en;match=ci,no
+TM thermoclines (oceanography)	@lang=en;match=ci,no
+TM chlorophyll concentration	@lang=en;match=ci,no
+TM marine biology	@lang=en;match=ci,no
+TM sea ice	@lang=en;match=ci,no
+TM wave phenomena (oceanography)	@lang=en;match=ci,no
+TM swash zone (oceanography)	@lang=en;match=ci,no
+TM marine resources	@lang=en;match=ci,no
+TM sediments (oceanography)	@lang=en;match=ci,no
+TM salinity (oceanography)	@lang=en;match=ci,no
+TM physical oceanography	@lang=en;match=ci,no
+TM biological oceanography	@lang=en;match=ci,no
+TM dynamic oceanography	@lang=en;match=ci,no
+TM phytoplankton concentration	@lang=en;match=ci,no
+TM ocean floor studies	@lang=en;match=ci,no
+TM ocean wave studies	@lang=en;match=ci,no
+TM ocean circulation	@lang=en;match=ci,no
+TM air-sea interactions	@lang=en;match=ci,no
+TM general circulation models (ocean)	@lang=en;match=ci,no
+TM biosphere (oceanography)	@lang=en;match=ci,no
+TM sea water	@lang=en;match=ci,no
+TM |DEFINITION|Includes the physical, chemical and biological aspects of    oceans and seas; ocean dynamics; and marine resources. For    related information see also 43 Earth Resources and Remote    Sensing.  
+--
+ID 3
+NA Computer Programming and Software	@lang=en;match=ci,no
+TM Computer Programming and Software	@lang=en;match=ci,no
+TM protocol checking	@lang=en;match=ci,no
+TM compilers (software)	@lang=en;match=ci,no
+TM debugging programs	@lang=en;match=ci,no
+TM CAD (computer aided design)	@lang=en;match=ci,no
+TM diagnostic procedures (software)	@lang=en;match=ci,no
+TM computer routines	@lang=en;match=ci,no
+TM programming languages	@lang=en;match=ci,no
+TM computer aided design (CAD)	@lang=en;match=ci,no
+TM software debugging	@lang=en;match=ci,no
+TM computer graphics (software)	@lang=en;match=ci,no
+TM computer programming	@lang=en;match=ci,no
+TM operating systems (computers)	@lang=en;match=ci,no
+TM CAM (computer aided manufacturing)	@lang=en;match=ci,no
+TM computer software	@lang=en;match=ci,no
+TM computerized simulation (general)	@lang=en;match=ci,no
+TM software reuse	@lang=en;match=ci,no
+TM programming (computers)	@lang=en;match=ci,no
+TM computer aided manufacturing (CAM)	@lang=en;match=ci,no
+TM document markup languages (computer programming)	@lang=en;match=ci,no
+TM data acquisition programs	@lang=en;match=ci,no
+TM flight computer software	@lang=en;match=ci,no
+TM object oriented programming	@lang=en;match=ci,no
+TM formalism (computer programming)	@lang=en;match=ci,no
+TM algorithms (computer operations)	@lang=en;match=ci,no
+TM coding techniques (computer programming)	@lang=en;match=ci,no
+TM interpreters (software)	@lang=en;match=ci,no
+TM computer architecture	@lang=en;match=ci,no
+TM error correction codes	@lang=en;match=ci,no
+TM fault tolerant software	@lang=en;match=ci,no
+TM software engineering	@lang=en;match=ci,no
+TM |DEFINITION|Includes software engineering, computer programs, routines,    algorithms, and specific applications, e.g., CAD/CAM. For    computer software applied to specific applications, see    also the associated category.  
+--
+ID 4
+NA Plasma Physics	@lang=en;match=ci,no
+TM Plasma Physics	@lang=en;match=ci,no
+TM plasma propulsion (theory)	@lang=en;match=ci,no
+TM electrohydrodynamics	@lang=en;match=ci,no
+TM plasma oscillations	@lang=en;match=ci,no
+TM electrogasdynamics	@lang=en;match=ci,no
+TM hydromagnetics (plasma physics)	@lang=en;match=ci,no
+TM plasma sheath	@lang=en;match=ci,no
+TM plasma seeding	@lang=en;match=ci,no
+TM magnetoplasmas	@lang=en;match=ci,no
+TM plasma theory	@lang=en;match=ci,no
+TM electron density (plasma physics)	@lang=en;match=ci,no
+TM plasma flow	@lang=en;match=ci,no
+TM plasma fusion	@lang=en;match=ci,no
+TM plasma physics research equipment	@lang=en;match=ci,no
+TM plasma conductivity	@lang=en;match=ci,no
+TM stellarators	@lang=en;match=ci,no
+TM magnetogasdynamics	@lang=en;match=ci,no
+TM magnetohydrodynamics	@lang=en;match=ci,no
+TM fusion devices	@lang=en;match=ci,no
+TM whistlers (plasma physics)	@lang=en;match=ci,no
+TM MHD generators	@lang=en;match=ci,no
+TM ion beams (plasma physics)	@lang=en;match=ci,no
+TM plasma diagnostics	@lang=en;match=ci,no
+TM plasma pinch	@lang=en;match=ci,no
+TM tokamak devices	@lang=en;match=ci,no
+TM microwave interaction with plasmas	@lang=en;match=ci,no
+TM laser interaction with plasmas	@lang=en;match=ci,no
+TM plasma waves	@lang=en;match=ci,no
+TM nuclear fusion (plasma physics)	@lang=en;match=ci,no
+TM mirror machine (plasma physics)	@lang=en;match=ci,no
+TM plasma dynamics	@lang=en;match=ci,no
+TM |DEFINITION|Includes magnetohydrodynamics and plasma fusion. For    ionospheric plasmas see 46 Geophysics. For space plasmas    see 90 Astrophysics.  
+--
+ID 5
+NA Administration and Management	@lang=en;match=ci,no
+TM Administration and Management	@lang=en;match=ci,no
+TM PERT (Program Evaluation and Review Technique)	@lang=en;match=ci,no
+TM management tools	@lang=en;match=ci,no
+TM space commercialization (management)	@lang=en;match=ci,no
+TM management planning	@lang=en;match=ci,no
+TM research management	@lang=en;match=ci,no
+TM research planning	@lang=en;match=ci,no
+TM contract supervision	@lang=en;match=ci,no
+TM project management	@lang=en;match=ci,no
+TM administration	@lang=en;match=ci,no
+TM management	@lang=en;match=ci,no
+TM administrative planning	@lang=en;match=ci,no
+TM management research	@lang=en;match=ci,no
+TM budgeting (management)	@lang=en;match=ci,no
+TM program management	@lang=en;match=ci,no
+TM decision making	@lang=en;match=ci,no
+TM contract procurement	@lang=en;match=ci,no
+TM critical path method	@lang=en;match=ci,no
+TM |DEFINITION|Includes management planning and research.  
+--
+ID 6
+NA Lunar and Planetary Science and Exploration	@lang=en;match=ci,no
+TM Lunar and Planetary Science and Exploration	@lang=en;match=ci,no
+TM moons (characteristics and composition)	@lang=en;match=ci,no
+TM planetology	@lang=en;match=ci,no
+TM Mars exploration	@lang=en;match=ci,no
+TM planetary mapping	@lang=en;match=ci,no
+TM lunar samples	@lang=en;match=ci,no
+TM planetary exploration	@lang=en;match=ci,no
+TM flyby missions	@lang=en;match=ci,no
+TM unmanned flights (space exploration)	@lang=en;match=ci,no
+TM craters (extraterrestrial)	@lang=en;match=ci,no
+TM meteoroids	@lang=en;match=ci,no
+TM asteroids (characteristics and composition)	@lang=en;match=ci,no
+TM selenography	@lang=en;match=ci,no
+TM unmanned lunar exploration	@lang=en;match=ci,no
+TM manned Mars missions	@lang=en;match=ci,no
+TM composition)	@lang=en;match=ci,no
+TM manned flights (space exploration)	@lang=en;match=ci,no
+TM remote exploration of planets	@lang=en;match=ci,no
+TM Earth analogs	@lang=en;match=ci,no
+TM planetary atmospheres	@lang=en;match=ci,no
+TM solar system bodies	@lang=en;match=ci,no
+TM planetary samples	@lang=en;match=ci,no
+TM lunar regolith simulants	@lang=en;match=ci,no
+TM planetary motion	@lang=en;match=ci,no
+TM lunar and planetary resource utilization	@lang=en;match=ci,no
+TM dwarf planets	@lang=en;match=ci,no
+TM planetary photography	@lang=en;match=ci,no
+TM planetary satellites (characteristics and	@lang=en;match=ci,no
+TM manned planetary exploration	@lang=en;match=ci,no
+TM comet exploration	@lang=en;match=ci,no
+TM lunar and planetary resources	@lang=en;match=ci,no
+TM lunar exploration	@lang=en;match=ci,no
+TM soil sampling and analysis (planetology)	@lang=en;match=ci,no
+TM comets (characteristics and composition)	@lang=en;match=ci,no
+TM lunar landing sites	@lang=en;match=ci,no
+TM lunar structure	@lang=en;match=ci,no
+TM tektites	@lang=en;match=ci,no
+TM lunar mapping	@lang=en;match=ci,no
+TM extraterrestrial roving vehicles	@lang=en;match=ci,no
+TM lunar photography	@lang=en;match=ci,no
+TM meteors	@lang=en;match=ci,no
+TM planetary structure	@lang=en;match=ci,no
+TM selenology	@lang=en;match=ci,no
+TM terrestrial planets	@lang=en;match=ci,no
+TM gas giant planets	@lang=en;match=ci,no
+TM meteorites	@lang=en;match=ci,no
+TM manned lunar exploration	@lang=en;match=ci,no
+TM unmanned planetary exploration	@lang=en;match=ci,no
+TM natural satellites (characteristics and composition)	@lang=en;match=ci,no
+TM |DEFINITION|Includes planetology; selenology; meteorites; comets;    craters; and manned and unmanned planetary and lunar    flights. For spacecraft design or space stations see 18    Spacecraft Design, Testing and Performance.  
+--
+ID 7
+NA NASA STI Subject Categories	@lang=en;match=ci,no
+TM NASA STI Subject Categories	@lang=en;match=ci,no
+TM |DEFINITION|This Facet is created from NASA/SP-2006-7603, the "NASA    Scientific and Technical Information Scope and Subject    Category Guide", published in December 2006.  See    http://www.sti.nasa.gov/ for copies.  
+--
+ID 8
+NA Systems Analysis and Operations Research	@lang=en;match=ci,no
+TM Systems Analysis and Operations Research	@lang=en;match=ci,no
+TM linear programming	@lang=en;match=ci,no
+TM optimization (mathematics)	@lang=en;match=ci,no
+TM operations research	@lang=en;match=ci,no
+TM systems analysis	@lang=en;match=ci,no
+TM mathematical modeling (systems analysis)	@lang=en;match=ci,no
+TM mathematical programming	@lang=en;match=ci,no
+TM dynamic programming	@lang=en;match=ci,no
+TM decision theory	@lang=en;match=ci,no
+TM game theory	@lang=en;match=ci,no
+TM network analysis	@lang=en;match=ci,no
+TM queueing theory	@lang=en;match=ci,no
+TM |DEFINITION|Includes mathematical modeling of systems; network    analysis; mathematical programming; decision theory; and    game theory.  
+--
+ID 9
+NA Communications and Radar	@lang=en;match=ci,no
+TM Communications and Radar	@lang=en;match=ci,no
+TM antenna design	@lang=en;match=ci,no
+TM lidar	@lang=en;match=ci,no
+TM networks (communications)	@lang=en;match=ci,no
+TM communications theory	@lang=en;match=ci,no
+TM data transmission techniques	@lang=en;match=ci,no
+TM microwave theory	@lang=en;match=ci,no
+TM large deployable space antennas	@lang=en;match=ci,no
+TM radar transmitters (theory and techniques)	@lang=en;match=ci,no
+TM satellite communications (earth communications)	@lang=en;match=ci,no
+TM signal processing	@lang=en;match=ci,no
+TM communications (general)	@lang=en;match=ci,no
+TM electronic countermeasures	@lang=en;match=ci,no
+TM communications networks (theory and techniques)	@lang=en;match=ci,no
+TM data transmission equipment	@lang=en;match=ci,no
+TM signal generators (theory and techniques)	@lang=en;match=ci,no
+TM wave propagation (electromagnetic)	@lang=en;match=ci,no
+TM synthetic aperture radar	@lang=en;match=ci,no
+TM communications systems (theory and techniques)	@lang=en;match=ci,no
+TM data transmission applications	@lang=en;match=ci,no
+TM microwave communications systems (applications)	@lang=en;match=ci,no
+TM radar detection (communications)	@lang=en;match=ci,no
+TM radar clutter	@lang=en;match=ci,no
+TM radio antennas (theory and techniques)	@lang=en;match=ci,no
+TM electromagnetic wave propagation	@lang=en;match=ci,no
+TM radar absorbing materials	@lang=en;match=ci,no
+TM microwave receivers (theory and techniques)	@lang=en;match=ci,no
+TM man-machine communications (theory and techniques)	@lang=en;match=ci,no
+TM radio (theory and techniques)	@lang=en;match=ci,no
+TM signal decoding	@lang=en;match=ci,no
+TM communications satellite operational problems	@lang=en;match=ci,no
+TM laser communications	@lang=en;match=ci,no
+TM ionospheric propagation (communications)	@lang=en;match=ci,no
+TM telemetry (theory and techniques)	@lang=en;match=ci,no
+TM microwave techniques	@lang=en;match=ci,no
+TM radio antenna design	@lang=en;match=ci,no
+TM communications interference	@lang=en;match=ci,no
+TM speech data compression (communications)	@lang=en;match=ci,no
+TM ionospheric effects on radio transmission (communications)	@lang=en;match=ci,no
+TM electromagnetic interference	@lang=en;match=ci,no
+TM radar antenna design	@lang=en;match=ci,no
+TM microwave radiation (properties)	@lang=en;match=ci,no
+TM antenna radiation patterns	@lang=en;match=ci,no
+TM radar receivers (theory and techniques)	@lang=en;match=ci,no
+TM signal analyzers	@lang=en;match=ci,no
+TM speech analysis (electromagnetic aspects)	@lang=en;match=ci,no
+TM radar communications systems (theory and techniques)	@lang=en;match=ci,no
+TM signal encoding	@lang=en;match=ci,no
+TM optical communications (applications)	@lang=en;match=ci,no
+TM frequency assignment	@lang=en;match=ci,no
+TM radar antennas (theory and techniques)	@lang=en;match=ci,no
+TM radomes (design)	@lang=en;match=ci,no
+TM electromagnetic radiation (communications)	@lang=en;match=ci,no
+TM voice communications	@lang=en;match=ci,no
+TM signal modulators	@lang=en;match=ci,no
+TM radio communication systems (theory and techniques)	@lang=en;match=ci,no
+TM communications equipment	@lang=en;match=ci,no
+TM data transmission development	@lang=en;match=ci,no
+TM communications noise	@lang=en;match=ci,no
+TM radar imagery (communications)	@lang=en;match=ci,no
+TM digital communications systems (theory and techniques)	@lang=en;match=ci,no
+TM signal detection	@lang=en;match=ci,no
+TM television systems (aerospace applications)	@lang=en;match=ci,no
+TM ladar (application)	@lang=en;match=ci,no
+TM antenna theory	@lang=en;match=ci,no
+TM whistlers (electromagnetic)	@lang=en;match=ci,no
+TM satellite networks (earth communications)	@lang=en;match=ci,no
+TM radar (theory and techniques)	@lang=en;match=ci,no
+TM transmitters (theory and techniques)	@lang=en;match=ci,no
+TM laser optical radar	@lang=en;match=ci,no
+TM side looking radar (theory and techniques)	@lang=en;match=ci,no
+TM communications coding	@lang=en;match=ci,no
+TM data transmission research	@lang=en;match=ci,no
+TM tropospheric scatter (electromagnetic effects)	@lang=en;match=ci,no
+TM phase shift keying (PSK)	@lang=en;match=ci,no
+TM microwave transmitters (theory and techniques)	@lang=en;match=ci,no
+TM radar tracking systems (theory and techniques)	@lang=en;match=ci,no
+TM ionospheric scatter (communications)	@lang=en;match=ci,no
+TM phased array radar	@lang=en;match=ci,no
+TM communications techniques	@lang=en;match=ci,no
+TM modulation (signals)	@lang=en;match=ci,no
+TM radar scattering	@lang=en;match=ci,no
+TM global communications	@lang=en;match=ci,no
+TM communications blackouts (electromagnetic interference)	@lang=en;match=ci,no
+TM |DEFINITION|Includes radar; radio, wire, and optical communications;    land and global communications; communications theory. For    related information see also 04 Aircraft Communications and    Navigation; and 17 Space Communications, Spacecraft    Communications, Command and Tracking; for search and    rescue, see 03 Air Transportation and Safety; and 16 Space    Transportation and Safety.  
+--
+ID 10
+NA Computer Operations and Hardware	@lang=en;match=ci,no
+TM Computer Operations and Hardware	@lang=en;match=ci,no
+TM random access memories	@lang=en;match=ci,no
+TM digital storage devices	@lang=en;match=ci,no
+TM automatic data processors (ADP)	@lang=en;match=ci,no
+TM optical scanners (computer, peripheral equipment)	@lang=en;match=ci,no
+TM computer memory devices	@lang=en;match=ci,no
+TM minicomputers	@lang=en;match=ci,no
+TM computer storage techniques	@lang=en;match=ci,no
+TM analog computers	@lang=en;match=ci,no
+TM computer storage devices	@lang=en;match=ci,no
+TM computer manufacturing	@lang=en;match=ci,no
+TM remote readout equipment	@lang=en;match=ci,no
+TM computer printers	@lang=en;match=ci,no
+TM digital computers	@lang=en;match=ci,no
+TM computer operations	@lang=en;match=ci,no
+TM data input devices	@lang=en;match=ci,no
+TM microcomputers	@lang=en;match=ci,no
+TM firmware	@lang=en;match=ci,no
+TM remote input equipment	@lang=en;match=ci,no
+TM computer hardware design	@lang=en;match=ci,no
+TM mainframes	@lang=en;match=ci,no
+TM computer interfacing equipment	@lang=en;match=ci,no
+TM computer hardware	@lang=en;match=ci,no
+TM central processing unit (CPU)	@lang=en;match=ci,no
+TM computer graphics (hardware)	@lang=en;match=ci,no
+TM processors (hardware)	@lang=en;match=ci,no
+TM multiprocessors (hardware)	@lang=en;match=ci,no
+TM output devices (computers)	@lang=en;match=ci,no
+TM spaceborne computers	@lang=en;match=ci,no
+TM computers (hardware)	@lang=en;match=ci,no
+TM digital storage techniques	@lang=en;match=ci,no
+TM modems	@lang=en;match=ci,no
+TM read-only memories	@lang=en;match=ci,no
+TM supercomputers	@lang=en;match=ci,no
+TM architecture (computers)	@lang=en;match=ci,no
+TM mechanical computers	@lang=en;match=ci,no
+TM data processing	@lang=en;match=ci,no
+TM computer display devices	@lang=en;match=ci,no
+TM plotters	@lang=en;match=ci,no
+TM computer buffers	@lang=en;match=ci,no
+TM hybrid computers	@lang=en;match=ci,no
+TM input devices	@lang=en;match=ci,no
+TM remote terminals	@lang=en;match=ci,no
+TM memory devices (computer)	@lang=en;match=ci,no
+TM computer peripheral equipment	@lang=en;match=ci,no
+TM personal computers	@lang=en;match=ci,no
+TM parallel processing (hardware)	@lang=en;match=ci,no
+TM |DEFINITION|Includes hardware for computer graphics, firmware and data    processing. For components see 33 Electronics and    Electrical Engineering. For computer vision see 63    Cybernetics, Artificial Intelligence and Robotics.  
+--
+ID 11
+NA Aeronautics (General)	@lang=en;match=ci,no
+TM Aeronautics (General)	@lang=en;match=ci,no
+TM aircraft manufacturing	@lang=en;match=ci,no
+TM maintenance (aircraft)	@lang=en;match=ci,no
+TM aircraft production	@lang=en;match=ci,no
+TM aircraft maintenance	@lang=en;match=ci,no
+TM aircraft repair	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to manned and    unmanned aircraft and the problems of flight within the    Earthâ??s atmosphere. Also includes manufacturing,    maintenance, and repair of aircraft. For specific topics in    aeronautics see categories 02 through 09. For information    related to space vehicles see 12 Astronautics.  
+--
+ID 12
+NA Technology Utilization and Surface Transportation	@lang=en;match=ci,no
+TM Technology Utilization and Surface Transportation	@lang=en;match=ci,no
+TM air cushion vehicles	@lang=en;match=ci,no
+TM fresh water sources	@lang=en;match=ci,no
+TM surface transportation	@lang=en;match=ci,no
+TM technology utilization	@lang=en;match=ci,no
+TM technology)	@lang=en;match=ci,no
+TM space technology applications to urban problems	@lang=en;match=ci,no
+TM ground effect machines	@lang=en;match=ci,no
+TM maglev vehicles	@lang=en;match=ci,no
+TM land transportation vehicles (development and	@lang=en;match=ci,no
+TM water treatment (development and technology)	@lang=en;match=ci,no
+TM technology transfer	@lang=en;match=ci,no
+TM hybrid vehicles	@lang=en;match=ci,no
+TM mass transportation	@lang=en;match=ci,no
+TM waste products conversion (urban technology)	@lang=en;match=ci,no
+TM rapid transit systems	@lang=en;match=ci,no
+TM sewage disposal	@lang=en;match=ci,no
+TM urban transportation	@lang=en;match=ci,no
+TM urban technology	@lang=en;match=ci,no
+TM hydrofoil vehicles	@lang=en;match=ci,no
+TM global position system (surface navigation)	@lang=en;match=ci,no
+TM electric vehicles	@lang=en;match=ci,no
+TM waste treatment (development and technology)	@lang=en;match=ci,no
+TM waste products disposal (urban technology)	@lang=en;match=ci,no
+TM |DEFINITION|Includes aerospace technology transfer; urban technology;    surface and mass transportation. For related information    see also 03 Air Transportation and Safety; 16 Space    Transportation and Safety; and 44 Energy Production and    Conversion. For specific technology transfer applications    see also the category where the subject is treated.  
+--
+ID 13
+NA Electronics and Electrical Engineering	@lang=en;match=ci,no
+TM Electronics and Electrical Engineering	@lang=en;match=ci,no
+TM circuit simulation (integrated circuits)	@lang=en;match=ci,no
+TM inductors (electric)	@lang=en;match=ci,no
+TM rail accelerators, railguns, launchers (theory)	@lang=en;match=ci,no
+TM radomes (electrical properties)	@lang=en;match=ci,no
+TM chips (integrated circuits)	@lang=en;match=ci,no
+TM rectifiers	@lang=en;match=ci,no
+TM electron tubes	@lang=en;match=ci,no
+TM power amplifiers	@lang=en;match=ci,no
+TM microminiaturization	@lang=en;match=ci,no
+TM modulators (electric, electronic devices)	@lang=en;match=ci,no
+TM transducers	@lang=en;match=ci,no
+TM electronic packaging	@lang=en;match=ci,no
+TM power supplies electric)	@lang=en;match=ci,no
+TM VHSIC	@lang=en;match=ci,no
+TM oscillators	@lang=en;match=ci,no
+TM sneak circuit analysis	@lang=en;match=ci,no
+TM Kalman filters	@lang=en;match=ci,no
+TM opto-acoustic electronics	@lang=en;match=ci,no
+TM integrated circuits	@lang=en;match=ci,no
+TM transistors	@lang=en;match=ci,no
+TM printed circuits	@lang=en;match=ci,no
+TM electric motors	@lang=en;match=ci,no
+TM filters (electric, electronic)	@lang=en;match=ci,no
+TM silicon cells (electrical properties)	@lang=en;match=ci,no
+TM dielectrics (electronic application)	@lang=en;match=ci,no
+TM capacitors	@lang=en;match=ci,no
+TM reconfigurable hardware	@lang=en;match=ci,no
+TM solar cells (electrical design)	@lang=en;match=ci,no
+TM waveguides	@lang=en;match=ci,no
+TM circuit theory	@lang=en;match=ci,no
+TM optoelectronics (applications)	@lang=en;match=ci,no
+TM vacuum tubes	@lang=en;match=ci,no
+TM electric circuits	@lang=en;match=ci,no
+TM networks (circuitry)	@lang=en;match=ci,no
+TM electronic components	@lang=en;match=ci,no
+TM resistors	@lang=en;match=ci,no
+TM electrical relays	@lang=en;match=ci,no
+TM very large scale integration (VLSI)	@lang=en;match=ci,no
+TM dividers (electric)	@lang=en;match=ci,no
+TM insulation (electric, electronic)	@lang=en;match=ci,no
+TM bridge circuits	@lang=en;match=ci,no
+TM electronic circuits	@lang=en;match=ci,no
+TM switches	@lang=en;match=ci,no
+TM programmable logic devices	@lang=en;match=ci,no
+TM lithography (circuit fabrication)	@lang=en;match=ci,no
+TM diodes	@lang=en;match=ci,no
+TM electrical engineering	@lang=en;match=ci,no
+TM electronics	@lang=en;match=ci,no
+TM amplifiers	@lang=en;match=ci,no
+TM single event transients	@lang=en;match=ci,no
+TM solar state circuitry	@lang=en;match=ci,no
+TM batteries (electrical design)	@lang=en;match=ci,no
+TM semiconductor devices	@lang=en;match=ci,no
+TM photoelectric devices	@lang=en;match=ci,no
+TM klystrons	@lang=en;match=ci,no
+TM tunnel diodes	@lang=en;match=ci,no
+TM surface wave acoustic devices (electronic design)	@lang=en;match=ci,no
+TM regulators (voltage, current)	@lang=en;match=ci,no
+TM electric filters	@lang=en;match=ci,no
+TM triodes	@lang=en;match=ci,no
+TM microelectronics	@lang=en;match=ci,no
+TM field effect transistors (FET)	@lang=en;match=ci,no
+TM electron beam devices	@lang=en;match=ci,no
+TM transformers	@lang=en;match=ci,no
+TM converters	@lang=en;match=ci,no
+TM charge-coupled devices	@lang=en;match=ci,no
+TM electric power units (electrical design)	@lang=en;match=ci,no
+TM chokes (electric, electronic)	@lang=en;match=ci,no
+TM traveling wave tubes	@lang=en;match=ci,no
+TM inverters	@lang=en;match=ci,no
+TM transmission lines	@lang=en;match=ci,no
+TM light emitting diodes (LED)	@lang=en;match=ci,no
+TM single event upsets	@lang=en;match=ci,no
+TM test equipment (electrical properties)	@lang=en;match=ci,no
+TM photomultipliers	@lang=en;match=ci,no
+TM electromechanics	@lang=en;match=ci,no
+TM electrical components	@lang=en;match=ci,no
+TM switching circuits	@lang=en;match=ci,no
+TM fuses (electric)	@lang=en;match=ci,no
+TM signal generators (applications)	@lang=en;match=ci,no
+TM superconductivity (applications)	@lang=en;match=ci,no
+TM cathode ray tubes (electrical design)	@lang=en;match=ci,no
+TM switching theory	@lang=en;match=ci,no
+TM electronic test equipment	@lang=en;match=ci,no
+TM microcircuits	@lang=en;match=ci,no
+TM servomechanisms (electrical aspects)	@lang=en;match=ci,no
+TM audio amplifiers	@lang=en;match=ci,no
+TM generators (electrical design)	@lang=en;match=ci,no
+TM power packs (electric)	@lang=en;match=ci,no
+TM nanodevices (electronic)	@lang=en;match=ci,no
+TM solid state devices	@lang=en;match=ci,no
+TM crystals (electronic applications)	@lang=en;match=ci,no
+TM thyratrons	@lang=en;match=ci,no
+TM magnets (electrical, electronics application)	@lang=en;match=ci,no
+TM field programmable gate arrays	@lang=en;match=ci,no
+TM |DEFINITION|Includes development, performance, and maintainability of    electrical/electronic devices and components; related test    equipment; and microelectronics and integrated circuitry.    For related information see also 60 Computer Operations and    Hardware; and 76 Solid-State Physics. For communications    equipment and devices see 32 Communications and Radar.  
+--
+ID 14
+NA Aircraft Communications and Navigation	@lang=en;match=ci,no
+TM Aircraft Communications and Navigation	@lang=en;match=ci,no
+TM collision avoidance (aircraft control)	@lang=en;match=ci,no
+TM laser tracking systems (aircraft)	@lang=en;match=ci,no
+TM electromagnetic devices (radiators, sensors and other	@lang=en;match=ci,no
+TM global positioning systems (aircraft)	@lang=en;match=ci,no
+TM equipment) for navigation systems	@lang=en;match=ci,no
+TM navigation system design (aircraft)	@lang=en;match=ci,no
+TM terrain avoidance systems	@lang=en;match=ci,no
+TM Doppler navigation systems	@lang=en;match=ci,no
+TM Omega navigation system	@lang=en;match=ci,no
+TM air navigation	@lang=en;match=ci,no
+TM Microwave Landing System (MLS)	@lang=en;match=ci,no
+TM ionospheric effects on radio transmission (aircraft)	@lang=en;match=ci,no
+TM ground based and space based radar for air navigation	@lang=en;match=ci,no
+TM microwave transmitters (aircraft)	@lang=en;match=ci,no
+TM aircraft command and control	@lang=en;match=ci,no
+TM man-machine communications (aircraft)	@lang=en;match=ci,no
+TM guidance system design (aircraft)	@lang=en;match=ci,no
+TM Long Range Navigation System (LORAN)	@lang=en;match=ci,no
+TM inertial sensors and measurement units (aircraft)	@lang=en;match=ci,no
+TM systems for collision avoidance	@lang=en;match=ci,no
+TM systems for adverse weather avoidance	@lang=en;match=ci,no
+TM digital communications systems (aircraft)	@lang=en;match=ci,no
+TM range and angle measurement (aircraft)	@lang=en;match=ci,no
+TM tropospheric scatter (aircraft communications/ navigation	@lang=en;match=ci,no
+TM passive sensors, trackers, and references (aircraft)	@lang=en;match=ci,no
+TM aircraft tracking	@lang=en;match=ci,no
+TM Omnidirectional Radio Range System (OMNI)	@lang=en;match=ci,no
+TM radar tracking systems (aircraft)	@lang=en;match=ci,no
+TM celestial navigation (aircraft)	@lang=en;match=ci,no
+TM navigation display devices (aircraft)	@lang=en;match=ci,no
+TM speech analysis (aircraft voice communication)	@lang=en;match=ci,no
+TM wave propagation (aircraft communications effects)	@lang=en;match=ci,no
+TM radar communications systems (aircraft)	@lang=en;match=ci,no
+TM ground control approach (GCA) systems	@lang=en;match=ci,no
+TM radar imagery (aircraft navigation)	@lang=en;match=ci,no
+TM telemetry (aircraft applications)	@lang=en;match=ci,no
+TM Decca navigation system	@lang=en;match=ci,no
+TM communications networks (aircraft)	@lang=en;match=ci,no
+TM instrument navigation systems	@lang=en;match=ci,no
+TM radio communications system (aircraft)	@lang=en;match=ci,no
+TM microwave communications systems (aircraft)	@lang=en;match=ci,no
+TM speech compression (aircraft voice communication)	@lang=en;match=ci,no
+TM approach control (aircraft)	@lang=en;match=ci,no
+TM disruption)	@lang=en;match=ci,no
+TM radar detection (aircraft navigation)	@lang=en;match=ci,no
+TM TACAN	@lang=en;match=ci,no
+TM navigation computer systems (aircraft)	@lang=en;match=ci,no
+TM navigation systems (aircraft)	@lang=en;match=ci,no
+TM terrain following	@lang=en;match=ci,no
+TM inertial navigation systems (aircraft)	@lang=en;match=ci,no
+TM aircraft communications	@lang=en;match=ci,no
+TM microwave receivers (aircraft)	@lang=en;match=ci,no
+TM all weather global position determination	@lang=en;match=ci,no
+TM very high frequency omnirange (VOR) navigation	@lang=en;match=ci,no
+TM Consol/Consolan navigation system	@lang=en;match=ci,no
+TM air-sea navigation	@lang=en;match=ci,no
+TM voice communications systems (aircraft)	@lang=en;match=ci,no
+TM laser communications systems (aircraft)	@lang=en;match=ci,no
+TM sea navigation (aircraft related)	@lang=en;match=ci,no
+TM communications system (aircraft)	@lang=en;match=ci,no
+TM air traffic control	@lang=en;match=ci,no
+TM |DEFINITION|Includes all modes of communication with and between    aircraft; air navigation systems (satellite and ground    based); and air traffic control. For related information    see also 06 Avionics and Aircraft Instrumentation; 17 Space    Communications, Spacecraft Communications, Command and    Tracking; and 32 Communications and Radar.  
+--
+ID 15
+NA Numerical Analysis	@lang=en;match=ci,no
+TM Numerical Analysis	@lang=en;match=ci,no
+TM convergence (mathematics)	@lang=en;match=ci,no
+TM Rayleigh-Ritz method	@lang=en;match=ci,no
+TM differential equations	@lang=en;match=ci,no
+TM fourier analysis	@lang=en;match=ci,no
+TM mesh refinement (mathematics)	@lang=en;match=ci,no
+TM iteration	@lang=en;match=ci,no
+TM differentiation (mathematics)	@lang=en;match=ci,no
+TM finite volume methods	@lang=en;match=ci,no
+TM approximation	@lang=en;match=ci,no
+TM multigrid methods	@lang=en;match=ci,no
+TM perturbation theory (mathematics)	@lang=en;match=ci,no
+TM Galerkin method	@lang=en;match=ci,no
+TM Runge-Kutta method	@lang=en;match=ci,no
+TM finite difference methods	@lang=en;match=ci,no
+TM difference equations	@lang=en;match=ci,no
+TM matrices	@lang=en;match=ci,no
+TM spline functions	@lang=en;match=ci,no
+TM variational methods	@lang=en;match=ci,no
+TM eigenvalues/eigenvectors	@lang=en;match=ci,no
+TM finite element methods	@lang=en;match=ci,no
+TM boundary value problems	@lang=en;match=ci,no
+TM numerical integration	@lang=en;match=ci,no
+TM integral equations	@lang=en;match=ci,no
+TM computational grids	@lang=en;match=ci,no
+TM algorithms (mathematics)	@lang=en;match=ci,no
+TM collocation methods	@lang=en;match=ci,no
+TM grid refinement (mathematics)	@lang=en;match=ci,no
+TM calculus	@lang=en;match=ci,no
+TM harmonic analysis (mathematics)	@lang=en;match=ci,no
+TM mathematical analysis	@lang=en;match=ci,no
+TM spectral methods (mathematics)	@lang=en;match=ci,no
+TM |DEFINITION|Includes iteration, differential and difference equations,    and numerical approximation.  
+--
+ID 16
+NA Space Sciences (General)	@lang=en;match=ci,no
+TM Space Sciences (General)	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to the natural    space sciences. For specific topics in Space Sciences see    categories 89 through 93.  
+--
+ID 17
+NA Cybernetics, Artificial Intelligence and Robotics	@lang=en;match=ci,no
+TM Cybernetics, Artificial Intelligence and Robotics	@lang=en;match=ci,no
+TM support vector machines	@lang=en;match=ci,no
+TM computer vision	@lang=en;match=ci,no
+TM teleoperators (robotics)	@lang=en;match=ci,no
+TM knowledge representation	@lang=en;match=ci,no
+TM machine learning	@lang=en;match=ci,no
+TM robot sensors	@lang=en;match=ci,no
+TM automata theory	@lang=en;match=ci,no
+TM robot dynamics	@lang=en;match=ci,no
+TM neural networks	@lang=en;match=ci,no
+TM control systems design	@lang=en;match=ci,no
+TM expert systems	@lang=en;match=ci,no
+TM artificial intelligence	@lang=en;match=ci,no
+TM model order reduction (control theory)	@lang=en;match=ci,no
+TM automatic control optimal control	@lang=en;match=ci,no
+TM robot vision	@lang=en;match=ci,no
+TM cybernetics	@lang=en;match=ci,no
+TM control theory	@lang=en;match=ci,no
+TM robot control	@lang=en;match=ci,no
+TM robotics	@lang=en;match=ci,no
+TM remote manipulator arms (robotics)	@lang=en;match=ci,no
+TM scene analysis (robotics)	@lang=en;match=ci,no
+TM pattern recognition	@lang=en;match=ci,no
+TM feedback control	@lang=en;match=ci,no
+TM information theory	@lang=en;match=ci,no
+TM adaptive control theory	@lang=en;match=ci,no
+TM speech recognition	@lang=en;match=ci,no
+TM multivariable control	@lang=en;match=ci,no
+TM knowledge based systems	@lang=en;match=ci,no
+TM feed forward control	@lang=en;match=ci,no
+TM filter theory (control)	@lang=en;match=ci,no
+TM |DEFINITION|Includes feedback and control theory, information theory,    machine learning, and expert systems. For related    information see also 54 Man/System Technology and Life    Support.  
+--
+ID 18
+NA Statistics and Probability	@lang=en;match=ci,no
+TM Statistics and Probability	@lang=en;match=ci,no
+TM sampling techniques (statistics)	@lang=en;match=ci,no
+TM minimax techniques	@lang=en;match=ci,no
+TM Markov processes	@lang=en;match=ci,no
+TM Monte Carlo method	@lang=en;match=ci,no
+TM prediction analysis	@lang=en;match=ci,no
+TM statistical techniques	@lang=en;match=ci,no
+TM principal components analysis	@lang=en;match=ci,no
+TM data smoothing	@lang=en;match=ci,no
+TM stochastic processes	@lang=en;match=ci,no
+TM time series analysis	@lang=en;match=ci,no
+TM regression analysis	@lang=en;match=ci,no
+TM probability density functions	@lang=en;match=ci,no
+TM statistics	@lang=en;match=ci,no
+TM Bayesian statistics	@lang=en;match=ci,no
+TM random sampling	@lang=en;match=ci,no
+TM Weilbull distributions	@lang=en;match=ci,no
+TM martingales	@lang=en;match=ci,no
+TM data sampling	@lang=en;match=ci,no
+TM maximum likelihood estimation	@lang=en;match=ci,no
+TM error analysis (statistics)	@lang=en;match=ci,no
+TM analysis of variance	@lang=en;match=ci,no
+TM probability	@lang=en;match=ci,no
+TM |DEFINITION|Includes data sampling and smoothing; Monte Carlo method;    time series analysis; and stochastic processes.  
+--
+ID 19
+NA Astrophysics	@lang=en;match=ci,no
+TM Astrophysics	@lang=en;match=ci,no
+TM celestial body orbits	@lang=en;match=ci,no
+TM gravitational theory (astrophysics)	@lang=en;match=ci,no
+TM magnetism (extraterrestrial)	@lang=en;match=ci,no
+TM interplanetary gases	@lang=en;match=ci,no
+TM gravitational collapse (astrophysics)	@lang=en;match=ci,no
+TM interplanetary shock waves	@lang=en;match=ci,no
+TM dark matter	@lang=en;match=ci,no
+TM intergalactic gases	@lang=en;match=ci,no
+TM celestial body trajectories	@lang=en;match=ci,no
+TM interplanetary dust	@lang=en;match=ci,no
+TM stellar luminosity	@lang=en;match=ci,no
+TM intergalactic dust	@lang=en;match=ci,no
+TM universe	@lang=en;match=ci,no
+TM quasars (astrophysics)	@lang=en;match=ci,no
+TM interstellar gases	@lang=en;match=ci,no
+TM physical properties of celestial bodies	@lang=en;match=ci,no
+TM astrochemistry	@lang=en;match=ci,no
+TM intergalactic matter	@lang=en;match=ci,no
+TM novae (astrophysics)	@lang=en;match=ci,no
+TM solar system evolution	@lang=en;match=ci,no
+TM pulsars (astrophysics)	@lang=en;match=ci,no
+TM stellar magnetic fields	@lang=en;match=ci,no
+TM interstellar matter	@lang=en;match=ci,no
+TM black holes (astrophysics)	@lang=en;match=ci,no
+TM stellar evolution	@lang=en;match=ci,no
+TM interplanetary matter	@lang=en;match=ci,no
+TM stars (astrophysics)	@lang=en;match=ci,no
+TM cosmology	@lang=en;match=ci,no
+TM galactic structure	@lang=en;match=ci,no
+TM celestial body physical properties	@lang=en;match=ci,no
+TM cosmic noise	@lang=en;match=ci,no
+TM expansion of the universe	@lang=en;match=ci,no
+TM cosmic dust	@lang=en;match=ci,no
+TM celestial mechanics	@lang=en;match=ci,no
+TM hydromagnetics (astrophysics)	@lang=en;match=ci,no
+TM gravitational waves (astrophysics)	@lang=en;match=ci,no
+TM galaxies (astrophysics)	@lang=en;match=ci,no
+TM supernovae (astrophysics)	@lang=en;match=ci,no
+TM stellar physics	@lang=en;match=ci,no
+TM nebulae (astrophysics)	@lang=en;match=ci,no
+TM interstellar dust	@lang=en;match=ci,no
+TM binaries (astrophysics)	@lang=en;match=ci,no
+TM space plasmas	@lang=en;match=ci,no
+TM galaxy clusters	@lang=en;match=ci,no
+TM stellar systems	@lang=en;match=ci,no
+TM stellar mass accretion	@lang=en;match=ci,no
+TM galactic evolution	@lang=en;match=ci,no
+TM dark energy	@lang=en;match=ci,no
+TM Magellanic clouds	@lang=en;match=ci,no
+TM nuclear astrophysics	@lang=en;match=ci,no
+TM |DEFINITION|Includes cosmology; celestial mechanics; space plasmas; and    interstellar and interplanetary gases and dust.  
+--
+ID 20
+NA Geosciences (General)	@lang=en;match=ci,no
+TM Geosciences (General)	@lang=en;match=ci,no
+TM geology (general)	@lang=en;match=ci,no
+TM minerals (petrology)	@lang=en;match=ci,no
+TM Earth sciences	@lang=en;match=ci,no
+TM petrology	@lang=en;match=ci,no
+TM petrography	@lang=en;match=ci,no
+TM craters (Earth)	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to the Earth    sciences, and the specific areas of petrology, minerology,    and general geology. For other specific topics in    geosciences see categories 42 through 48.  
+--
+ID 21
+NA Atomic and Molecular Physics	@lang=en;match=ci,no
+TM Atomic and Molecular Physics	@lang=en;match=ci,no
+TM radiation absorption by atoms	@lang=en;match=ci,no
+TM molecular energy	@lang=en;match=ci,no
+TM molecular interactions	@lang=en;match=ci,no
+TM atomic beam measurements	@lang=en;match=ci,no
+TM molecular beams	@lang=en;match=ci,no
+TM atomic physics	@lang=en;match=ci,no
+TM molecular physics	@lang=en;match=ci,no
+TM electron collisions	@lang=en;match=ci,no
+TM absorption of radiation by atoms	@lang=en;match=ci,no
+TM ion exchange	@lang=en;match=ci,no
+TM atomic reactions	@lang=en;match=ci,no
+TM atomic spectra	@lang=en;match=ci,no
+TM molecular structure	@lang=en;match=ci,no
+TM atomic structure	@lang=en;match=ci,no
+TM intermolecular forces	@lang=en;match=ci,no
+TM luminescence (atomic physics)	@lang=en;match=ci,no
+TM ion dynamics	@lang=en;match=ci,no
+TM molecular spectroscopy	@lang=en;match=ci,no
+TM molecular spectra	@lang=en;match=ci,no
+TM electron scattering	@lang=en;match=ci,no
+TM photon interactions with atoms and molecules	@lang=en;match=ci,no
+TM atomic collisions	@lang=en;match=ci,no
+TM emission of radiation by atoms	@lang=en;match=ci,no
+TM ion beams (theory)	@lang=en;match=ci,no
+TM atomic frequency standards	@lang=en;match=ci,no
+TM atomic nuclei	@lang=en;match=ci,no
+TM theories of atomic physics	@lang=en;match=ci,no
+TM atomic fuels (space applications)	@lang=en;match=ci,no
+TM molecular collision theory	@lang=en;match=ci,no
+TM atomic energy levels	@lang=en;match=ci,no
+TM atomic electron properties	@lang=en;match=ci,no
+TM molecular properties	@lang=en;match=ci,no
+TM theories of molecular physics	@lang=en;match=ci,no
+TM activation analysis	@lang=en;match=ci,no
+TM fluorescence	@lang=en;match=ci,no
+TM |DEFINITION|Includes atomic and molecular structure, electron    properties, and atomic and molecular spectra. For    elementary particle physics see 77 Physics of Elementary    Particles and Fields; for nuclear physics see 73 Nuclear    Physics.  
+--
+ID 22
+NA Spacecraft Instrumentation and Astrionics	@lang=en;match=ci,no
+TM Spacecraft Instrumentation and Astrionics	@lang=en;match=ci,no
+TM two-gas sensors (spacecraft)	@lang=en;match=ci,no
+TM ablation sensors (spacecraft)	@lang=en;match=ci,no
+TM altimeters (spacecraft)	@lang=en;match=ci,no
+TM display devices (spacecraft)	@lang=en;match=ci,no
+TM gyroscopes (spacecraft)	@lang=en;match=ci,no
+TM control position indicators (spacecraft)	@lang=en;match=ci,no
+TM skin temperature indicators (spacecraft)	@lang=en;match=ci,no
+TM instrument pointing systems (IPS)	@lang=en;match=ci,no
+TM sensors for spacecraft equipment	@lang=en;match=ci,no
+TM instrument installation (spacecraft)	@lang=en;match=ci,no
+TM navigation display devices (design and development)	@lang=en;match=ci,no
+TM position indicators (spacecraft)	@lang=en;match=ci,no
+TM pointing systems	@lang=en;match=ci,no
+TM flight instruments (spacecraft)	@lang=en;match=ci,no
+TM space cabin atmosphere sensors	@lang=en;match=ci,no
+TM instrument displays (spacecraft)	@lang=en;match=ci,no
+TM onboard instrument systems for spacecraft	@lang=en;match=ci,no
+TM micrometeoroid sensors (spacecraft)	@lang=en;match=ci,no
+TM infrared sensors (spacecraft)	@lang=en;match=ci,no
+TM heads-up displays (spacecraft)	@lang=en;match=ci,no
+TM cathode ray tubes (spacecraft systems)	@lang=en;match=ci,no
+TM bioelectronic instruments (spacecraft)	@lang=en;match=ci,no
+TM alarm systems (spacecraft)	@lang=en;match=ci,no
+TM recording devices (spacecraft)	@lang=en;match=ci,no
+TM instrument design (spacecraft)	@lang=en;match=ci,no
+TM cabin display devices (spacecraft)	@lang=en;match=ci,no
+TM passive sensors, trackers, and references (spacecraft)	@lang=en;match=ci,no
+TM onboard sensors and recorders for spacecraft	@lang=en;match=ci,no
+TM horizon sensors (spacecraft)	@lang=en;match=ci,no
+TM biomedical instruments (spacecraft)	@lang=en;match=ci,no
+TM spacecraft instruments	@lang=en;match=ci,no
+TM thermal protection sensors	@lang=en;match=ci,no
+TM laser instruments (spacecraft)	@lang=en;match=ci,no
+TM fluid flow sensors (spacecraft)	@lang=en;match=ci,no
+TM onboard computer systems for spacecraft	@lang=en;match=ci,no
+TM propulsion system instruments and gages (spacecraft)	@lang=en;match=ci,no
+TM astrionics	@lang=en;match=ci,no
+TM spacecraft control computer systems	@lang=en;match=ci,no
+TM analyzing devices (spacecraft)	@lang=en;match=ci,no
+TM flight recorders (spacecraft)	@lang=en;match=ci,no
+TM telemetry devices (spacecraft)	@lang=en;match=ci,no
+TM landing gear position indicators (spacecraft)	@lang=en;match=ci,no
+TM spacecraft systems monitoring instruments	@lang=en;match=ci,no
+TM instrument arrangement (spacecraft)	@lang=en;match=ci,no
+TM laser altimeters (spacecraft)	@lang=en;match=ci,no
+TM warning lights (spacecraft)	@lang=en;match=ci,no
+TM star trackers (navigation)	@lang=en;match=ci,no
+TM detecting devices (spacecraft)	@lang=en;match=ci,no
+TM attitude indicators (spacecraft)	@lang=en;match=ci,no
+TM |DEFINITION|Includes the design, manufacture, or use of devices for the    purpose of measuring, detecting, controlling, computing,    recording, or processing data related to the operation of    space vehicles or platforms. For related information see    also 06 Aircraft Instrumentation and Avionics; For    spaceborne instruments not integral to the vehicle itself    see 35 Instrumentation and Photography; For spaceborne    telescopes and other astronomical instruments see 89    Astronomy.  
+--
+ID 23
+NA Aerospace Medicine	@lang=en;match=ci,no
+TM Aerospace Medicine	@lang=en;match=ci,no
+TM effects of atmospheric flight (human)	@lang=en;match=ci,no
+TM pharmacology	@lang=en;match=ci,no
+TM space adaptation (physiological, human)	@lang=en;match=ci,no
+TM acceleration effects (biological, human)	@lang=en;match=ci,no
+TM physiological factors (human)	@lang=en;match=ci,no
+TM perception (biological, human)	@lang=en;match=ci,no
+TM effects of stress (human)	@lang=en;match=ci,no
+TM microgravity effects (human)	@lang=en;match=ci,no
+TM zero gravity effects (physiological, human)	@lang=en;match=ci,no
+TM space environment effects (physiological, human)	@lang=en;match=ci,no
+TM vestibular effects (human)	@lang=en;match=ci,no
+TM high temperature effects (human)	@lang=en;match=ci,no
+TM bioelectronic instruments (aerospace medicine)	@lang=en;match=ci,no
+TM decompression sickness	@lang=en;match=ci,no
+TM altitude effects (biological, human)	@lang=en;match=ci,no
+TM motion sickness	@lang=en;match=ci,no
+TM physiological effects of flight (human)	@lang=en;match=ci,no
+TM sleep deprivation (physiological effects, human)	@lang=en;match=ci,no
+TM stress effects of space flight (physiological, human)	@lang=en;match=ci,no
+TM deceleration effects (human)	@lang=en;match=ci,no
+TM exercise	@lang=en;match=ci,no
+TM biomedical instruments (aerospace medicine)	@lang=en;match=ci,no
+TM pathology (human)	@lang=en;match=ci,no
+TM sleep apnea	@lang=en;match=ci,no
+TM anthropometry	@lang=en;match=ci,no
+TM tomography (medical applications)	@lang=en;match=ci,no
+TM clinical chemistry	@lang=en;match=ci,no
+TM bone mass	@lang=en;match=ci,no
+TM atmospheric pressure effects (human)	@lang=en;match=ci,no
+TM stress effects of atmospheric flight (physiological, human)	@lang=en;match=ci,no
+TM low temperature effects (human)	@lang=en;match=ci,no
+TM quarantine (human)	@lang=en;match=ci,no
+TM electromagnetic field effects (physiological, human)	@lang=en;match=ci,no
+TM bioengineering (aerospace medicine)	@lang=en;match=ci,no
+TM diurnal effects (human)	@lang=en;match=ci,no
+TM circadian rhythm (human)	@lang=en;match=ci,no
+TM oxygen generation	@lang=en;match=ci,no
+TM effects of space flight (human)	@lang=en;match=ci,no
+TM bioastronautics	@lang=en;match=ci,no
+TM stress (physiological effects, human)	@lang=en;match=ci,no
+TM radiobiography (human)	@lang=en;match=ci,no
+TM magnetic field effects (human)	@lang=en;match=ci,no
+TM toxicology (human)	@lang=en;match=ci,no
+TM confinement (effects, human)	@lang=en;match=ci,no
+TM sensory organs (human)	@lang=en;match=ci,no
+TM neuroendocrinology	@lang=en;match=ci,no
+TM Coriolis forces (physiological effects, human)	@lang=en;match=ci,no
+TM environmental effects (human)	@lang=en;match=ci,no
+TM hypoxia (human)	@lang=en;match=ci,no
+TM reduced gravity effects (physiological, human)	@lang=en;match=ci,no
+TM temperature effects (human)	@lang=en;match=ci,no
+TM centrifugal motion effects	@lang=en;match=ci,no
+TM radiation effects (human)	@lang=en;match=ci,no
+TM space flight effects (physiological, human)	@lang=en;match=ci,no
+TM gravitational effects (biological, human)	@lang=en;match=ci,no
+TM sensory deprivation (physiological effects, human)	@lang=en;match=ci,no
+TM visual acuity	@lang=en;match=ci,no
+TM physiology (human)	@lang=en;match=ci,no
+TM weightlessness effects (physiological, human)	@lang=en;match=ci,no
+TM physiological monitoring devices (human)	@lang=en;match=ci,no
+TM genetics (human)	@lang=en;match=ci,no
+TM extravehicular activity (physiological effects)	@lang=en;match=ci,no
+TM dysbarism	@lang=en;match=ci,no
+TM orthostatic tolerance	@lang=en;match=ci,no
+TM cardiac physiology (human)	@lang=en;match=ci,no
+TM effects of radiation (human)	@lang=en;match=ci,no
+TM astronaut health (physical)	@lang=en;match=ci,no
+TM fatigue (physiological, human)	@lang=en;match=ci,no
+TM |DEFINITION|Includes the biological and physiological effects of    atmospheric and space flight (weightlessness, space    radiation, acceleration, and altitude stress) on the human    being; and the prevention of adverse effects of those    environments. For psychological and behavioral effects of    aerospace environments see 53 Behavioral Science. For the    effects of space on animals and plants see 51 Life Sciences.  
+--
+ID 24
+NA Engineering	@lang=en;match=ci,no
+TM Engineering	@lang=en;match=ci,no
+TM |DEFINITION|Includes engineering (general); communications and radar;    electronics and electrical engineering; fluid mechanics and    thermodynamics; instrumentation and photography; lasers and    masers; mechanical engineering; quality assurance and    reliability; and structural mechanics. For related    information see also Physics (categories 70 through 77).  
+--
+ID 25
+NA Physics of Elementary Particles and Fields	@lang=en;match=ci,no
+TM Physics of Elementary Particles and Fields	@lang=en;match=ci,no
+TM antimatter	@lang=en;match=ci,no
+TM kaons	@lang=en;match=ci,no
+TM quantum electrodynamics (QED)	@lang=en;match=ci,no
+TM quantum chromodynamics (QCD)	@lang=en;match=ci,no
+TM antiparticles	@lang=en;match=ci,no
+TM annihilation reactions	@lang=en;match=ci,no
+TM supergravity	@lang=en;match=ci,no
+TM elementary particles	@lang=en;match=ci,no
+TM neutron sources	@lang=en;match=ci,no
+TM particle physics	@lang=en;match=ci,no
+TM statistical physics	@lang=en;match=ci,no
+TM strong interactions (field theory)	@lang=en;match=ci,no
+TM high energy physics	@lang=en;match=ci,no
+TM string theory	@lang=en;match=ci,no
+TM unified field theory	@lang=en;match=ci,no
+TM Boltzmann statistics	@lang=en;match=ci,no
+TM pions	@lang=en;match=ci,no
+TM bosons quarks	@lang=en;match=ci,no
+TM neutron spectra	@lang=en;match=ci,no
+TM momentum transfer (particle interactions)	@lang=en;match=ci,no
+TM baryons	@lang=en;match=ci,no
+TM Feynman diagrams	@lang=en;match=ci,no
+TM symmetry breaking	@lang=en;match=ci,no
+TM standard model (particle physics)	@lang=en;match=ci,no
+TM Bose and Fermi statistics quantum mechanics	@lang=en;match=ci,no
+TM fermions	@lang=en;match=ci,no
+TM theoretical physics	@lang=en;match=ci,no
+TM mesons	@lang=en;match=ci,no
+TM supersymmetry	@lang=en;match=ci,no
+TM gauge field theory	@lang=en;match=ci,no
+TM elementary particle interactions	@lang=en;match=ci,no
+TM neutrinos	@lang=en;match=ci,no
+TM superstring theory	@lang=en;match=ci,no
+TM theory of relativity	@lang=en;match=ci,no
+TM weak interactions (field theory)	@lang=en;match=ci,no
+TM leptons	@lang=en;match=ci,no
+TM neutron properties	@lang=en;match=ci,no
+TM |DEFINITION|Includes quantum mechanics; theoretical physics; and    statistical mechanics. For related information see also 72    Atomic and Molecular Physics; 73 Nuclear Physics; and 25    Inorganic, Organic and Physical Chemistry.  
+--
+ID 26
+NA Earth Resources and Remote Sensing	@lang=en;match=ci,no
+TM Earth Resources and Remote Sensing	@lang=en;match=ci,no
+TM multispectral band scanners (remote sensing	@lang=en;match=ci,no
+TM petroleum deposits	@lang=en;match=ci,no
+TM limnology	@lang=en;match=ci,no
+TM radar detection (earth resources)	@lang=en;match=ci,no
+TM geothermal resources	@lang=en;match=ci,no
+TM radar imagery (remote sensing)	@lang=en;match=ci,no
+TM forest fire detection applications)	@lang=en;match=ci,no
+TM geological exploration	@lang=en;match=ci,no
+TM cartography	@lang=en;match=ci,no
+TM photogrammetry	@lang=en;match=ci,no
+TM geological survey	@lang=en;match=ci,no
+TM crop disease detection	@lang=en;match=ci,no
+TM signature analysis (earth resources)	@lang=en;match=ci,no
+TM ground truth	@lang=en;match=ci,no
+TM very long base interferometry (applications)	@lang=en;match=ci,no
+TM aerial photography	@lang=en;match=ci,no
+TM satellite observation (remote sensing applications)	@lang=en;match=ci,no
+TM ocean color (remote sensing)	@lang=en;match=ci,no
+TM infrared signatures (earth resources)	@lang=en;match=ci,no
+TM Shuttle Imaging Radar (earth resources)	@lang=en;match=ci,no
+TM remote sensing of earth resources	@lang=en;match=ci,no
+TM Earth resources	@lang=en;match=ci,no
+TM crop forecasts	@lang=en;match=ci,no
+TM mineral deposits	@lang=en;match=ci,no
+TM soil identification	@lang=en;match=ci,no
+TM mapping	@lang=en;match=ci,no
+TM hydrology	@lang=en;match=ci,no
+TM geodesy (remote sensing)	@lang=en;match=ci,no
+TM SEASAT (remote sensing applications)	@lang=en;match=ci,no
+TM computer processing of Earth resources data	@lang=en;match=ci,no
+TM desertification	@lang=en;match=ci,no
+TM satellite derived atmospheric profiles	@lang=en;match=ci,no
+TM side looking radar (earth resources)	@lang=en;match=ci,no
+TM scatterometers (remote sensing applications)	@lang=en;match=ci,no
+TM LANDSAT (remote sensing applications)	@lang=en;match=ci,no
+TM snow and ice observations	@lang=en;match=ci,no
+TM water resources	@lang=en;match=ci,no
+TM littoral regions	@lang=en;match=ci,no
+TM foliage sensing	@lang=en;match=ci,no
+TM infrared imagery (remote sensing)	@lang=en;match=ci,no
+TM orography	@lang=en;match=ci,no
+TM timber inventory	@lang=en;match=ci,no
+TM thematic mapping	@lang=en;match=ci,no
+TM |DEFINITION|Includes remote sensing of earth features, phenomena and    resources by aircraft, balloon, rocket, and spacecraft;    analysis of remote sensing data and imagery; development of    remote sensing products; photogrammetry; aerial    photography; and hydrology. For related instrumentation see    35 Instrumentation and Photography.  
+--
+ID 27
+NA Astronomy	@lang=en;match=ci,no
+TM Astronomy	@lang=en;match=ci,no
+TM natural satellites (observation)	@lang=en;match=ci,no
+TM pulsars (observation)	@lang=en;match=ci,no
+TM telescopes (operation)	@lang=en;match=ci,no
+TM celestial bodies (observation)	@lang=en;match=ci,no
+TM occultation (astronomy)	@lang=en;match=ci,no
+TM observatories	@lang=en;match=ci,no
+TM spaceborne astronomy	@lang=en;match=ci,no
+TM galaxies (observation)	@lang=en;match=ci,no
+TM x-ray telescopes	@lang=en;match=ci,no
+TM astrometry	@lang=en;match=ci,no
+TM binaries (observation)	@lang=en;match=ci,no
+TM celestial motion (observation)	@lang=en;match=ci,no
+TM black holes (observation)	@lang=en;match=ci,no
+TM quasars (observation)	@lang=en;match=ci,no
+TM planet location	@lang=en;match=ci,no
+TM radio telescopes	@lang=en;match=ci,no
+TM ephemerides of celestial bodies	@lang=en;match=ci,no
+TM radar telescope and range finder facilities	@lang=en;match=ci,no
+TM meteors (observation)	@lang=en;match=ci,no
+TM x-ray astronomy	@lang=en;match=ci,no
+TM radar telescopes	@lang=en;match=ci,no
+TM nebulae (observation)	@lang=en;match=ci,no
+TM meteoroids (observation)	@lang=en;match=ci,no
+TM asteroid belt	@lang=en;match=ci,no
+TM optical telescopes	@lang=en;match=ci,no
+TM stellar spectroscopy	@lang=en;match=ci,no
+TM ultraviolet astronomy	@lang=en;match=ci,no
+TM astronomical instruments	@lang=en;match=ci,no
+TM radio telescope facilities	@lang=en;match=ci,no
+TM JWST (James Webb Space Telescope)	@lang=en;match=ci,no
+TM discovery of celestial bodies	@lang=en;match=ci,no
+TM comets (observation)	@lang=en;match=ci,no
+TM optical telescope facilities	@lang=en;match=ci,no
+TM extrasolar planets (observation)	@lang=en;match=ci,no
+TM zodiacal light	@lang=en;match=ci,no
+TM stars (observation)	@lang=en;match=ci,no
+TM infrared telescopes	@lang=en;match=ci,no
+TM spectroscopy (astronomy)	@lang=en;match=ci,no
+TM identification of celestial bodies	@lang=en;match=ci,no
+TM novae (observation)	@lang=en;match=ci,no
+TM Large Space Telescope	@lang=en;match=ci,no
+TM gamma-ray astronomy	@lang=en;match=ci,no
+TM moons (observation)	@lang=en;match=ci,no
+TM asteroids (observation)	@lang=en;match=ci,no
+TM radio astronomy	@lang=en;match=ci,no
+TM star trackers (observation)	@lang=en;match=ci,no
+TM observation of celestial bodies	@lang=en;match=ci,no
+TM infrared astronomy	@lang=en;match=ci,no
+TM supernovae (observation)	@lang=en;match=ci,no
+TM Hubble telescope	@lang=en;match=ci,no
+TM |DEFINITION|Includes observations of celestial bodies; astronomical    instruments and techniques; radio, gamma-ray, x-ray,    ultraviolet, and infrared astronomy; and astrometry.  
+--
+ID 28
+NA Optics	@lang=en;match=ci,no
+TM Optics	@lang=en;match=ci,no
+TM Cassegrain optics	@lang=en;match=ci,no
+TM infrared optics	@lang=en;match=ci,no
+TM optical waveguides	@lang=en;match=ci,no
+TM lens theory	@lang=en;match=ci,no
+TM Schlieren optics	@lang=en;match=ci,no
+TM luminescence (optics)	@lang=en;match=ci,no
+TM light absorption	@lang=en;match=ci,no
+TM geometrical optics	@lang=en;match=ci,no
+TM nonlinear optics	@lang=en;match=ci,no
+TM coherent light	@lang=en;match=ci,no
+TM light transmission	@lang=en;match=ci,no
+TM lenses (optical properties)	@lang=en;match=ci,no
+TM fiber optics	@lang=en;match=ci,no
+TM photonics	@lang=en;match=ci,no
+TM wave propagation (optics)	@lang=en;match=ci,no
+TM optical bistability	@lang=en;match=ci,no
+TM optical coatings	@lang=en;match=ci,no
+TM liquid optics	@lang=en;match=ci,no
+TM modulation (optics)	@lang=en;match=ci,no
+TM infrared signatures (optical applications)	@lang=en;match=ci,no
+TM mirror interference (optics)	@lang=en;match=ci,no
+TM x-ray optics	@lang=en;match=ci,no
+TM tomography (optics)	@lang=en;match=ci,no
+TM optoelectronics (optics)	@lang=en;match=ci,no
+TM refraction (optics)	@lang=en;match=ci,no
+TM telescopes (optical properties)	@lang=en;match=ci,no
+TM light reflection	@lang=en;match=ci,no
+TM Bragg cells (optical applications)	@lang=en;match=ci,no
+TM light scattering	@lang=en;match=ci,no
+TM infrared radiation effects (optical applications)	@lang=en;match=ci,no
+TM optical communications (theory)	@lang=en;match=ci,no
+TM optical materials	@lang=en;match=ci,no
+TM electron optics theory	@lang=en;match=ci,no
+TM photon beams	@lang=en;match=ci,no
+TM optical fibers	@lang=en;match=ci,no
+TM polarization (optics)	@lang=en;match=ci,no
+TM infrared spectra	@lang=en;match=ci,no
+TM optical properties	@lang=en;match=ci,no
+TM ultraviolet radiation (optics)	@lang=en;match=ci,no
+TM optical imaging devices (theory)	@lang=en;match=ci,no
+TM |DEFINITION|Includes light phenomena and the theory of optical devices.    For lasers see 36 Lasers and Masers.  
+--
+ID 29
+NA Inorganic, Organic and Physical Chemistry	@lang=en;match=ci,no
+TM Inorganic, Organic and Physical Chemistry	@lang=en;match=ci,no
+TM spectrophotometry (application)	@lang=en;match=ci,no
+TM luminescence (chemistry)	@lang=en;match=ci,no
+TM flame studies	@lang=en;match=ci,no
+TM gas-surface interactions	@lang=en;match=ci,no
+TM organic chemistry	@lang=en;match=ci,no
+TM flammability	@lang=en;match=ci,no
+TM electrochemistry	@lang=en;match=ci,no
+TM analytical chemistry	@lang=en;match=ci,no
+TM chromatography (application)	@lang=en;match=ci,no
+TM alkali metal vapors	@lang=en;match=ci,no
+TM chemistry of compounds	@lang=en;match=ci,no
+TM mass spectroscopy (application)	@lang=en;match=ci,no
+TM chemiluminescence	@lang=en;match=ci,no
+TM pyrolysis	@lang=en;match=ci,no
+TM osmosis (chemistry)	@lang=en;match=ci,no
+TM gas-solid reactions	@lang=en;match=ci,no
+TM catalysts (chemical)	@lang=en;match=ci,no
+TM radiation chemistry	@lang=en;match=ci,no
+TM combustion kinetics	@lang=en;match=ci,no
+TM low pressure chemistry	@lang=en;match=ci,no
+TM inorganic chemistry	@lang=en;match=ci,no
+TM polarography (application)	@lang=en;match=ci,no
+TM chemical analysis	@lang=en;match=ci,no
+TM detonation processes	@lang=en;match=ci,no
+TM combustion processes	@lang=en;match=ci,no
+TM gas-surface reactions	@lang=en;match=ci,no
+TM vacuum chemistry	@lang=en;match=ci,no
+TM physical chemistry	@lang=en;match=ci,no
+TM photochemistry	@lang=en;match=ci,no
+TM ferromagnetic resonance	@lang=en;match=ci,no
+TM infrared gas analysis	@lang=en;match=ci,no
+TM combustion physics	@lang=en;match=ci,no
+TM gaseous reactions	@lang=en;match=ci,no
+TM gas absorption	@lang=en;match=ci,no
+TM chemistry of elements	@lang=en;match=ci,no
+TM combustion chemistry	@lang=en;match=ci,no
+TM ignition studies	@lang=en;match=ci,no
+TM organometallic materials	@lang=en;match=ci,no
+TM combustion theory	@lang=en;match=ci,no
+TM thermochemistry	@lang=en;match=ci,no
+TM chemical engineering	@lang=en;match=ci,no
+TM electrophoresis	@lang=en;match=ci,no
+TM spectroscopic chemical analysis (application)	@lang=en;match=ci,no
+TM electrochemical processes	@lang=en;match=ci,no
+TM |DEFINITION|Includes the analysis, synthesis, and use inorganic and    organic compounds; combustion theory; electrochemistry; and    photochemistry. For related information see category 34    Fluid Dynamics and Thermodynamics. For astrochemistry see    category 90 Astrophysics.  
+--
+ID 30
+NA Engineering (General)	@lang=en;match=ci,no
+TM Engineering (General)	@lang=en;match=ci,no
+TM metrology	@lang=en;match=ci,no
+TM liquefied gases (CAM)(Engineering)	@lang=en;match=ci,no
+TM display engineering	@lang=en;match=ci,no
+TM industrial process control	@lang=en;match=ci,no
+TM fire prevention	@lang=en;match=ci,no
+TM industrial safety procedures	@lang=en;match=ci,no
+TM metrication	@lang=en;match=ci,no
+TM cryogenics	@lang=en;match=ci,no
+TM applied mechanics	@lang=en;match=ci,no
+TM safety procedures (engineering)	@lang=en;match=ci,no
+TM computer aided manufacturing	@lang=en;match=ci,no
+TM civil engineering	@lang=en;match=ci,no
+TM vacuum technology	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to engineering and    applied physics, and particular areas of vacuum technology,    industrial engineering, cryogenics, and fire prevention.    For specific topics in engineering see categories 32    through 39.  
+--
+ID 31
+NA Theoretical Mathematics	@lang=en;match=ci,no
+TM Theoretical Mathematics	@lang=en;match=ci,no
+TM Banach spaces	@lang=en;match=ci,no
+TM mathematical theories	@lang=en;match=ci,no
+TM Boolean algebra	@lang=en;match=ci,no
+TM differential geometry	@lang=en;match=ci,no
+TM field theory (mathematics)	@lang=en;match=ci,no
+TM geometry	@lang=en;match=ci,no
+TM Abelian groups	@lang=en;match=ci,no
+TM group theory	@lang=en;match=ci,no
+TM algebraic systems	@lang=en;match=ci,no
+TM fractals	@lang=en;match=ci,no
+TM parentology	@lang=en;match=ci,no
+TM operator theory (mathematics)	@lang=en;match=ci,no
+TM Hamiltonian functions	@lang=en;match=ci,no
+TM Hilbert spaces	@lang=en;match=ci,no
+TM number theory	@lang=en;match=ci,no
+TM set theory	@lang=en;match=ci,no
+TM mathematical logic	@lang=en;match=ci,no
+TM graph theory	@lang=en;match=ci,no
+TM Riemann surfaces	@lang=en;match=ci,no
+TM fuzzy sets	@lang=en;match=ci,no
+TM functional analysis	@lang=en;match=ci,no
+TM |DEFINITION|Includes algebra, functional analysis, geometry, topology,    set theory, group theory and number theory.  
+--
+ID 32
+NA Chemistry and Materials (General)	@lang=en;match=ci,no
+TM Chemistry and Materials (General)	@lang=en;match=ci,no
+TM separations chemistry	@lang=en;match=ci,no
+TM spectroscopic analysis (chemistry)	@lang=en;match=ci,no
+TM chemistry (general)	@lang=en;match=ci,no
+TM chemical analysis techniques	@lang=en;match=ci,no
+TM chemical manufacturing	@lang=en;match=ci,no
+TM materials (general)	@lang=en;match=ci,no
+TM chemical processing (general)	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to the    composition, properties, structure, and use of chemical    compounds and materials as they relate to aircraft, launch    vehicles, and spacecraft. For specific topics in chemistry    and materials see categories 24 through 29. For    astrochemistry see category 90 Astrophysics.  
+--
+ID 33
+NA Spacecraft Design, Testing and Performance	@lang=en;match=ci,no
+TM Spacecraft Design, Testing and Performance	@lang=en;match=ci,no
+TM manned orbital laboratories	@lang=en;match=ci,no
+TM Viking space probe	@lang=en;match=ci,no
+TM flying qualities (spacecraft)	@lang=en;match=ci,no
+TM hydraulic systems (spacecraft)	@lang=en;match=ci,no
+TM spacecraft environmental control	@lang=en;match=ci,no
+TM planetary landers	@lang=en;match=ci,no
+TM space probes	@lang=en;match=ci,no
+TM satellites for air, land, or sea navigation	@lang=en;match=ci,no
+TM space laboratories	@lang=en;match=ci,no
+TM pitch stability (spacecraft)	@lang=en;match=ci,no
+TM longitudinal stability (spacecraft)	@lang=en;match=ci,no
+TM pressurized cabins (spacecraft)	@lang=en;match=ci,no
+TM spacecraft performance	@lang=en;match=ci,no
+TM depressurization systems (spacecraft)	@lang=en;match=ci,no
+TM planetary probes	@lang=en;match=ci,no
+TM synchronous satellites	@lang=en;match=ci,no
+TM maneuvering (spacecraft)	@lang=en;match=ci,no
+TM spacecraft antennas	@lang=en;match=ci,no
+TM passive communication satellites	@lang=en;match=ci,no
+TM pitch control (spacecraft)	@lang=en;match=ci,no
+TM SEASAT (configurations)	@lang=en;match=ci,no
+TM attitude control (spacecraft)	@lang=en;match=ci,no
+TM inflatable structures (spacecraft)	@lang=en;match=ci,no
+TM active satellite stabilization	@lang=en;match=ci,no
+TM spacecraft charging	@lang=en;match=ci,no
+TM pressurization systems (spacecraft)	@lang=en;match=ci,no
+TM capture devices (spacecraft)	@lang=en;match=ci,no
+TM spacecraft simulation	@lang=en;match=ci,no
+TM spacelab (design and testing)	@lang=en;match=ci,no
+TM communication satellites	@lang=en;match=ci,no
+TM automatic pilots (spacecraft)	@lang=en;match=ci,no
+TM satellites for air, land, or sea traffic control	@lang=en;match=ci,no
+TM flight dynamics (spacecraft)	@lang=en;match=ci,no
+TM stability (spacecraft)	@lang=en;match=ci,no
+TM active communication satellite	@lang=en;match=ci,no
+TM flight path control (spacecraft)	@lang=en;match=ci,no
+TM docking (spacecraft)	@lang=en;match=ci,no
+TM spacecraft testing	@lang=en;match=ci,no
+TM models (spacecraft)	@lang=en;match=ci,no
+TM control effectiveness (spacecraft)	@lang=en;match=ci,no
+TM static stability (spacecraft)	@lang=en;match=ci,no
+TM lateral stability (spacecraft)	@lang=en;match=ci,no
+TM handling qualities (spacecraft)	@lang=en;match=ci,no
+TM meteorological satellites	@lang=en;match=ci,no
+TM spacecraft design	@lang=en;match=ci,no
+TM weather satellites	@lang=en;match=ci,no
+TM dynamic stability (spacecraft)	@lang=en;match=ci,no
+TM satellite constellations	@lang=en;match=ci,no
+TM stabilization surfaces (spacecraft)	@lang=en;match=ci,no
+TM stability derivatives (spacecraft)	@lang=en;match=ci,no
+TM space flight dynamics (performance and testing)	@lang=en;match=ci,no
+TM spacecraft thermal control	@lang=en;match=ci,no
+TM cabin pressurization (spacecraft)	@lang=en;match=ci,no
+TM spacecraft components	@lang=en;match=ci,no
+TM meteorite protection	@lang=en;match=ci,no
+TM geophysical satellites	@lang=en;match=ci,no
+TM navigation satellites	@lang=en;match=ci,no
+TM tethered satellite systems	@lang=en;match=ci,no
+TM spacecraft flight tests	@lang=en;match=ci,no
+TM separation and staging techniques (spacecraft)	@lang=en;match=ci,no
+TM space station control	@lang=en;match=ci,no
+TM inlets (spacecraft)	@lang=en;match=ci,no
+TM lateral control (spacecraft)	@lang=en;match=ci,no
+TM yaw stability (spacecraft)	@lang=en;match=ci,no
+TM spacecraft structures	@lang=en;match=ci,no
+TM free flyers (spacecraft)	@lang=en;match=ci,no
+TM spacecraft flight simulation	@lang=en;match=ci,no
+TM control systems design (spacecraft)	@lang=en;match=ci,no
+TM vibration (spacecraft)	@lang=en;match=ci,no
+TM fins (spacecraft)	@lang=en;match=ci,no
+TM unfoldable structures (spacecraft)	@lang=en;match=ci,no
+TM spacecraft systems	@lang=en;match=ci,no
+TM stability augmentation (spacecraft)	@lang=en;match=ci,no
+TM search and rescue satellites	@lang=en;match=ci,no
+TM expandable structures (spacecraft)	@lang=en;match=ci,no
+TM spacecraft external contamination	@lang=en;match=ci,no
+TM manned spacecraft	@lang=en;match=ci,no
+TM space stations	@lang=en;match=ci,no
+TM longitudinal control (spacecraft)	@lang=en;match=ci,no
+TM artificial satellites	@lang=en;match=ci,no
+TM pneumatic systems (spacecraft)	@lang=en;match=ci,no
+TM formation flying (satellites)	@lang=en;match=ci,no
+TM flight control (spacecraft)	@lang=en;match=ci,no
+TM passive satellite stabilization	@lang=en;match=ci,no
+TM lunar orbiters	@lang=en;match=ci,no
+TM satellite stabilization	@lang=en;match=ci,no
+TM flutter (spacecraft)	@lang=en;match=ci,no
+TM lunar landers	@lang=en;match=ci,no
+TM yaw control (spacecraft)	@lang=en;match=ci,no
+TM tracking and data relay satellites	@lang=en;match=ci,no
+TM radiation effects on spacecraft and components	@lang=en;match=ci,no
+TM planetary orbiters	@lang=en;match=ci,no
+TM space platforms	@lang=en;match=ci,no
+TM wind tunnel tests (spacecraft)	@lang=en;match=ci,no
+TM landing gear (spacecraft)	@lang=en;match=ci,no
+TM thermal protection systems (spacecraft)	@lang=en;match=ci,no
+TM observation satellites	@lang=en;match=ci,no
+TM International Space Station (design)	@lang=en;match=ci,no
+TM scientific satellites	@lang=en;match=ci,no
+TM spacecraft cabins	@lang=en;match=ci,no
+TM astronomical observatory satellites	@lang=en;match=ci,no
+TM piloting (spacecraft)	@lang=en;match=ci,no
+TM roll control (spacecraft)	@lang=en;match=ci,no
+TM spacecraft control (design and performance)	@lang=en;match=ci,no
+TM LANDSAT (configurations)	@lang=en;match=ci,no
+TM plasma wakes (spacecraft)	@lang=en;match=ci,no
+TM roll stability (spacecraft)	@lang=en;match=ci,no
+TM reaction control systems (spacecraft)	@lang=en;match=ci,no
+TM space station design	@lang=en;match=ci,no
+TM |DEFINITION|Includes satellites; space platforms; space stations;    spacecraft systems and components such as thermal and    environmental controls; and spacecraft control and    stability characteristics. For life support systems see 54    Man/System Technology and Life Support. For related    information see also 05 Aircraft Design, Testing and    Performance; 39 Structural Mechanics; and 16 Space    Transportation and Safety.  
+--
+ID 34
+NA Life Sciences	@lang=en;match=ci,no
+TM Life Sciences	@lang=en;match=ci,no
+TM |DEFINITION|Includes life sciences (general); aerospace medicine;    behavioral sciences; man/system technology and life    support; and exobiology.  
+--
+ID 35
+NA Aircraft Stability and Control	@lang=en;match=ci,no
+TM Aircraft Stability and Control	@lang=en;match=ci,no
+TM operational effects of atmospheric variables	@lang=en;match=ci,no
+TM longitudinal stability (aircraft)	@lang=en;match=ci,no
+TM missiles (performance)	@lang=en;match=ci,no
+TM control surface interactions (aircraft)	@lang=en;match=ci,no
+TM flight control (aircraft)	@lang=en;match=ci,no
+TM stability derivatives (aircraft)	@lang=en;match=ci,no
+TM dynamic stability (aircraft)	@lang=en;match=ci,no
+TM roll stability (aircraft)	@lang=en;match=ci,no
+TM flying qualities (aircraft)	@lang=en;match=ci,no
+TM static stability (aircraft)	@lang=en;match=ci,no
+TM roll control (aircraft)	@lang=en;match=ci,no
+TM spin recovery	@lang=en;match=ci,no
+TM vibration (aircraft)	@lang=en;match=ci,no
+TM wing-nacelle combinations (stability and control)	@lang=en;match=ci,no
+TM stability (aircraft)	@lang=en;match=ci,no
+TM yaw control (aircraft)	@lang=en;match=ci,no
+TM pitch control (aircraft)	@lang=en;match=ci,no
+TM longitudinal control (aircraft)	@lang=en;match=ci,no
+TM aircraft control	@lang=en;match=ci,no
+TM flight dynamics (aircraft)	@lang=en;match=ci,no
+TM fly-by-wire control (FBW)	@lang=en;match=ci,no
+TM stability augmentation (aircraft)	@lang=en;match=ci,no
+TM pitch stability (aircraft)	@lang=en;match=ci,no
+TM handling qualities (aircraft)	@lang=en;match=ci,no
+TM fly-by-light control (FBL)	@lang=en;match=ci,no
+TM aircraft trim	@lang=en;match=ci,no
+TM wind tunnel tests (stability and control)	@lang=en;match=ci,no
+TM flutter (aircraft)	@lang=en;match=ci,no
+TM lateral stability (aircraft)	@lang=en;match=ci,no
+TM yaw stability (aircraft)	@lang=en;match=ci,no
+TM stabilization surfaces (aircraft)	@lang=en;match=ci,no
+TM maneuvering (aircraft)	@lang=en;match=ci,no
+TM lateral control (aircraft)	@lang=en;match=ci,no
+TM flight path control (aircraft)	@lang=en;match=ci,no
+TM wing rock	@lang=en;match=ci,no
+TM air launched weapons (stability)	@lang=en;match=ci,no
+TM wing-body combinations (stability and control)	@lang=en;match=ci,no
+TM flight management systems	@lang=en;match=ci,no
+TM aircraft stability	@lang=en;match=ci,no
+TM attitude control (aircraft)	@lang=en;match=ci,no
+TM body-tail combinations (stability and control)	@lang=en;match=ci,no
+TM voice command for aircraft	@lang=en;match=ci,no
+TM control effectiveness (aircraft)	@lang=en;match=ci,no
+TM dutch roll	@lang=en;match=ci,no
+TM automatic pilots (aircraft)	@lang=en;match=ci,no
+TM |DEFINITION|Includes flight dynamics, aircraft handling qualities,    piloting, flight controls, and autopilots. For related    information see also 05 Aircraft Design, Testing and    Performance; and 06 Avionics and Aircraft Instrumentation.  
+--
+ID 36
+NA Astronautics	@lang=en;match=ci,no
+TM Astronautics	@lang=en;match=ci,no
+TM |DEFINITION|Includes astronautics (general); astrodynamics; ground    support systems and facilities (space); launch vehicles and    launch operations; space transportation and safety; space    communications, spacecraft communications, command, and    tracking; spacecraft design, testing and performance;    spacecraft instrumentation and astrionics; and spacecraft    propulsion and power. For related information see also    Aeronautics (categories 01 through 09).  
+--
+ID 37
+NA Fluid Mechanics and Thermodynamics	@lang=en;match=ci,no
+TM Fluid Mechanics and Thermodynamics	@lang=en;match=ci,no
+TM heat shields (aerospace applications)	@lang=en;match=ci,no
+TM unsteady flow (general)	@lang=en;match=ci,no
+TM flow visualization (general applications)	@lang=en;match=ci,no
+TM thermodynamic properties	@lang=en;match=ci,no
+TM inviscid flow	@lang=en;match=ci,no
+TM fluid dynamics	@lang=en;match=ci,no
+TM liquid sloshing	@lang=en;match=ci,no
+TM thermodynamic cycles	@lang=en;match=ci,no
+TM compressible flow (general)	@lang=en;match=ci,no
+TM radiators (aerospace applications)	@lang=en;match=ci,no
+TM enthalpy	@lang=en;match=ci,no
+TM fluidics	@lang=en;match=ci,no
+TM induction heating	@lang=en;match=ci,no
+TM hydrodynamics	@lang=en;match=ci,no
+TM Navier-Stokes equations	@lang=en;match=ci,no
+TM thermal radiation	@lang=en;match=ci,no
+TM internal flow in ducts (applications)	@lang=en;match=ci,no
+TM laminar flow (general)	@lang=en;match=ci,no
+TM transitional flow (general)	@lang=en;match=ci,no
+TM gas forces	@lang=en;match=ci,no
+TM radiative transfer	@lang=en;match=ci,no
+TM gas dynamics	@lang=en;match=ci,no
+TM gaseous film cooling	@lang=en;match=ci,no
+TM temperature-pressure phenomena	@lang=en;match=ci,no
+TM hydrostatics	@lang=en;match=ci,no
+TM incompressible flow	@lang=en;match=ci,no
+TM fluid forces	@lang=en;match=ci,no
+TM Boltzmann transport theory	@lang=en;match=ci,no
+TM boiling	@lang=en;match=ci,no
+TM free energy	@lang=en;match=ci,no
+TM convection	@lang=en;match=ci,no
+TM sprays	@lang=en;match=ci,no
+TM mixing of liquids	@lang=en;match=ci,no
+TM mixing of gases	@lang=en;match=ci,no
+TM thermodynamics	@lang=en;match=ci,no
+TM flow with heat addition	@lang=en;match=ci,no
+TM fluerics	@lang=en;match=ci,no
+TM entropy	@lang=en;match=ci,no
+TM ablation cooling	@lang=en;match=ci,no
+TM heat exchangers (aerospace applications)	@lang=en;match=ci,no
+TM fluid mechanics	@lang=en;match=ci,no
+TM gas flow	@lang=en;match=ci,no
+TM flow characteristics	@lang=en;match=ci,no
+TM heat transfer	@lang=en;match=ci,no
+TM fluid kinematics	@lang=en;match=ci,no
+TM flow measurement	@lang=en;match=ci,no
+TM ablation	@lang=en;match=ci,no
+TM turbulent flow (general)	@lang=en;match=ci,no
+TM turbulence models	@lang=en;match=ci,no
+TM heat pipes (aerospace applications)	@lang=en;match=ci,no
+TM pneumatics	@lang=en;match=ci,no
+TM vortices (general)	@lang=en;match=ci,no
+TM flow (general)	@lang=en;match=ci,no
+TM computational fluid dynamics	@lang=en;match=ci,no
+TM shock waves	@lang=en;match=ci,no
+TM hydraulics	@lang=en;match=ci,no
+TM rheology	@lang=en;match=ci,no
+TM skin friction	@lang=en;match=ci,no
+TM multiphase flow	@lang=en;match=ci,no
+TM gas heat transfer	@lang=en;match=ci,no
+TM flow equations	@lang=en;match=ci,no
+TM fluid heat transfer	@lang=en;match=ci,no
+TM transpiration cooling	@lang=en;match=ci,no
+TM boundary layer flow (general)	@lang=en;match=ci,no
+TM mass transfer	@lang=en;match=ci,no
+TM atomizers	@lang=en;match=ci,no
+TM fluid flow	@lang=en;match=ci,no
+TM heat sinks (aerospace applications)	@lang=en;match=ci,no
+TM viscous flow	@lang=en;match=ci,no
+TM cavitation	@lang=en;match=ci,no
+TM equations of state	@lang=en;match=ci,no
+TM liquid settling	@lang=en;match=ci,no
+TM internal flow in turbomachinery (applications)	@lang=en;match=ci,no
+TM gas mechanics	@lang=en;match=ci,no
+TM |DEFINITION|Includes fluid dynamics and kinematics and all forms of    heat transfer; boundary layer flow; hydrodynamics;    hydraulics; fluidics; mass transfer and ablation cooling.    For related information see also 02 Aerodynamics.  
+--
+ID 38
+NA Energy Production and Conversion	@lang=en;match=ci,no
+TM Energy Production and Conversion	@lang=en;match=ci,no
+TM microwave energy conversion devices	@lang=en;match=ci,no
+TM Brayton cycle turbines (applications)	@lang=en;match=ci,no
+TM energy production	@lang=en;match=ci,no
+TM alternative energy sources	@lang=en;match=ci,no
+TM windpower	@lang=en;match=ci,no
+TM energy management technology	@lang=en;match=ci,no
+TM magnetohydrodynamic (MHD) energy conversion device	@lang=en;match=ci,no
+TM chemical energy conversion devices	@lang=en;match=ci,no
+TM solar generators	@lang=en;match=ci,no
+TM thermionic energy conversion devices	@lang=en;match=ci,no
+TM photovoltaic energy conversion devices	@lang=en;match=ci,no
+TM silicon cells (applications)	@lang=en;match=ci,no
+TM microwave energy transmission	@lang=en;match=ci,no
+TM energy storage	@lang=en;match=ci,no
+TM geophysical energy conversion devices	@lang=en;match=ci,no
+TM solar heating (space applications)	@lang=en;match=ci,no
+TM hybrid energy conversion devices	@lang=en;match=ci,no
+TM generators (applications)	@lang=en;match=ci,no
+TM thermoelectricity	@lang=en;match=ci,no
+TM solar power (space applications)	@lang=en;match=ci,no
+TM fuel cells	@lang=en;match=ci,no
+TM electric batteries (applications)	@lang=en;match=ci,no
+TM solar cells (energy conversion)	@lang=en;match=ci,no
+TM electric energy conversion devices	@lang=en;match=ci,no
+TM |DEFINITION|Includes specific energy conversion systems, e.g., fuel    cells; and solar, geothermal, windpower, and waterwave    conversion systems; energy storage; and traditional power    generators. For technologies related to nuclear energy    production see 73 Nuclear Physics. For related information    see also 07 Aircraft Propulsion and Power; 20 Spacecraft    Propulsion and Power; and 28 Propellants and Fuels.  
+--
+ID 39
+NA Space Transportation and Safety	@lang=en;match=ci,no
+TM Space Transportation and Safety	@lang=en;match=ci,no
+TM spacecraft health management	@lang=en;match=ci,no
+TM recovery of spacecraft	@lang=en;match=ci,no
+TM extravehicular activity (EVA) (operations)	@lang=en;match=ci,no
+TM passenger handling (space transportation)	@lang=en;match=ci,no
+TM accidents and emergencies (spacecraft)	@lang=en;match=ci,no
+TM space debris (spaceflight hazard)	@lang=en;match=ci,no
+TM flight safety (spacecraft)	@lang=en;match=ci,no
+TM parachutes (spacecraft applications)	@lang=en;match=ci,no
+TM explosions (spacecraft)	@lang=en;match=ci,no
+TM escape systems (spacecraft)	@lang=en;match=ci,no
+TM space shuttle operations	@lang=en;match=ci,no
+TM passenger transportation (space)	@lang=en;match=ci,no
+TM spacecraft ditching	@lang=en;match=ci,no
+TM space rescue	@lang=en;match=ci,no
+TM spacecraft retrieval	@lang=en;match=ci,no
+TM survival (space operations)	@lang=en;match=ci,no
+TM space operation emergencies	@lang=en;match=ci,no
+TM search and rescue operations (space)	@lang=en;match=ci,no
+TM fire (spacecraft)	@lang=en;match=ci,no
+TM space flight commercialization	@lang=en;match=ci,no
+TM shoulder harness (spacecraft)	@lang=en;match=ci,no
+TM payload delivery (space transportation)	@lang=en;match=ci,no
+TM space transportation	@lang=en;match=ci,no
+TM payload handling (space transportation)	@lang=en;match=ci,no
+TM cargo transportation (spacecraft)	@lang=en;match=ci,no
+TM orbiting maneuvering vehicles	@lang=en;match=ci,no
+TM safety systems (spacecraft)	@lang=en;match=ci,no
+TM restraint harness (spacecraft)	@lang=en;match=ci,no
+TM cargo handling (spacecraft)	@lang=en;match=ci,no
+TM space flight hazards	@lang=en;match=ci,no
+TM payload retrieval (space transportation)	@lang=en;match=ci,no
+TM Payload Assist Module (PAM) assist	@lang=en;match=ci,no
+TM |DEFINITION|Includes passenger and cargo space transportation, e.g.,    shuttle operations; and space rescue techniques. For    related information see also 03 Air Transportation and    Safety; 15 Launch Vehicles and Launch Operations; and 18    Spacecraft Design, Testing and Performance. For space suits    see 54 Man/System Technology and Life Support.  
+--
+ID 40
+NA Instrumentation and Photography	@lang=en;match=ci,no
+TM Instrumentation and Photography	@lang=en;match=ci,no
+TM instrument design (theory and techniques)	@lang=en;match=ci,no
+TM biomedical instruments (theory and techniques)	@lang=en;match=ci,no
+TM emissivity measurements	@lang=en;match=ci,no
+TM spectrophotometers	@lang=en;match=ci,no
+TM strain gags	@lang=en;match=ci,no
+TM accelerometers	@lang=en;match=ci,no
+TM ion mass spectrometers	@lang=en;match=ci,no
+TM electro-optical systems (instrumentation)	@lang=en;match=ci,no
+TM microscopes	@lang=en;match=ci,no
+TM pressure transducers	@lang=en;match=ci,no
+TM lenses (photographic)	@lang=en;match=ci,no
+TM fluid flow sensors (general)	@lang=en;match=ci,no
+TM image enhancement	@lang=en;match=ci,no
+TM scatterometers (design and techniques)	@lang=en;match=ci,no
+TM gyroscopes (design and operation)	@lang=en;match=ci,no
+TM transducers (applications)	@lang=en;match=ci,no
+TM two-gas sensors (general)	@lang=en;match=ci,no
+TM multispectral sensors	@lang=en;match=ci,no
+TM thermocouples (design and techniques)	@lang=en;match=ci,no
+TM Earth sensors	@lang=en;match=ci,no
+TM laser Doppler velocimeters	@lang=en;match=ci,no
+TM optical measuring instruments (design and techniques)	@lang=en;match=ci,no
+TM spectroscopes	@lang=en;match=ci,no
+TM photography	@lang=en;match=ci,no
+TM photographic supplies	@lang=en;match=ci,no
+TM flow visualization (instrumentation)	@lang=en;match=ci,no
+TM anemometers (design and techniques)	@lang=en;match=ci,no
+TM optical imaging devices (design and techniques)	@lang=en;match=ci,no
+TM spectral analysis instruments	@lang=en;match=ci,no
+TM measuring instruments	@lang=en;match=ci,no
+TM atomic clocks (design and techniques)	@lang=en;match=ci,no
+TM position sensors	@lang=en;match=ci,no
+TM spectrometers	@lang=en;match=ci,no
+TM vidicon cameras	@lang=en;match=ci,no
+TM geophysical sensors (design and techniques)	@lang=en;match=ci,no
+TM mass spectrometers	@lang=en;match=ci,no
+TM analyzing devices (design and techniques)	@lang=en;match=ci,no
+TM darkroom equipment	@lang=en;match=ci,no
+TM radiation instruments	@lang=en;match=ci,no
+TM electron microscopes	@lang=en;match=ci,no
+TM micrometeoroid sensors (instrumentation)	@lang=en;match=ci,no
+TM recording devices	@lang=en;match=ci,no
+TM Bragg cells (design and techniques)	@lang=en;match=ci,no
+TM ultrasonic testing equipment	@lang=en;match=ci,no
+TM time measurement equipment	@lang=en;match=ci,no
+TM infrared sensors	@lang=en;match=ci,no
+TM filters (photographic)	@lang=en;match=ci,no
+TM bioelectronic instruments (theory and techniques)	@lang=en;match=ci,no
+TM holography	@lang=en;match=ci,no
+TM interferometers	@lang=en;match=ci,no
+TM physiological monitoring devices (theory and techniques)	@lang=en;match=ci,no
+TM laser instruments (design and operation)	@lang=en;match=ci,no
+TM detectors	@lang=en;match=ci,no
+TM cameras	@lang=en;match=ci,no
+TM tape recorders	@lang=en;match=ci,no
+TM tomography (design and techniques)	@lang=en;match=ci,no
+TM photographic processing equipment	@lang=en;match=ci,no
+TM multimode sensors	@lang=en;match=ci,no
+TM temperature measuring instruments	@lang=en;match=ci,no
+TM shock tube instruments	@lang=en;match=ci,no
+TM instrumentation	@lang=en;match=ci,no
+TM nondestructive testing instruments	@lang=en;match=ci,no
+TM test facility instruments	@lang=en;match=ci,no
+TM coronagraphs	@lang=en;match=ci,no
+TM gages (general)	@lang=en;match=ci,no
+TM bioinstrumentation (theory and techniques)	@lang=en;match=ci,no
+TM precision time and time interval (PTTI)	@lang=en;match=ci,no
+TM phototheodolites	@lang=en;match=ci,no
+TM radiography	@lang=en;match=ci,no
+TM photometry	@lang=en;match=ci,no
+TM wind tunnel instruments	@lang=en;match=ci,no
+TM ablation sensors (design and techniques)	@lang=en;match=ci,no
+TM sensors	@lang=en;match=ci,no
+TM oscilloscopes	@lang=en;match=ci,no
+TM attitude indicators (design and techniques)	@lang=en;match=ci,no
+TM ozonesondes	@lang=en;match=ci,no
+TM alarm systems (design and techniques)	@lang=en;match=ci,no
+TM remote sensors	@lang=en;match=ci,no
+TM |DEFINITION|Includes remote sensors; measuring instruments and gages;    detectors; cameras and photographic supplies; and    holography. For aerial photography see 43 Earth Resources    and Remote Sensing. For related information see also 06    Avionics and Aircraft Instrumentation; and 19 Spacecraft    Instrumentation.  
+--
+ID 41
+NA Computer Systems	@lang=en;match=ci,no
+TM Computer Systems	@lang=en;match=ci,no
+TM communications computer systems	@lang=en;match=ci,no
+TM parallel processing	@lang=en;match=ci,no
+TM data processing systems	@lang=en;match=ci,no
+TM internets	@lang=en;match=ci,no
+TM data compilation systems	@lang=en;match=ci,no
+TM distributed data processing	@lang=en;match=ci,no
+TM data management systems	@lang=en;match=ci,no
+TM local area networks (LAN)	@lang=en;match=ci,no
+TM wide area networks (WAN)	@lang=en;match=ci,no
+TM computer systems engineering	@lang=en;match=ci,no
+TM computer time sharing	@lang=en;match=ci,no
+TM computer networks	@lang=en;match=ci,no
+TM self-repairing computer systems	@lang=en;match=ci,no
+TM |DEFINITION|Includes computer networks and distributed processing    systems. For information systems see 82 Documentation and    Information Science. For computer systems applied to    specific applications, see the associated category.  
+--
+ID 42
+NA Behavioral Sciences	@lang=en;match=ci,no
+TM Behavioral Sciences	@lang=en;match=ci,no
+TM flying training	@lang=en;match=ci,no
+TM psychological effects of flight	@lang=en;match=ci,no
+TM confinement (psychological effects, human)	@lang=en;match=ci,no
+TM psychological factors	@lang=en;match=ci,no
+TM mental adaptation to flight	@lang=en;match=ci,no
+TM space adaptation (psychological effects, human)	@lang=en;match=ci,no
+TM aviation psychology	@lang=en;match=ci,no
+TM pilot performance	@lang=en;match=ci,no
+TM sensory deprivation (psychological effects, human)	@lang=en;match=ci,no
+TM isolation effects (psychological, human)	@lang=en;match=ci,no
+TM human behavior	@lang=en;match=ci,no
+TM crew training	@lang=en;match=ci,no
+TM weightlessness effects (psychological, human)	@lang=en;match=ci,no
+TM astronaut health (psychological)	@lang=en;match=ci,no
+TM sleep deprivation (psychological effects, human)	@lang=en;match=ci,no
+TM effects of stress (psychological, human)	@lang=en;match=ci,no
+TM stress (psychological effects, human)	@lang=en;match=ci,no
+TM social interaction	@lang=en;match=ci,no
+TM fatigue (psychological, human)	@lang=en;match=ci,no
+TM perception (psychological, human)	@lang=en;match=ci,no
+TM group behavior	@lang=en;match=ci,no
+TM effects of radiation (psychological, human)	@lang=en;match=ci,no
+TM sociological research (psychology, human)	@lang=en;match=ci,no
+TM space flight effects (psychological, human)	@lang=en;match=ci,no
+TM crew evaluation	@lang=en;match=ci,no
+TM |DEFINITION|Includes psychological factors; individual and group    behavior; crew training and evaluation; and psychiatric    research.  
+--
+ID 43
+NA Space Radiation	@lang=en;match=ci,no
+TM Space Radiation	@lang=en;match=ci,no
+TM stellar radiation	@lang=en;match=ci,no
+TM intergalactic radiation	@lang=en;match=ci,no
+TM alpha rays (space)	@lang=en;match=ci,no
+TM beta rays (space)	@lang=en;match=ci,no
+TM galactic radiation	@lang=en;match=ci,no
+TM gamma rays (space)	@lang=en;match=ci,no
+TM Van Allen belts	@lang=en;match=ci,no
+TM radiation belts	@lang=en;match=ci,no
+TM outer Earth radiation belts	@lang=en;match=ci,no
+TM inner Earth radiation belts	@lang=en;match=ci,no
+TM ultraviolet radiation (space)	@lang=en;match=ci,no
+TM x-ray radiation (space)	@lang=en;match=ci,no
+TM cosmic radiation	@lang=en;match=ci,no
+TM interstellar radiation	@lang=en;match=ci,no
+TM |DEFINITION|Includes cosmic radiation; and inner and outer Earth    radiation belts. For biological effects of radiation on    plants and animals see 51 Life Sciences; on human beings    see 52 Aerospace Medicine. For theory see 73 Nuclear    Physics.  
+--
+ID 44
+NA General	@lang=en;match=ci,no
+TM General	@lang=en;match=ci,no
+TM |DEFINITION|Includes aerospace related reports of a general or broad    nature; histories, biographies, or overviews of aerospace    programs.  
+--
+ID 45
+NA Quality Assurance and Reliability	@lang=en;match=ci,no
+TM Quality Assurance and Reliability	@lang=en;match=ci,no
+TM reliability (procedures and theory)	@lang=en;match=ci,no
+TM shock testing (quality control)	@lang=en;match=ci,no
+TM fault detection (quality control)	@lang=en;match=ci,no
+TM accelerated life testing	@lang=en;match=ci,no
+TM nondestructive testing	@lang=en;match=ci,no
+TM ultrasonic testing (quality control)	@lang=en;match=ci,no
+TM inspection methods	@lang=en;match=ci,no
+TM quality control	@lang=en;match=ci,no
+TM life prediction	@lang=en;match=ci,no
+TM environmental testing	@lang=en;match=ci,no
+TM environmental test facilities	@lang=en;match=ci,no
+TM clean rooms (general)	@lang=en;match=ci,no
+TM maintainability (procedures and theory)	@lang=en;match=ci,no
+TM life testing	@lang=en;match=ci,no
+TM failure rates	@lang=en;match=ci,no
+TM inspection	@lang=en;match=ci,no
+TM redundancy systems	@lang=en;match=ci,no
+TM reliability criteria	@lang=en;match=ci,no
+TM quality assurance	@lang=en;match=ci,no
+TM sampling techniques (quality control)	@lang=en;match=ci,no
+TM radiography (quality control)	@lang=en;match=ci,no
+TM service life	@lang=en;match=ci,no
+TM |DEFINITION|Includes approaches to, and methods for reliability    analysis and control, quality control, inspection,    maintainability, and standardization.  
+--
+ID 46
+NA Environment Pollution	@lang=en;match=ci,no
+TM Environment Pollution	@lang=en;match=ci,no
+TM water treatment (pollution control)	@lang=en;match=ci,no
+TM ozone depletion (pollution aspects)	@lang=en;match=ci,no
+TM atmospheric pollution	@lang=en;match=ci,no
+TM atmospheric sampling (pollution)	@lang=en;match=ci,no
+TM environmental clean up	@lang=en;match=ci,no
+TM environmental pollution	@lang=en;match=ci,no
+TM radioactive contamination	@lang=en;match=ci,no
+TM residential pollution	@lang=en;match=ci,no
+TM environmental engineering	@lang=en;match=ci,no
+TM noise pollution	@lang=en;match=ci,no
+TM transportation pollution	@lang=en;match=ci,no
+TM sonic boom (noise pollution)	@lang=en;match=ci,no
+TM stratospheric pollution	@lang=en;match=ci,no
+TM indoor air pollution	@lang=en;match=ci,no
+TM atmospheric analysis (pollution)	@lang=en;match=ci,no
+TM exhaust emissions (pollution)	@lang=en;match=ci,no
+TM pollution control	@lang=en;match=ci,no
+TM environmental modifications	@lang=en;match=ci,no
+TM greenhouse effect (pollution aspects)	@lang=en;match=ci,no
+TM waste treatment (pollution control)	@lang=en;match=ci,no
+TM environmental surveys	@lang=en;match=ci,no
+TM noise abatement	@lang=en;match=ci,no
+TM contamination control	@lang=en;match=ci,no
+TM aerosols (pollution aspects)	@lang=en;match=ci,no
+TM air pollution	@lang=en;match=ci,no
+TM water pollution	@lang=en;match=ci,no
+TM biosphere (pollution aspects)	@lang=en;match=ci,no
+TM commercial pollution	@lang=en;match=ci,no
+TM pollution monitoring	@lang=en;match=ci,no
+TM soil pollution	@lang=en;match=ci,no
+TM industrial pollution	@lang=en;match=ci,no
+TM thermal pollution	@lang=en;match=ci,no
+TM environmental monitoring	@lang=en;match=ci,no
+TM |DEFINITION|Includes atmospheric, water, soil, noise, and thermal    pollution.  
+--
+ID 47
+NA General.	@lang=en;match=ci,no
+TM General.	@lang=en;match=ci,no
+TM histories of aeronautics and space programs	@lang=en;match=ci,no
+TM aeronautical history	@lang=en;match=ci,no
+TM appropriations hearings (NASA)	@lang=en;match=ci,no
+TM scientists	@lang=en;match=ci,no
+TM biographies of astronauts, aviation pioneers, pilots, and	@lang=en;match=ci,no
+TM astronautical history	@lang=en;match=ci,no
+TM |DEFINITION|Includes aeronautical, astronautical, and space science    related histories, biographies, and pertinent reports too    broad for categorization; histories or broad overviews of    NASA programs such as Apollo, Gemini, and Mercury    spacecraft, Earth Resources Technology Satellite (ERTS),    and Skylab; NASA appropriations hearings.  
+--
+ID 48
+NA Nonmetallic Materials	@lang=en;match=ci,no
+TM Nonmetallic Materials	@lang=en;match=ci,no
+TM ceramic materials	@lang=en;match=ci,no
+TM adhesives	@lang=en;match=ci,no
+TM rubber	@lang=en;match=ci,no
+TM plastics	@lang=en;match=ci,no
+TM silicon materials	@lang=en;match=ci,no
+TM protection of materials (nonmetallic)	@lang=en;match=ci,no
+TM cements	@lang=en;match=ci,no
+TM crystals (nonmetallic)	@lang=en;match=ci,no
+TM textiles	@lang=en;match=ci,no
+TM compression strength (nonmetallic materials)	@lang=en;match=ci,no
+TM solvents	@lang=en;match=ci,no
+TM polymers	@lang=en;match=ci,no
+TM crystal structure (nonmetallic materials)	@lang=en;match=ci,no
+TM hydraulic fluids	@lang=en;match=ci,no
+TM film strength	@lang=en;match=ci,no
+TM woods	@lang=en;match=ci,no
+TM plywoods	@lang=en;match=ci,no
+TM ablative materials (nonmetallic)	@lang=en;match=ci,no
+TM fatigue (nonmetallic materials)	@lang=en;match=ci,no
+TM fabrics (nonmetallic materials)	@lang=en;match=ci,no
+TM glues	@lang=en;match=ci,no
+TM ferrofluids	@lang=en;match=ci,no
+TM hydrogels	@lang=en;match=ci,no
+TM research on nonmetallic materials	@lang=en;match=ci,no
+TM whiskers (nonmetallic materials)	@lang=en;match=ci,no
+TM packing (nonmetallic materials)	@lang=en;match=ci,no
+TM elastomers	@lang=en;match=ci,no
+TM fibers (nonmetallic materials)	@lang=en;match=ci,no
+TM insulation (nonmetallic materials)	@lang=en;match=ci,no
+TM lubricants	@lang=en;match=ci,no
+TM glass materials	@lang=en;match=ci,no
+TM protective coatings (nonmetallic)	@lang=en;match=ci,no
+TM sheer strength (nonmetallic materials)	@lang=en;match=ci,no
+TM patching compounds	@lang=en;match=ci,no
+TM chemical properties of nonmetallic materials	@lang=en;match=ci,no
+TM reinforcing filaments (nonmetallic)	@lang=en;match=ci,no
+TM evaluation of nonmetallic materials	@lang=en;match=ci,no
+TM radomes (nonmetallic materials)	@lang=en;match=ci,no
+TM surface properties (nonmetallic materials)	@lang=en;match=ci,no
+TM lubrication properties of nonmetallic materials	@lang=en;match=ci,no
+TM sealants (nonmetallic materials)	@lang=en;match=ci,no
+TM development of nonmetallic materials	@lang=en;match=ci,no
+TM greases	@lang=en;match=ci,no
+TM mechanical properties of nonmetallic materials	@lang=en;match=ci,no
+TM cleaners	@lang=en;match=ci,no
+TM paper	@lang=en;match=ci,no
+TM offgassing/outgassing (nonmetallic materials)	@lang=en;match=ci,no
+TM testing of materials (nonmetallic)	@lang=en;match=ci,no
+TM foam materials	@lang=en;match=ci,no
+TM nonmetallic fibers	@lang=en;match=ci,no
+TM creep strength (nonmetallic materials)	@lang=en;match=ci,no
+TM flammability (nonmetallic materials)	@lang=en;match=ci,no
+TM tensile strength (nonmetallic materials)	@lang=en;match=ci,no
+TM paints	@lang=en;match=ci,no
+TM physical properties of nonmetallic materials	@lang=en;match=ci,no
+TM graphite	@lang=en;match=ci,no
+TM |DEFINITION|Includes physical, chemical, and mechanical properties of    plastics, elastomers, lubricants, polymers, textiles,    adhesives, and ceramic materials. For composite materials    see 24 Composite Materials.  
+--
+ID 49
+NA Geophysics	@lang=en;match=ci,no
+TM Geophysics	@lang=en;match=ci,no
+TM gravitational waves (terrestrial)	@lang=en;match=ci,no
+TM continental drift	@lang=en;match=ci,no
+TM fault detection (geological)	@lang=en;match=ci,no
+TM atmospheric studies (physical processes)	@lang=en;match=ci,no
+TM space geodesy	@lang=en;match=ci,no
+TM rocket/balloon geophysical studies	@lang=en;match=ci,no
+TM soil sampling	@lang=en;match=ci,no
+TM air glow	@lang=en;match=ci,no
+TM geophysical sensors (applications)	@lang=en;match=ci,no
+TM greenhouse effect (atmospheric physics)	@lang=en;match=ci,no
+TM soil mechanics	@lang=en;match=ci,no
+TM lower atmosphere studies	@lang=en;match=ci,no
+TM infrared spectrometry (atmosphere)	@lang=en;match=ci,no
+TM gravitational anomalies (terrestrial)	@lang=en;match=ci,no
+TM glaciology	@lang=en;match=ci,no
+TM noctilucent clouds	@lang=en;match=ci,no
+TM ionosphere (Earth)	@lang=en;match=ci,no
+TM atmospheric circulation (atmospheric physics)	@lang=en;match=ci,no
+TM whistlers (upper atmosphere)	@lang=en;match=ci,no
+TM aurora	@lang=en;match=ci,no
+TM Earth origins	@lang=en;match=ci,no
+TM geomagnetism	@lang=en;match=ci,no
+TM biosphere (physical processes)	@lang=en;match=ci,no
+TM geomorphology	@lang=en;match=ci,no
+TM aeronomy	@lang=en;match=ci,no
+TM stratospheric circulation	@lang=en;match=ci,no
+TM geology (Earth structure)	@lang=en;match=ci,no
+TM geological surveys	@lang=en;match=ci,no
+TM ionospheric plasmas	@lang=en;match=ci,no
+TM atmospherics	@lang=en;match=ci,no
+TM stratosphere	@lang=en;match=ci,no
+TM ionospheric physics	@lang=en;match=ci,no
+TM Earth structure	@lang=en;match=ci,no
+TM very long baseline interferometry (geophysics applications)	@lang=en;match=ci,no
+TM aerosols (atmospheric physics )	@lang=en;match=ci,no
+TM tectonics	@lang=en;match=ci,no
+TM atmospheric scattering	@lang=en;match=ci,no
+TM solar-atmosphere interactions	@lang=en;match=ci,no
+TM hydrosphere studies	@lang=en;match=ci,no
+TM plate tectonics	@lang=en;match=ci,no
+TM atmospheric radiation	@lang=en;match=ci,no
+TM ionospheric electron density	@lang=en;match=ci,no
+TM atmospheric boundary layers (atmospheric physics)	@lang=en;match=ci,no
+TM Earth-reflected radiation	@lang=en;match=ci,no
+TM atmospheric density	@lang=en;match=ci,no
+TM atmospheric physics	@lang=en;match=ci,no
+TM volcanoes	@lang=en;match=ci,no
+TM upper atmosphere studies	@lang=en;match=ci,no
+TM geochemistry	@lang=en;match=ci,no
+TM gravitational theory (terrestrial)	@lang=en;match=ci,no
+TM atmospheric electricity	@lang=en;match=ci,no
+TM magnetosphere (Earth)	@lang=en;match=ci,no
+TM Earth magnetic field	@lang=en;match=ci,no
+TM geodesy (physics)	@lang=en;match=ci,no
+TM atmospheric structure	@lang=en;match=ci,no
+TM seismology	@lang=en;match=ci,no
+TM ozone depletion (atmospheric physics)	@lang=en;match=ci,no
+TM lithology	@lang=en;match=ci,no
+TM magnetism (terrestrial)	@lang=en;match=ci,no
+TM ionospheric scintillation	@lang=en;match=ci,no
+TM atmospheric optics	@lang=en;match=ci,no
+TM general circulation models (atmosphere)	@lang=en;match=ci,no
+TM |DEFINITION|Includes earth structure and dynamics, aeronomy; upper and    lower atmosphere studies; ionospheric and magnetospheric    physics; and geomagnetism. For related information see 47    Meteorology and Climatology; and 93 Space Radiation.  
+--
+ID 50
+NA Physics	@lang=en;match=ci,no
+TM Physics	@lang=en;match=ci,no
+TM |DEFINITION|Includes physics (general); acoustics; atomic and molecular    physics; nuclear physics; optics; plasma physics;    solid-state physics; and physics of elementary particles    and fields. For related information see also Engineering    (categories 31 through 39).  
+--
+ID 51
+NA Solar Physics	@lang=en;match=ci,no
+TM Solar Physics	@lang=en;match=ci,no
+TM alpha rays (solar)	@lang=en;match=ci,no
+TM solar flares	@lang=en;match=ci,no
+TM solar mass	@lang=en;match=ci,no
+TM solar density	@lang=en;match=ci,no
+TM solar spectra	@lang=en;match=ci,no
+TM solar atmosphere	@lang=en;match=ci,no
+TM sun	@lang=en;match=ci,no
+TM solar radio emissions	@lang=en;match=ci,no
+TM solar cycles	@lang=en;match=ci,no
+TM solar wind	@lang=en;match=ci,no
+TM solar constants	@lang=en;match=ci,no
+TM sunspots	@lang=en;match=ci,no
+TM solar magnetic field	@lang=en;match=ci,no
+TM chromosphere (solar)	@lang=en;match=ci,no
+TM solar corona	@lang=en;match=ci,no
+TM solar activity	@lang=en;match=ci,no
+TM photosphere (solar)	@lang=en;match=ci,no
+TM solar structure	@lang=en;match=ci,no
+TM beta rays (solar)	@lang=en;match=ci,no
+TM solar eclipses	@lang=en;match=ci,no
+TM lunar eclipses	@lang=en;match=ci,no
+TM solar radiation	@lang=en;match=ci,no
+TM |DEFINITION|Includes solar activity, solar flares, solar radiation and    sunspots. For related information see 93 Space Radiation.  
+--
+ID 52
+NA Structural Mechanics	@lang=en;match=ci,no
+TM Structural Mechanics	@lang=en;match=ci,no
+TM flutter (structural)	@lang=en;match=ci,no
+TM energy absorption (structures)	@lang=en;match=ci,no
+TM fracture mechanics	@lang=en;match=ci,no
+TM trusses	@lang=en;match=ci,no
+TM beams (structures)	@lang=en;match=ci,no
+TM crack propagation	@lang=en;match=ci,no
+TM shock testing (structural analysis)	@lang=en;match=ci,no
+TM plates (structural elements)	@lang=en;match=ci,no
+TM lightweight structures	@lang=en;match=ci,no
+TM elasticity	@lang=en;match=ci,no
+TM structural analysis	@lang=en;match=ci,no
+TM columns	@lang=en;match=ci,no
+TM compression loads	@lang=en;match=ci,no
+TM vibration testing	@lang=en;match=ci,no
+TM shear loads	@lang=en;match=ci,no
+TM cones (structures)	@lang=en;match=ci,no
+TM structural fatigue	@lang=en;match=ci,no
+TM welded structures	@lang=en;match=ci,no
+TM honeycomb structures	@lang=en;match=ci,no
+TM dynamic structural analysis	@lang=en;match=ci,no
+TM tensile strength (structures)	@lang=en;match=ci,no
+TM thermal stress	@lang=en;match=ci,no
+TM photoelasticity	@lang=en;match=ci,no
+TM structural design	@lang=en;match=ci,no
+TM structural theory	@lang=en;match=ci,no
+TM riveted joints	@lang=en;match=ci,no
+TM stress (structural)	@lang=en;match=ci,no
+TM structural testing	@lang=en;match=ci,no
+TM compression strength (structural)	@lang=en;match=ci,no
+TM lightweight structural elements	@lang=en;match=ci,no
+TM viscoelasticity (structural materials)	@lang=en;match=ci,no
+TM rings (structures)	@lang=en;match=ci,no
+TM shells (structures)	@lang=en;match=ci,no
+TM shear strength (structures)	@lang=en;match=ci,no
+TM fatigue (structural)	@lang=en;match=ci,no
+TM bending	@lang=en;match=ci,no
+TM sandwich structures	@lang=en;match=ci,no
+TM weld strength	@lang=en;match=ci,no
+TM wave propagation (structural response)	@lang=en;match=ci,no
+TM aeroelasticity (structural flexibility)	@lang=en;match=ci,no
+TM tension loads	@lang=en;match=ci,no
+TM energy	@lang=en;match=ci,no
+TM filament wound structures (design and tests)	@lang=en;match=ci,no
+TM vibration (structures)	@lang=en;match=ci,no
+TM combined loads	@lang=en;match=ci,no
+TM bonded structures	@lang=en;match=ci,no
+TM cylinders (structures)	@lang=en;match=ci,no
+TM structural vibration effects	@lang=en;match=ci,no
+TM plasticity	@lang=en;match=ci,no
+TM cracks	@lang=en;match=ci,no
+TM stress analysis	@lang=en;match=ci,no
+TM weight analysis	@lang=en;match=ci,no
+TM structural elements	@lang=en;match=ci,no
+TM buckling	@lang=en;match=ci,no
+TM acoustoelasticity	@lang=en;match=ci,no
+TM thermoelasticity (structural materials)	@lang=en;match=ci,no
+TM adhesive joints (structural stability)	@lang=en;match=ci,no
+TM compression	@lang=en;match=ci,no
+TM panels (structures)	@lang=en;match=ci,no
+TM bolted joints	@lang=en;match=ci,no
+TM |DEFINITION|Includes structural element design, analysis and testing;    dynamic responses of structures; weight analysis; fatigue    and other structural properties; and mechanical and thermal    stresses in structures. For applications see 05 Aircraft    Design, Testing and Performance; and 18 Spacecraft Design,    Testing and Performance.  
+--
+ID 53
+NA Law, Political Science and Space Policy	@lang=en;match=ci,no
+TM Law, Political Science and Space Policy	@lang=en;match=ci,no
+TM congressional legislation	@lang=en;match=ci,no
+TM air transport regulations	@lang=en;match=ci,no
+TM legal liability of general aviation	@lang=en;match=ci,no
+TM international cooperation	@lang=en;match=ci,no
+TM transfer of responsibility (space applications)	@lang=en;match=ci,no
+TM air piracy (legal aspects)	@lang=en;match=ci,no
+TM legal liability of manned space flight	@lang=en;match=ci,no
+TM government/industry relationships	@lang=en;match=ci,no
+TM international law	@lang=en;match=ci,no
+TM space commercialization (legal aspects)	@lang=en;match=ci,no
+TM political science	@lang=en;match=ci,no
+TM patent policy	@lang=en;match=ci,no
+TM federal aviation laws	@lang=en;match=ci,no
+TM space policy	@lang=en;match=ci,no
+TM law	@lang=en;match=ci,no
+TM space law	@lang=en;match=ci,no
+TM legal liability of unmanned space flight	@lang=en;match=ci,no
+TM aerospace agreements	@lang=en;match=ci,no
+TM legal liability of commercial aviation	@lang=en;match=ci,no
+TM patent law	@lang=en;match=ci,no
+TM treaties	@lang=en;match=ci,no
+TM civil aeronautical law	@lang=en;match=ci,no
+TM |DEFINITION|Includes; aviation law; space law and policy; international    law; international cooperation; and patent policy.  
+--
+ID 54
+NA Life Sciences (General)	@lang=en;match=ci,no
+TM Life Sciences (General)	@lang=en;match=ci,no
+TM reduced gravity effects (biological, animal and plant)	@lang=en;match=ci,no
+TM biology (general)	@lang=en;match=ci,no
+TM zero gravity effects (biological, animal and plant)	@lang=en;match=ci,no
+TM gravitational effects (biological, animal and plant)	@lang=en;match=ci,no
+TM microbiology	@lang=en;match=ci,no
+TM electromagnetic field effects (biological, animal and plant)	@lang=en;match=ci,no
+TM quarantine (animal and plant)	@lang=en;match=ci,no
+TM biochemistry	@lang=en;match=ci,no
+TM magnetic field effects (biological, animal and plant)	@lang=en;match=ci,no
+TM botany	@lang=en;match=ci,no
+TM diurnal effects (biological, animal and plant)	@lang=en;match=ci,no
+TM bioengineering (general)	@lang=en;match=ci,no
+TM hibernation	@lang=en;match=ci,no
+TM animal biology	@lang=en;match=ci,no
+TM plants	@lang=en;match=ci,no
+TM atmospheric pressure effects (biological, animal and plant)	@lang=en;match=ci,no
+TM microgravity effects (biological, animal and plant)	@lang=en;match=ci,no
+TM space environment effects (biological, animal and plant)	@lang=en;match=ci,no
+TM temperature effects (biological, animal and plant)	@lang=en;match=ci,no
+TM chronobiology (animal and plant)	@lang=en;match=ci,no
+TM farming in space (general)	@lang=en;match=ci,no
+TM circadian rhythm (animal and plant)	@lang=en;match=ci,no
+TM weightlessness effects (biological, animal and plant)	@lang=en;match=ci,no
+TM origin of life (terrestrial)	@lang=en;match=ci,no
+TM genetics (animal and plant)	@lang=en;match=ci,no
+TM bioelectronic instruments (applications, animal and plant)	@lang=en;match=ci,no
+TM radiation effects (biological, animal and plant)	@lang=en;match=ci,no
+TM estivation	@lang=en;match=ci,no
+TM altitude effects (biological, animal and plant)	@lang=en;match=ci,no
+TM osmosis (biological)	@lang=en;match=ci,no
+TM environmental effects (biological, animal and plant)	@lang=en;match=ci,no
+TM acceleration effects (biological, animal and plant)	@lang=en;match=ci,no
+TM biological evolution (terrestrial)	@lang=en;match=ci,no
+TM telemedicine	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to plant and    animal biology (non-human); ecology; microbiology; and also    the origin, development, structure, and maintenance, of    animals and plants in space and related environmental    conditions. For specific topics in life sciences see    categories 52 through 55.  
+--
+ID 55
+NA Mathematical and Computer Sciences (General)	@lang=en;match=ci,no
+TM Mathematical and Computer Sciences (General)	@lang=en;match=ci,no
+TM mathematical sciences (general)	@lang=en;match=ci,no
+TM computer sciences (general)	@lang=en;match=ci,no
+TM |DEFINITION|Includes general topics and overviews related to    mathematics and computer science. For specific topics in    these areas see categories 60 through 67.  
+--
+ID 56
+NA Geosciences	@lang=en;match=ci,no
+TM Geosciences	@lang=en;match=ci,no
+TM |DEFINITION|Includes geosciences (general); earth resources and remote    sensing; energy production and conversion; environment    pollution; geophysics; meteorology and climatology; and    oceanography. For related information see also Space    Sciences (categories 88 through 93).  
+--
+ID 57
+NA Mathematical and Computer Sciences	@lang=en;match=ci,no
+TM Mathematical and Computer Sciences	@lang=en;match=ci,no
+TM |DEFINITION|Includes mathematical and computer sciences (general);    computer operations and hardware; computer programming and    software; computer systems; cybernetics, artificial    intelligence and robotics; numerical analysis; statistics    and probability; systems analysis and operations research;    and theoretical mathematics.  
+--
+ID 58
+NA Research and Support Facilities (Air)	@lang=en;match=ci,no
+TM Research and Support Facilities (Air)	@lang=en;match=ci,no
+TM airport lighting	@lang=en;match=ci,no
+TM high temperature test facilities (aircraft)	@lang=en;match=ci,no
+TM control towers	@lang=en;match=ci,no
+TM airport planning	@lang=en;match=ci,no
+TM runway lighting	@lang=en;match=ci,no
+TM ground support systems (aircraft)	@lang=en;match=ci,no
+TM aircraft ground handling equipment	@lang=en;match=ci,no
+TM runway surfaces and grooving	@lang=en;match=ci,no
+TM engine test stands (aircraft)	@lang=en;match=ci,no
+TM wind tunnel test facilities (aircraft)	@lang=en;match=ci,no
+TM research facilities (aircraft)	@lang=en;match=ci,no
+TM airports and airways	@lang=en;match=ci,no
+TM tracking and communications installations (aircraft)	@lang=en;match=ci,no
+TM support facilities (aircraft)	@lang=en;match=ci,no
+TM checkout facilities (aircraft)	@lang=en;match=ci,no
+TM ground support vehicles (aircraft)	@lang=en;match=ci,no
+TM test facilities (aircraft)	@lang=en;match=ci,no
+TM clean rooms (aircraft manufacturing and test facilities)	@lang=en;match=ci,no
+TM simulators (aircraft)	@lang=en;match=ci,no
+TM development)	@lang=en;match=ci,no
+TM temperature test facilities (aircraft)	@lang=en;match=ci,no
+TM checkout systems (aircraft)	@lang=en;match=ci,no
+TM overhaul facilities (aircraft)	@lang=en;match=ci,no
+TM ground support facilities (aircraft)	@lang=en;match=ci,no
+TM ground support equipment (aircraft)	@lang=en;match=ci,no
+TM altitude test facilities	@lang=en;match=ci,no
+TM structures test facilities (aircraft)	@lang=en;match=ci,no
+TM maintenance facilities (aircraft)	@lang=en;match=ci,no
+TM runways	@lang=en;match=ci,no
+TM crash test facilities	@lang=en;match=ci,no
+TM flight simulators (aircrew training and aircraft	@lang=en;match=ci,no
+TM pressure test facilities (aircraft)	@lang=en;match=ci,no
+TM shock tubes and tunnels	@lang=en;match=ci,no
+TM runway construction	@lang=en;match=ci,no
+TM repair facilities (aircraft)	@lang=en;match=ci,no
+TM development facilities (aircraft)	@lang=en;match=ci,no
+TM runway approach lighting and markers	@lang=en;match=ci,no
+TM airport access	@lang=en;match=ci,no
+TM aircraft servicing equipment	@lang=en;match=ci,no
+TM hangar facilities	@lang=en;match=ci,no
+TM low temperature test facilities (aircraft)	@lang=en;match=ci,no
+TM |DEFINITION|Includes airports, runways, hangars, and aircraft repair    and overhaul facilities; wind tunnels, water tunnels, and    shock tubes; flight simulators; and aircraft engine test    stands. Also includes airport ground equipment and systems.    For airport ground operations see 03 Air Transportation and    Safety. For astronautical facilities see 14 Ground Support    Systems and Facilities (Space).  
+--
+ID 59
+NA Space Processing	@lang=en;match=ci,no
+TM Space Processing	@lang=en;match=ci,no
+TM biological materials (space processing)	@lang=en;match=ci,no
+TM pharmaceutical preparation (space processing)	@lang=en;match=ci,no
+TM reduced gravity effects (materials)	@lang=en;match=ci,no
+TM materials processing in space	@lang=en;match=ci,no
+TM space based equipment for space processing	@lang=en;match=ci,no
+TM glass formation (space processing)	@lang=en;match=ci,no
+TM macromolecular crystallography (space processing)	@lang=en;match=ci,no
+TM polymers (space processing)	@lang=en;match=ci,no
+TM space processing of materials	@lang=en;match=ci,no
+TM fluids behavior (space processing)	@lang=en;match=ci,no
+TM electrophoresis operations in space (EOS)	@lang=en;match=ci,no
+TM materials separation in space	@lang=en;match=ci,no
+TM crystal growth (space processing)	@lang=en;match=ci,no
+TM containerless processing	@lang=en;match=ci,no
+TM multiphase materials processing in space	@lang=en;match=ci,no
+TM alloy formation (space processing)	@lang=en;match=ci,no
+TM composite material formation (space processing)	@lang=en;match=ci,no
+TM microgravity (space processing)	@lang=en;match=ci,no
+TM space commercialization (space processing)	@lang=en;match=ci,no
+TM |DEFINITION|Includes space-based development of materials, compounds,    and processes for research or commercial application. Also    includes the development of materials and compounds in    simulated reduced-gravity environments. For legal aspects    of space commercialization see 84 Law, Political Science    and Space Policy.  
+--
+ID 60
+NA Solid-State Physics	@lang=en;match=ci,no
+TM Solid-State Physics	@lang=en;match=ci,no
+TM superconductivity (theory)	@lang=en;match=ci,no
+TM band structure of solids	@lang=en;match=ci,no
+TM semiconductor materials	@lang=en;match=ci,no
+TM piezoelectricity	@lang=en;match=ci,no
+TM condensed matter physics	@lang=en;match=ci,no
+TM solidification (solid state)	@lang=en;match=ci,no
+TM lattice vibrations	@lang=en;match=ci,no
+TM acceptors (solid state)	@lang=en;match=ci,no
+TM crystal growth (general)	@lang=en;match=ci,no
+TM superconducting materials	@lang=en;match=ci,no
+TM electrical transport properties in solids	@lang=en;match=ci,no
+TM thermoelectric materials	@lang=en;match=ci,no
+TM critical temperatures of superconducting materials	@lang=en;match=ci,no
+TM liquid crystals	@lang=en;match=ci,no
+TM radiation effects in semiconductors	@lang=en;match=ci,no
+TM energy gaps in semiconductors	@lang=en;match=ci,no
+TM thin films (theory, deposition and growth)	@lang=en;match=ci,no
+TM electron energy bands	@lang=en;match=ci,no
+TM crystal defects	@lang=en;match=ci,no
+TM dielectric materials properties	@lang=en;match=ci,no
+TM solid state physics	@lang=en;match=ci,no
+TM critical field curves of superconducting materials	@lang=en;match=ci,no
+TM epitaxy	@lang=en;match=ci,no
+TM crystal structure (semiconductors)	@lang=en;match=ci,no
+TM conductivity (solid state)	@lang=en;match=ci,no
+TM crystallography	@lang=en;match=ci,no
+TM Mossbauer effect	@lang=en;match=ci,no
+TM electron motion in conductors	@lang=en;match=ci,no
+TM holes (electron deficiencies)	@lang=en;match=ci,no
+TM donors (solid state)	@lang=en;match=ci,no
+TM electron paramagnetic resonance (solid state)	@lang=en;match=ci,no
+TM |DEFINITION|Includes condensed matter physics, crystallography, and    superconductivity. For related information see also 33    Electronics and Electrical Engineering; and 36 Lasers and    Masers.  
+--
+ID 61
+NA Aircraft Propulsion and Power	@lang=en;match=ci,no
+TM Aircraft Propulsion and Power	@lang=en;match=ci,no
+TM aircraft engine maintenance	@lang=en;match=ci,no
+TM propellers (tractor, pusher, contrarotating, propfan)	@lang=en;match=ci,no
+TM aircraft propulsion systems	@lang=en;match=ci,no
+TM aircraft propellers	@lang=en;match=ci,no
+TM quiet engines (aircraft)	@lang=en;match=ci,no
+TM compressors (aircraft engines)	@lang=en;match=ci,no
+TM turboprop engines	@lang=en;match=ci,no
+TM scramjet engines (aircraft)	@lang=en;match=ci,no
+TM auxiliary power units (APU) (aircraft)	@lang=en;match=ci,no
+TM gas turbine engines (aircraft)	@lang=en;match=ci,no
+TM chemical propulsion engines (aircraft)	@lang=en;match=ci,no
+TM pumps (aircraft engines and fuel systems)	@lang=en;match=ci,no
+TM wind tunnel tests (propulsion systems)	@lang=en;match=ci,no
+TM Stirling cycle engines (aircraft)	@lang=en;match=ci,no
+TM aircraft hydraulic systems (power)	@lang=en;match=ci,no
+TM injection systems (aircraft engines)	@lang=en;match=ci,no
+TM aircraft engine testing	@lang=en;match=ci,no
+TM exhaust systems (aircraft engines)	@lang=en;match=ci,no
+TM ejectors (aircraft)	@lang=en;match=ci,no
+TM piston engines (aircraft)	@lang=en;match=ci,no
+TM fan jet engines	@lang=en;match=ci,no
+TM fuel systems (aircraft)	@lang=en;match=ci,no
+TM foreign object ingestion (aircraft engines)	@lang=en;match=ci,no
+TM propulsion system components (aircraft)	@lang=en;match=ci,no
+TM electric power units (aircraft)	@lang=en;match=ci,no
+TM compression ignition engines (aircraft)	@lang=en;match=ci,no
+TM fuel injection systems (aircraft)	@lang=en;match=ci,no
+TM propulsion systems (aircraft)	@lang=en;match=ci,no
+TM fuel system components (aircraft)	@lang=en;match=ci,no
+TM engine control systems (aircraft)	@lang=en;match=ci,no
+TM turbines (aircraft engines)	@lang=en;match=ci,no
+TM bypass jet engines	@lang=en;match=ci,no
+TM electric power systems (aircraft)	@lang=en;match=ci,no
+TM cooling systems (aircraft engines)	@lang=en;match=ci,no
+TM inlet controls (aircraft engines)	@lang=en;match=ci,no
+TM turborocket engines (aircraft)	@lang=en;match=ci,no
+TM aircraft pneumatic systems (power)	@lang=en;match=ci,no
+TM nozzles (aircraft)	@lang=en;match=ci,no
+TM aerodynamic noise (propulsion systems)	@lang=en;match=ci,no
+TM thrust reverser controls	@lang=en;match=ci,no
+TM superchargers (aircraft engines)	@lang=en;match=ci,no
+TM ramjet engines (aircraft)	@lang=en;match=ci,no
+TM thrust reversers (aircraft engines)	@lang=en;match=ci,no
+TM inlets (aircraft)	@lang=en;match=ci,no
+TM afterburners (aircraft engines)	@lang=en;match=ci,no
+TM engine noise (aircraft)	@lang=en;match=ci,no
+TM rocket engines (aircraft)	@lang=en;match=ci,no
+TM turbine blade cooling	@lang=en;match=ci,no
+TM aircraft engines	@lang=en;match=ci,no
+TM turbine blade vibration	@lang=en;match=ci,no
+TM rotary engines (aircraft)	@lang=en;match=ci,no
+TM noise reduction (aircraft engines)	@lang=en;match=ci,no
+TM afterburner controls	@lang=en;match=ci,no
+TM engine noise suppressors (aircraft)	@lang=en;match=ci,no
+TM pneumatic systems (aircraft propulsion and power)	@lang=en;match=ci,no
+TM pulsejet engines	@lang=en;match=ci,no
+TM aircraft engine performance	@lang=en;match=ci,no
+TM reciprocating engines (aircraft)	@lang=en;match=ci,no
+TM aircraft engine simulation	@lang=en;match=ci,no
+TM fuel distribution pumps (aircraft)	@lang=en;match=ci,no
+TM diesel engines (aircraft)	@lang=en;match=ci,no
+TM auxiliary power systems (aircraft)	@lang=en;match=ci,no
+TM bird ingestion (aircraft engines)	@lang=en;match=ci,no
+TM electric propulsion systems (aircraft)	@lang=en;match=ci,no
+TM throttle controls (aircraft)	@lang=en;match=ci,no
+TM fuel tanks (aircraft)	@lang=en;match=ci,no
+TM fuel distribution systems (aircraft)	@lang=en;match=ci,no
+TM centrifugal compressors (aircraft)	@lang=en;match=ci,no
+TM jet engines	@lang=en;match=ci,no
+TM turbofan engines	@lang=en;match=ci,no
+TM pulse detonation engines	@lang=en;match=ci,no
+TM gasoline engines (aircraft)	@lang=en;match=ci,no
+TM diffusers (aircraft engines)	@lang=en;match=ci,no
+TM airbreathing engines (aircraft)	@lang=en;match=ci,no
+TM aircraft fuel systems	@lang=en;match=ci,no
+TM spark ignition engines (aircraft)	@lang=en;match=ci,no
+TM combustors (aircraft)	@lang=en;match=ci,no
+TM aircraft power systems	@lang=en;match=ci,no
+TM nuclear engines (aircraft)	@lang=en;match=ci,no
+TM nuclear propulsion systems (aircraft)	@lang=en;match=ci,no
+TM aircraft propulsion system components	@lang=en;match=ci,no
+TM internal combustion engines (aircraft)	@lang=en;match=ci,no
+TM carburetors (aircraft engines)	@lang=en;match=ci,no
+TM exit controls (aircraft engines)	@lang=en;match=ci,no
+TM aircraft engine design	@lang=en;match=ci,no
+TM engine ingestion	@lang=en;match=ci,no
+TM |DEFINITION|Includes primary propulsion systems and related systems and    components, e.g., gas turbine engines, compressors, and    fuel systems; and onboard auxiliary power plants for    aircraft. For related information see also 20 Spacecraft    Propulsion and Power; 28 Propellants and Fuels; and 44    Energy Production and Conversion.  
+--
+ID 62
+NA Documentation and Information Science	@lang=en;match=ci,no
+TM Documentation and Information Science	@lang=en;match=ci,no
+TM mechanical drawing	@lang=en;match=ci,no
+TM project documentation	@lang=en;match=ci,no
+TM internet resources	@lang=en;match=ci,no
+TM technical writing	@lang=en;match=ci,no
+TM microfiche techniques	@lang=en;match=ci,no
+TM manuals (refer to appropriate category for manuals)	@lang=en;match=ci,no
+TM copyright regulations	@lang=en;match=ci,no
+TM document processing	@lang=en;match=ci,no
+TM information science	@lang=en;match=ci,no
+TM reprography	@lang=en;match=ci,no
+TM library science	@lang=en;match=ci,no
+TM micrography	@lang=en;match=ci,no
+TM geographical information systems	@lang=en;match=ci,no
+TM information storage	@lang=en;match=ci,no
+TM language translation	@lang=en;match=ci,no
+TM Space Station Information System	@lang=en;match=ci,no
+TM graphic arts	@lang=en;match=ci,no
+TM document markup languages (information transfer)	@lang=en;match=ci,no
+TM information retrieval	@lang=en;match=ci,no
+TM lexicography	@lang=en;match=ci,no
+TM information systems	@lang=en;match=ci,no
+TM documentation	@lang=en;match=ci,no
+TM document miniaturization	@lang=en;match=ci,no
+TM databases	@lang=en;match=ci,no
+TM |DEFINITION|Includes information management; information storage and    retrieval technology; technical writing; graphic arts; and    micrography. For computer program documentation see 61    Computer Programming and Software.  
+--
+ID 63
+NA Spacecraft Propulsion and Power	@lang=en;match=ci,no
+TM Spacecraft Propulsion and Power	@lang=en;match=ci,no
+TM turborocket engines (spacecraft)	@lang=en;match=ci,no
+TM systems for energy conversion (spacecraft)	@lang=en;match=ci,no
+TM magnetohydrodynamic (MHO) thrusters	@lang=en;match=ci,no
+TM boosters (spacecraft)	@lang=en;match=ci,no
+TM thrust vector control devices (spacecraft)	@lang=en;match=ci,no
+TM hybrid propellant rocket engines	@lang=en;match=ci,no
+TM electric power systems (spacecraft)	@lang=en;match=ci,no
+TM pneumatic systems (spacecraft propulsion and power)	@lang=en;match=ci,no
+TM electric power units (spacecraft)	@lang=en;match=ci,no
+TM refueling in orbit	@lang=en;match=ci,no
+TM solar electric propulsion	@lang=en;match=ci,no
+TM combustion chambers (spacecraft)	@lang=en;match=ci,no
+TM auxiliary power units (APU) (spacecraft)	@lang=en;match=ci,no
+TM spacecraft propulsion	@lang=en;match=ci,no
+TM rocket throttling systems	@lang=en;match=ci,no
+TM auxiliary power systems (spacecraft)	@lang=en;match=ci,no
+TM onboard solar arrays	@lang=en;match=ci,no
+TM plasma propulsion (spacecraft applications)	@lang=en;match=ci,no
+TM fuel systems (spacecraft)	@lang=en;match=ci,no
+TM fuel system components (spacecraft)	@lang=en;match=ci,no
+TM magnetic sails	@lang=en;match=ci,no
+TM spacecraft power systems	@lang=en;match=ci,no
+TM propulsion systems (spacecraft)	@lang=en;match=ci,no
+TM rocket engine noise	@lang=en;match=ci,no
+TM multistage rockets	@lang=en;match=ci,no
+TM fuel injection systems (spacecraft)	@lang=en;match=ci,no
+TM ejectors (spacecraft)	@lang=en;match=ci,no
+TM rocket engine design	@lang=en;match=ci,no
+TM main propulsion system components (spacecraft)	@lang=en;match=ci,no
+TM ion propulsion	@lang=en;match=ci,no
+TM retrorockets	@lang=en;match=ci,no
+TM electrostatic rocket engines	@lang=en;match=ci,no
+TM solar sails	@lang=en;match=ci,no
+TM clustered rockets	@lang=en;match=ci,no
+TM propulsion system components (spacecraft)	@lang=en;match=ci,no
+TM rocket engines (spacecraft)	@lang=en;match=ci,no
+TM electrothermal rocket engines	@lang=en;match=ci,no
+TM electric rocket engines	@lang=en;match=ci,no
+TM rocket engine exhaust plumes	@lang=en;match=ci,no
+TM combustors (spacecraft)	@lang=en;match=ci,no
+TM spacecraft pneumatic systems (power)	@lang=en;match=ci,no
+TM chemical propulsion engines (spacecraft)	@lang=en;match=ci,no
+TM propellant injectors, pumps, and tanks (spacecraft)	@lang=en;match=ci,no
+TM propellant flow systems (spacecraft)	@lang=en;match=ci,no
+TM igniters (rocket engines)	@lang=en;match=ci,no
+TM spacecraft auxiliary power sources	@lang=en;match=ci,no
+TM vector control engines (spacecraft)	@lang=en;match=ci,no
+TM spacecraft engine design	@lang=en;match=ci,no
+TM fuel tanks (spacecraft)	@lang=en;match=ci,no
+TM aerospike engines	@lang=en;match=ci,no
+TM spacecraft hydraulic systems (power)	@lang=en;match=ci,no
+TM liquid propellant rocket engines	@lang=en;match=ci,no
+TM ion rocket engines	@lang=en;match=ci,no
+TM vernier engines (spacecraft)	@lang=en;match=ci,no
+TM ion engines	@lang=en;match=ci,no
+TM electric propulsion systems (spacecraft)	@lang=en;match=ci,no
+TM chemical power sources (spacecraft)	@lang=en;match=ci,no
+TM solar electric ion propulsion	@lang=en;match=ci,no
+TM magnetohydrodynamic (MHO) power sources	@lang=en;match=ci,no
+TM space power reactors (application)	@lang=en;match=ci,no
+TM attitude thrusters	@lang=en;match=ci,no
+TM solid propellant rocket engines	@lang=en;match=ci,no
+TM main propulsion systems (spacecraft)	@lang=en;match=ci,no
+TM pumps (spacecraft)	@lang=en;match=ci,no
+TM nuclear engines (spacecraft application)	@lang=en;match=ci,no
+TM nuclear rocket engines	@lang=en;match=ci,no
+TM fuel distribution pumps (spacecraft)	@lang=en;match=ci,no
+TM nuclear power sources (spacecraft application)	@lang=en;match=ci,no
+TM fuel distribution systems (spacecraft)	@lang=en;match=ci,no
+TM nuclear propulsion systems (spacecraft application)	@lang=en;match=ci,no
+TM onboard solar generators	@lang=en;match=ci,no
+TM spacecraft vehicle booster engines	@lang=en;match=ci,no
+TM nozzles (spacecraft)	@lang=en;match=ci,no
+TM low thrust engines	@lang=en;match=ci,no
+TM |DEFINITION|Includes main propulsion systems and components, e.g.,    rocket engines; and spacecraft auxiliary power sources. For    related information see also 07 Aircraft Propulsion and    Power; 28 Propellants and Fuels; 15 Launch Vehicles and    Launch Operations; and 44 Energy Production and Conversion.  
+--
+ID 64
+NA Space Sciences	@lang=en;match=ci,no
+TM Space Sciences	@lang=en;match=ci,no
+TM |DEFINITION|Includes space sciences (general); astronomy; astrophysics;    lunar and planetary science and exploration; solar physics;    and space radiation. For related information see also    Geosciences (categories 42 through 48).  
+--
+ID 65
+NA Composite Materials	@lang=en;match=ci,no
+TM Composite Materials	@lang=en;match=ci,no
+TM testing of materials (composite materials)	@lang=en;match=ci,no
+TM fiber composites	@lang=en;match=ci,no
+TM honeycomb materials	@lang=en;match=ci,no
+TM woven composites	@lang=en;match=ci,no
+TM carbon fiber materials	@lang=en;match=ci,no
+TM whisker composites	@lang=en;match=ci,no
+TM filament materials	@lang=en;match=ci,no
+TM metal filament systems	@lang=en;match=ci,no
+TM offgassing/outgassing (composite materials)	@lang=en;match=ci,no
+TM glass fiber reinforced plastics	@lang=en;match=ci,no
+TM stacking sequence (composite materials)	@lang=en;match=ci,no
+TM reinforcing fibers (composite materials)	@lang=en;match=ci,no
+TM laminates	@lang=en;match=ci,no
+TM flammability (composite materials)	@lang=en;match=ci,no
+TM epoxy matrix composites	@lang=en;match=ci,no
+TM mechanical properties (composite materials)	@lang=en;match=ci,no
+TM nanocomposites	@lang=en;match=ci,no
+TM ablative materials (composite)	@lang=en;match=ci,no
+TM ceramic matrix composites	@lang=en;match=ci,no
+TM fatigue (composite materials)	@lang=en;match=ci,no
+TM surface properties (composite materials)	@lang=en;match=ci,no
+TM tensile strength (composite materials)	@lang=en;match=ci,no
+TM fiber-matrix interfaces	@lang=en;match=ci,no
+TM boron fiber materials	@lang=en;match=ci,no
+TM whiskers (composite materials)	@lang=en;match=ci,no
+TM polymer matrix composites	@lang=en;match=ci,no
+TM filament wound structures (composite materials)	@lang=en;match=ci,no
+TM shear strength (composite materials)	@lang=en;match=ci,no
+TM filament-matrix materials	@lang=en;match=ci,no
+TM metal matrix composites (MMC)	@lang=en;match=ci,no
+TM insulation (composite materials)	@lang=en;match=ci,no
+TM |DEFINITION|Includes physical, chemical, and mechanical properties of    laminates and other composite materials.  
+--
+ID 66
+NA Chemistry and Materials	@lang=en;match=ci,no
+TM Chemistry and Materials	@lang=en;match=ci,no
+TM |DEFINITION|Includes chemistry and materials (general); composite    materials; inorganic, organic and physical chemistry;    metals and metallic materials; nonmetallic materials;    propellants and fuels; and space processing.  
+--
+ID 67
+NA Lasers and Masers	@lang=en;match=ci,no
+TM Lasers and Masers	@lang=en;match=ci,no
+TM ladar (design)	@lang=en;match=ci,no
+TM laser damage	@lang=en;match=ci,no
+TM laser modulators	@lang=en;match=ci,no
+TM laser amplifiers	@lang=en;match=ci,no
+TM laser research	@lang=en;match=ci,no
+TM laser Applications	@lang=en;match=ci,no
+TM laser beams	@lang=en;match=ci,no
+TM dye lasers	@lang=en;match=ci,no
+TM tunable lasers	@lang=en;match=ci,no
+TM semiconductor lasers	@lang=en;match=ci,no
+TM laser materials	@lang=en;match=ci,no
+TM laser theory	@lang=en;match=ci,no
+TM gas lasers	@lang=en;match=ci,no
+TM masers	@lang=en;match=ci,no
+TM laser radiation hazards	@lang=en;match=ci,no
+TM parametric amplifiers	@lang=en;match=ci,no
+TM laser optics	@lang=en;match=ci,no
+TM solid state lasers	@lang=en;match=ci,no
+TM laser drilling (theory and techniques)	@lang=en;match=ci,no
+TM short pulsed lasers	@lang=en;match=ci,no
+TM laser cavities	@lang=en;match=ci,no
+TM glass lasers	@lang=en;match=ci,no
+TM lasers	@lang=en;match=ci,no
+TM chemical lasers	@lang=en;match=ci,no
+TM liquid lasers	@lang=en;match=ci,no
+TM laser radiation effects	@lang=en;match=ci,no
+TM quantum generators	@lang=en;match=ci,no
+TM lasertrons	@lang=en;match=ci,no
+TM laser tracking systems (general)	@lang=en;match=ci,no
+TM orotrons	@lang=en;match=ci,no
+TM |DEFINITION|Includes lasing theory, laser pumping techniques, maser    amplifiers, laser materials, and the assessment of laser    and maser outputs. For cases where the application of the    laser or maser is emphasized see also the specific category    where the application is treated. For related information    see also 76 Solid-State Physics.  
+--
+ID 68
+NA Nuclear Physics	@lang=en;match=ci,no
+TM Nuclear Physics	@lang=en;match=ci,no
+TM nuclear fission	@lang=en;match=ci,no
+TM radioisotopes	@lang=en;match=ci,no
+TM nuclear reactor theory	@lang=en;match=ci,no
+TM reactor radiation safety measures (space applications)	@lang=en;match=ci,no
+TM nuclear magnetic resonance	@lang=en;match=ci,no
+TM ion beams (nuclear interactions)	@lang=en;match=ci,no
+TM nuclear propulsion systems (theory)	@lang=en;match=ci,no
+TM nuclear fusion (theory)	@lang=en;match=ci,no
+TM nuclear research equipment	@lang=en;match=ci,no
+TM nuclear particles	@lang=en;match=ci,no
+TM electron beams	@lang=en;match=ci,no
+TM beta rays (theory)	@lang=en;match=ci,no
+TM nuclear engines (theory)	@lang=en;match=ci,no
+TM nuclear scattering	@lang=en;match=ci,no
+TM reactor theory	@lang=en;match=ci,no
+TM nuclear decay	@lang=en;match=ci,no
+TM nuclear reactions	@lang=en;match=ci,no
+TM nuclear structure	@lang=en;match=ci,no
+TM gamma rays (theory)	@lang=en;match=ci,no
+TM x-ray radiation (theory)	@lang=en;match=ci,no
+TM space-power reactors (theory)	@lang=en;match=ci,no
+TM nuclear power sources (theory)	@lang=en;match=ci,no
+TM nuclear fuels	@lang=en;match=ci,no
+TM nuclear test equipment	@lang=en;match=ci,no
+TM proton beams (nuclear interactions)	@lang=en;match=ci,no
+TM nuclear reactors	@lang=en;match=ci,no
+TM alpha rays (theory)	@lang=en;match=ci,no
+TM |DEFINITION|Includes nuclear particles; and reactor theory. For space    radiation see 93 Space Radiation. For atomic and molecular    physics see 72 Atomic and Molecular Physics. For elementary    particle physics see 77 Physics of Elementary Particles and    Fields. For nuclear astrophysics see 90 Astrophysics.  
+--
+ID 69
+NA Economics and Cost Analysis	@lang=en;match=ci,no
+TM Economics and Cost Analysis	@lang=en;match=ci,no
+TM insurance (aerospace)	@lang=en;match=ci,no
+TM transportation funding forecasts (aerospace)	@lang=en;match=ci,no
+TM space transportation economics	@lang=en;match=ci,no
+TM cost effectiveness studies	@lang=en;match=ci,no
+TM cost analysis	@lang=en;match=ci,no
+TM economics	@lang=en;match=ci,no
+TM aircraft production economic	@lang=en;match=ci,no
+TM production costs	@lang=en;match=ci,no
+TM production forecasts	@lang=en;match=ci,no
+TM airline economics	@lang=en;match=ci,no
+TM marketing research	@lang=en;match=ci,no
+TM marketing predictions	@lang=en;match=ci,no
+TM economic impacts	@lang=en;match=ci,no
+TM |DEFINITION|Includes cost effectiveness studies.  
+--
+ID 70
+NA Social and Information Sciences (General)	@lang=en;match=ci,no
+TM Social and Information Sciences (General)	@lang=en;match=ci,no
+TM educational programs	@lang=en;match=ci,no
+TM sociological research (humanities)	@lang=en;match=ci,no
+TM social sciences	@lang=en;match=ci,no
+TM educational curricula	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to sociology;    educational programs and curricula.  
+--
+ID 71
+NA Space Communications, Spacecraft Communications, Command and Tracking	@lang=en;match=ci,no
+TM Space Communications, Spacecraft Communications, Command and Tracking	@lang=en;match=ci,no
+TM ground based tracking systems	@lang=en;match=ci,no
+TM orbital maneuvers (control)	@lang=en;match=ci,no
+TM speech analysis (spacecraft voice communications)	@lang=en;match=ci,no
+TM navigation systems (spacecraft)	@lang=en;match=ci,no
+TM microwave receivers (spacecraft)	@lang=en;match=ci,no
+TM spacecraft communications	@lang=en;match=ci,no
+TM navigation computer systems (spacecraft)	@lang=en;match=ci,no
+TM optical communication (space)	@lang=en;match=ci,no
+TM wave propagation (spacecraft communications effect)	@lang=en;match=ci,no
+TM radar communications systems (spacecraft)	@lang=en;match=ci,no
+TM Space Tracking and Data Acquisition Network (STADAN)	@lang=en;match=ci,no
+TM navigation display devices (spacecraft)	@lang=en;match=ci,no
+TM laser communications systems (spacecraft)	@lang=en;match=ci,no
+TM telemetry (spacecraft applications)	@lang=en;match=ci,no
+TM space flight communication techniques and theory	@lang=en;match=ci,no
+TM launch vehicle navigation	@lang=en;match=ci,no
+TM voice communications systems (spacecraft)	@lang=en;match=ci,no
+TM rendezvous guidance	@lang=en;match=ci,no
+TM communications systems (space)	@lang=en;match=ci,no
+TM communications networks (space)	@lang=en;match=ci,no
+TM celestial navigation (spacecraft)	@lang=en;match=ci,no
+TM man-machine communications (spacecraft)	@lang=en;match=ci,no
+TM Deep Space Network	@lang=en;match=ci,no
+TM tracking stations	@lang=en;match=ci,no
+TM radar detection (spacecraft navigation)	@lang=en;match=ci,no
+TM radio communications systems (spacecraft)	@lang=en;match=ci,no
+TM radar imagery (spacecraft navigation)	@lang=en;match=ci,no
+TM guidance system design (spacecraft)	@lang=en;match=ci,no
+TM radar tracking systems (spacecraft)	@lang=en;match=ci,no
+TM space based data acquisition systems	@lang=en;match=ci,no
+TM ground based tracking stations	@lang=en;match=ci,no
+TM microwave communications systems (spacecraft)	@lang=en;match=ci,no
+TM station keeping	@lang=en;match=ci,no
+TM digital communications systems (spacecraft)	@lang=en;match=ci,no
+TM manned space flight network	@lang=en;match=ci,no
+TM global positioning systems (spacecraft)	@lang=en;match=ci,no
+TM inertial navigation systems (spacecraft)	@lang=en;match=ci,no
+TM ground based data acquisition stations	@lang=en;match=ci,no
+TM command and control of spacecraft	@lang=en;match=ci,no
+TM space based data acquisition stations	@lang=en;match=ci,no
+TM space communications networks	@lang=en;match=ci,no
+TM spacecraft tracking	@lang=en;match=ci,no
+TM laser tracking systems (spacecraft)	@lang=en;match=ci,no
+TM space communications	@lang=en;match=ci,no
+TM radio blackout (loss of communications)	@lang=en;match=ci,no
+TM space navigation	@lang=en;match=ci,no
+TM range and angle measurement (spacecraft)	@lang=en;match=ci,no
+TM space flight navigation techniques and theory	@lang=en;match=ci,no
+TM tracking and communications installations (spacecraft)	@lang=en;match=ci,no
+TM microwave transmitters (spacecraft)	@lang=en;match=ci,no
+TM ground based data acquisition systems	@lang=en;match=ci,no
+TM communications blackouts (reentry)	@lang=en;match=ci,no
+TM navigation system design (spacecraft)	@lang=en;match=ci,no
+TM collision avoidance (spacecraft)	@lang=en;match=ci,no
+TM tracking networks	@lang=en;match=ci,no
+TM speech compression (spacecraft voice communications)	@lang=en;match=ci,no
+TM inertial sensors and measurement units (spacecraft)	@lang=en;match=ci,no
+TM spacecraft control (communications)	@lang=en;match=ci,no
+TM spacecraft command	@lang=en;match=ci,no
+TM target-signature modeling (spacecraft)	@lang=en;match=ci,no
+TM astronavigation	@lang=en;match=ci,no
+TM search and rescue operations (communications)	@lang=en;match=ci,no
+TM spacecraft navigation	@lang=en;match=ci,no
+TM automatic picture transmission (APT)	@lang=en;match=ci,no
+TM Shuttle Imaging radar (theory and techniques)	@lang=en;match=ci,no
+TM |DEFINITION|Includes space systems telemetry; space communications    networks; astronavigation and guidance; and spacecraft    radio blackout. For related information see also 04    Aircraft Communications and Navigation; and 32    Communications and Radar.  
+--
+ID 72
+NA Aircraft Design, Testing and Performance	@lang=en;match=ci,no
+TM Aircraft Design, Testing and Performance	@lang=en;match=ci,no
+TM helicopter design	@lang=en;match=ci,no
+TM cabin pressurization (aircraft)	@lang=en;match=ci,no
+TM ejection systems and seats (design)	@lang=en;match=ci,no
+TM hydraulic system (aircraft)	@lang=en;match=ci,no
+TM landing gear (aircraft)	@lang=en;match=ci,no
+TM powerlift technology	@lang=en;match=ci,no
+TM inflatable structures (aircraft)	@lang=en;match=ci,no
+TM wings	@lang=en;match=ci,no
+TM lifting bodies	@lang=en;match=ci,no
+TM lighter-than-air craft (balloons, airships) design	@lang=en;match=ci,no
+TM transition flight	@lang=en;match=ci,no
+TM expandable structures (aircraft)	@lang=en;match=ci,no
+TM tilt rotor aircraft	@lang=en;match=ci,no
+TM aircraft testing	@lang=en;match=ci,no
+TM body-tail combinations (aircraft design)	@lang=en;match=ci,no
+TM helicopter performance	@lang=en;match=ci,no
+TM pneumatic systems (aircraft)	@lang=en;match=ci,no
+TM pressurization systems (aircraft)	@lang=en;match=ci,no
+TM noise reduction (aircraft structures)	@lang=en;match=ci,no
+TM aircraft flight tests	@lang=en;match=ci,no
+TM aircraft components	@lang=en;match=ci,no
+TM transatmospheric vehicles (TAV) (aircraft)	@lang=en;match=ci,no
+TM aircraft performance	@lang=en;match=ci,no
+TM wind tunnel tests (aircraft and components)	@lang=en;match=ci,no
+TM aircraft development	@lang=en;match=ci,no
+TM airship performance	@lang=en;match=ci,no
+TM aeroelasticity (property)	@lang=en;match=ci,no
+TM aircraft evaluation	@lang=en;match=ci,no
+TM Highly Maneuverable Aircraft Technology (HiMAT)	@lang=en;match=ci,no
+TM aircraft simulation	@lang=en;match=ci,no
+TM fins (aircraft)	@lang=en;match=ci,no
+TM TAV (transatmospheric vehicles) (aircraft)	@lang=en;match=ci,no
+TM depressurization systems (aircraft)	@lang=en;match=ci,no
+TM wheels (aircraft)	@lang=en;match=ci,no
+TM helicopter rotor dynamics	@lang=en;match=ci,no
+TM noise reduction	@lang=en;match=ci,no
+TM fuselages	@lang=en;match=ci,no
+TM tires (aircraft)	@lang=en;match=ci,no
+TM deicing systems (aircraft)	@lang=en;match=ci,no
+TM aircraft configurations	@lang=en;match=ci,no
+TM pressurized cabins	@lang=en;match=ci,no
+TM aircraft structures	@lang=en;match=ci,no
+TM wing-body combinations (aircraft design)	@lang=en;match=ci,no
+TM aircraft design	@lang=en;match=ci,no
+TM in-flight simulation (aircraft)	@lang=en;match=ci,no
+TM or are affected by design, development, testing,	@lang=en;match=ci,no
+TM tail surfaces	@lang=en;match=ci,no
+TM wing-nacelle combinations (aircraft design)	@lang=en;match=ci,no
+TM aircraft descriptions (types/names/designations)	@lang=en;match=ci,no
+TM models (aircraft)	@lang=en;match=ci,no
+TM gliders (sailplanes, hang gliders)	@lang=en;match=ci,no
+TM remotely piloted vehicles (RPV)	@lang=en;match=ci,no
+TM helicopter ground resonance	@lang=en;match=ci,no
+TM |DEFINITION|Includes all stages of design of aircraft and aircraft    structures and systems. Also includes aircraft testing,    performance, and evaluation, and aircraft and flight    simulation technology. For related information see also 18    Spacecraft Design, Testing and Performance; and 39    Structural Mechanics. For land transportation vehicles see    85 Technology Utilization and Surface Transportation.  
+--
+ID 73
+NA Propellants and Fuels	@lang=en;match=ci,no
+TM Propellants and Fuels	@lang=en;match=ci,no
+TM piston engine fuels	@lang=en;match=ci,no
+TM lithergolic propellants	@lang=en;match=ci,no
+TM liquid oxygen (propellants and fuels)	@lang=en;match=ci,no
+TM thixotropic propellants	@lang=en;match=ci,no
+TM combustion products	@lang=en;match=ci,no
+TM liquid petroleum gas (LPG)	@lang=en;match=ci,no
+TM propellants	@lang=en;match=ci,no
+TM combustion in microgravity (propellants and fuels)	@lang=en;match=ci,no
+TM decomposition (propellants and fuels)	@lang=en;match=ci,no
+TM ignition studies (propellants and fuels)	@lang=en;match=ci,no
+TM exotic propellants and fuels	@lang=en;match=ci,no
+TM storage of propellants and fuels	@lang=en;match=ci,no
+TM service life of propellants and fuels	@lang=en;match=ci,no
+TM gelled propellants and fuels	@lang=en;match=ci,no
+TM hybrid propellants and fuels	@lang=en;match=ci,no
+TM combustion characteristics (propellants and fuels)	@lang=en;match=ci,no
+TM catalysts (propellants)	@lang=en;match=ci,no
+TM handling of propellants and fuels	@lang=en;match=ci,no
+TM rocket propellants	@lang=en;match=ci,no
+TM igniters (propellants)	@lang=en;match=ci,no
+TM hydrogen propellants and fuels	@lang=en;match=ci,no
+TM solid propellants	@lang=en;match=ci,no
+TM metal based propellants and fuels	@lang=en;match=ci,no
+TM thermal characteristics	@lang=en;match=ci,no
+TM cryogenic propellants	@lang=en;match=ci,no
+TM development of propellants and fuels	@lang=en;match=ci,no
+TM boiloff	@lang=en;match=ci,no
+TM fuels	@lang=en;match=ci,no
+TM liquid propellants	@lang=en;match=ci,no
+TM nitrate based propellants and fuels	@lang=en;match=ci,no
+TM physical properties of propellants and fuels	@lang=en;match=ci,no
+TM flames and flame propagation (propellants and fuels)	@lang=en;match=ci,no
+TM fluorine/oxygen propellants	@lang=en;match=ci,no
+TM chemical properties of propellants and fuels	@lang=en;match=ci,no
+TM burning rates	@lang=en;match=ci,no
+TM combustion of propellants and fuels	@lang=en;match=ci,no
+TM explosives	@lang=en;match=ci,no
+TM boron-based fuels	@lang=en;match=ci,no
+TM kerosene based fuels	@lang=en;match=ci,no
+TM liquid hydrogen (propellants and fuels)	@lang=en;match=ci,no
+TM combustion instability (propellants and fuels)	@lang=en;match=ci,no
+TM vaporization of propellants and fuels	@lang=en;match=ci,no
+TM mechanical properties of propellants and fuels	@lang=en;match=ci,no
+TM hypergolic propellants	@lang=en;match=ci,no
+TM liquid fuels	@lang=en;match=ci,no
+TM aircraft fuels	@lang=en;match=ci,no
+TM hydrides	@lang=en;match=ci,no
+TM solid propellant curing	@lang=en;match=ci,no
+TM pyrotechnics	@lang=en;match=ci,no
+TM high energy propellants and fuels	@lang=en;match=ci,no
+TM oxidizers	@lang=en;match=ci,no
+TM space storable propellants	@lang=en;match=ci,no
+TM manufacture of propellants	@lang=en;match=ci,no
+TM jet engine fuels	@lang=en;match=ci,no
+TM propellant grains	@lang=en;match=ci,no
+TM combustion kinetics (propellants and fuels)	@lang=en;match=ci,no
+TM testing of propellants and fuels	@lang=en;match=ci,no
+TM combustion controllability (propellants and fuels)	@lang=en;match=ci,no
+TM hydrazine propellants	@lang=en;match=ci,no
+TM monopropellants	@lang=en;match=ci,no
+TM evaluation of propellants and fuels	@lang=en;match=ci,no
+TM |DEFINITION|Includes rocket propellants, igniters, and oxidizers; their    storage and handling procedures; and aircraft fuels. For    nuclear fuels see 73 Nuclear Physics. For related    information see also 07 Aircraft Propulsion and Power; 20    Spacecraft Propulsion and Power; and 44 Energy Production    and Conversion.  
+--
+ID 74
+NA Social and Information Sciences	@lang=en;match=ci,no
+TM Social and Information Sciences	@lang=en;match=ci,no
+TM |DEFINITION|Includes social and information sciences (general);    administration and management; documentation and    information science; economics and cost analysis; law,    political science, and space policy; and technology    utilization and surface transportation.  
+--
+ID 75
+NA Acoustics	@lang=en;match=ci,no
+TM Acoustics	@lang=en;match=ci,no
+TM sonic boom (theory)	@lang=en;match=ci,no
+TM sound attenuation	@lang=en;match=ci,no
+TM ultrasonic applications	@lang=en;match=ci,no
+TM noise propagation	@lang=en;match=ci,no
+TM sound generation in ducts	@lang=en;match=ci,no
+TM noise reduction (general)	@lang=en;match=ci,no
+TM wave propagation (acoustic)	@lang=en;match=ci,no
+TM surface acoustic wave devices (theory)	@lang=en;match=ci,no
+TM sound generation	@lang=en;match=ci,no
+TM noise generation	@lang=en;match=ci,no
+TM aerodynamic noise (general)	@lang=en;match=ci,no
+TM ultrasonic theory	@lang=en;match=ci,no
+TM acoustics (general)	@lang=en;match=ci,no
+TM acoustic theory	@lang=en;match=ci,no
+TM sodar (sound detection and ranging)	@lang=en;match=ci,no
+TM noise measurement	@lang=en;match=ci,no
+TM noise attenuation	@lang=en;match=ci,no
+TM Doppler effect (acoustics)	@lang=en;match=ci,no
+TM sound propagation	@lang=en;match=ci,no
+TM sound absorption	@lang=en;match=ci,no
+TM aeroacoustics	@lang=en;match=ci,no
+TM acoustic scattering	@lang=en;match=ci,no
+TM sound transmission	@lang=en;match=ci,no
+TM underwater acoustics	@lang=en;match=ci,no
+TM |DEFINITION|Includes sound generation, transmission, and attenuation.    For noise pollution see 45 Environment Pollution. For    aircraft noise see also 02 Aerodynamics; and 07 Aircraft    Propulsion and Power.  
+--
+ID 76
+NA Meteorology and Climatology	@lang=en;match=ci,no
+TM Meteorology and Climatology	@lang=en;match=ci,no
+TM climate change	@lang=en;match=ci,no
+TM la Nina	@lang=en;match=ci,no
+TM weather forecasting	@lang=en;match=ci,no
+TM Coriolis forces (meteorology)	@lang=en;match=ci,no
+TM wind	@lang=en;match=ci,no
+TM atmospheric interactions	@lang=en;match=ci,no
+TM cloud patterns	@lang=en;match=ci,no
+TM ice cover (climatology)	@lang=en;match=ci,no
+TM wind shear	@lang=en;match=ci,no
+TM jet streams (meteorology)	@lang=en;match=ci,no
+TM cloud seeding	@lang=en;match=ci,no
+TM anabatic winds	@lang=en;match=ci,no
+TM diurnal effects (meteorology)	@lang=en;match=ci,no
+TM cloud cover analysis	@lang=en;match=ci,no
+TM climate models	@lang=en;match=ci,no
+TM atmospheric cloud physics	@lang=en;match=ci,no
+TM energy exchanges in the atmosphere	@lang=en;match=ci,no
+TM meteorological sounding rocket studies	@lang=en;match=ci,no
+TM fog dissipation and formation	@lang=en;match=ci,no
+TM solar-atmospheric interactions	@lang=en;match=ci,no
+TM climate variability	@lang=en;match=ci,no
+TM meteorological anomalies	@lang=en;match=ci,no
+TM storm cells	@lang=en;match=ci,no
+TM precipitation (meteorology)	@lang=en;match=ci,no
+TM climate prediction	@lang=en;match=ci,no
+TM hurricanes	@lang=en;match=ci,no
+TM macrometeorology	@lang=en;match=ci,no
+TM atmospheric energy exchanges	@lang=en;match=ci,no
+TM climatology	@lang=en;match=ci,no
+TM microbursts	@lang=en;match=ci,no
+TM thunderstorms	@lang=en;match=ci,no
+TM micrometeorology	@lang=en;match=ci,no
+TM monsoons	@lang=en;match=ci,no
+TM atmospheric circulation (meteorology)	@lang=en;match=ci,no
+TM lightning	@lang=en;match=ci,no
+TM weather modification	@lang=en;match=ci,no
+TM meteorological satellite studies	@lang=en;match=ci,no
+TM atmospheric boundary layer (climatology)	@lang=en;match=ci,no
+TM seasonal variations	@lang=en;match=ci,no
+TM clouds (meteorology)	@lang=en;match=ci,no
+TM el Nino	@lang=en;match=ci,no
+TM meteorological parameters	@lang=en;match=ci,no
+TM anemometers (applications)	@lang=en;match=ci,no
+TM atmospheric studies (meteorological)	@lang=en;match=ci,no
+TM ice crystals (meteorology)	@lang=en;match=ci,no
+TM barometric pressure	@lang=en;match=ci,no
+TM snow cover	@lang=en;match=ci,no
+TM synoptic meteorology	@lang=en;match=ci,no
+TM global meteorology	@lang=en;match=ci,no
+TM katabatic winds (also catabatic)	@lang=en;match=ci,no
+TM catabatic winds (also katabatic)	@lang=en;match=ci,no
+TM rain	@lang=en;match=ci,no
+TM temperature variations (meteorology)	@lang=en;match=ci,no
+TM typhoons	@lang=en;match=ci,no
+TM atmospheric turbulence	@lang=en;match=ci,no
+TM snow	@lang=en;match=ci,no
+TM clear air turbulence (meteorology)	@lang=en;match=ci,no
+TM meteorology	@lang=en;match=ci,no
+TM global warming	@lang=en;match=ci,no
+TM tornadoes	@lang=en;match=ci,no
+TM fronts (meteorology)	@lang=en;match=ci,no
+TM cyclones	@lang=en;match=ci,no
+TM |DEFINITION|Includes weather observation forecasting and modification.  
+--
+ID 77
+NA Physics (General)	@lang=en;match=ci,no
+TM Physics (General)	@lang=en;match=ci,no
+TM kinetics	@lang=en;match=ci,no
+TM mechanics (theory and analysis)	@lang=en;match=ci,no
+TM electromagnetism	@lang=en;match=ci,no
+TM electromagnetic radiation (theory)	@lang=en;match=ci,no
+TM antigravity	@lang=en;match=ci,no
+TM magnetism	@lang=en;match=ci,no
+TM solitary waves	@lang=en;match=ci,no
+TM chaos	@lang=en;match=ci,no
+TM Brownian movement	@lang=en;match=ci,no
+TM electrostatics	@lang=en;match=ci,no
+TM many-body problems	@lang=en;match=ci,no
+TM ferromagnetism	@lang=en;match=ci,no
+TM dynamics (physics)	@lang=en;match=ci,no
+TM field theory (physics)	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to mechanics,    kinetics, magnetism, and electrodynamics. For specific    areas of physics see categories 71 through 77. For related    instrumentation see 35 Instrumentation and Photography; for    geophysics, astrophysics, or solar physics see 46    Geophysics; 90 Astrophysics;or 92 Solar Physics.  
+--
+ID 78
+NA Metals and Metallic Materials	@lang=en;match=ci,no
+TM Metals and Metallic Materials	@lang=en;match=ci,no
+TM compression strength (metallic materials)	@lang=en;match=ci,no
+TM microstructure of welded joints	@lang=en;match=ci,no
+TM heat treatment of metals	@lang=en;match=ci,no
+TM research on metallic materials	@lang=en;match=ci,no
+TM offgassing/outgassing (metallic materials)	@lang=en;match=ci,no
+TM eutectoids	@lang=en;match=ci,no
+TM sealants (metallic materials)	@lang=en;match=ci,no
+TM metallography	@lang=en;match=ci,no
+TM fibers (metallic materials)	@lang=en;match=ci,no
+TM sintering (metallic materials)	@lang=en;match=ci,no
+TM hydrogen embrittlement	@lang=en;match=ci,no
+TM protection of materials (metallic)	@lang=en;match=ci,no
+TM metallurgy	@lang=en;match=ci,no
+TM protective coatings (metallic materials)	@lang=en;match=ci,no
+TM cermets	@lang=en;match=ci,no
+TM metallic fibers	@lang=en;match=ci,no
+TM packing (metallic materials)	@lang=en;match=ci,no
+TM tensile strength (metallic materials)	@lang=en;match=ci,no
+TM metals	@lang=en;match=ci,no
+TM phase equilibrium	@lang=en;match=ci,no
+TM welded joints (microstructure)	@lang=en;match=ci,no
+TM alloys	@lang=en;match=ci,no
+TM physical properties of metals	@lang=en;match=ci,no
+TM mechanical properties of metals	@lang=en;match=ci,no
+TM evaluation of metals	@lang=en;match=ci,no
+TM testing of materials (metallic materials)	@lang=en;match=ci,no
+TM intermetallics	@lang=en;match=ci,no
+TM testing of alloys	@lang=en;match=ci,no
+TM whiskers (metallic materials)	@lang=en;match=ci,no
+TM flammability (metallic materials)	@lang=en;match=ci,no
+TM powder metallurgy	@lang=en;match=ci,no
+TM mechanical properties of alloys	@lang=en;match=ci,no
+TM development of alloys	@lang=en;match=ci,no
+TM anodizing	@lang=en;match=ci,no
+TM eutectics	@lang=en;match=ci,no
+TM chemical properties of metals	@lang=en;match=ci,no
+TM corrosion	@lang=en;match=ci,no
+TM stress corrosion cracking	@lang=en;match=ci,no
+TM crystals (metallic)	@lang=en;match=ci,no
+TM crystal structure (metallic materials)	@lang=en;match=ci,no
+TM evaluation of alloys	@lang=en;match=ci,no
+TM surface properties (metallic materials)	@lang=en;match=ci,no
+TM fatigue (metallic materials)	@lang=en;match=ci,no
+TM metallic materials	@lang=en;match=ci,no
+TM reinforcing filaments (metallic materials)	@lang=en;match=ci,no
+TM shear strength (metallic materials)	@lang=en;match=ci,no
+TM refractory materials	@lang=en;match=ci,no
+TM vacuum arc melting	@lang=en;match=ci,no
+TM creep strength (metallic materials)	@lang=en;match=ci,no
+TM metal crystals	@lang=en;match=ci,no
+TM ferrites	@lang=en;match=ci,no
+TM chemical properties of alloys	@lang=en;match=ci,no
+TM physical properties of alloys	@lang=en;match=ci,no
+TM protection of alloys	@lang=en;match=ci,no
+TM surface hardening of metals	@lang=en;match=ci,no
+TM |DEFINITION|Includes physical, chemical, and mechanical properties of    metals and metallic materials; and metallurgy.  
+--
+ID 79
+NA Avionics and Aircraft Instrumentation	@lang=en;match=ci,no
+TM Avionics and Aircraft Instrumentation	@lang=en;match=ci,no
+TM gyroscopes (aircraft)	@lang=en;match=ci,no
+TM instrument installation (aircraft)	@lang=en;match=ci,no
+TM flight recorders (aircraft)	@lang=en;match=ci,no
+TM cathode ray tubes (aircraft systems)	@lang=en;match=ci,no
+TM airborne computers	@lang=en;match=ci,no
+TM altimeters (aircraft)	@lang=en;match=ci,no
+TM pilot support systems (aircraft)	@lang=en;match=ci,no
+TM laser instruments (aircraft)	@lang=en;match=ci,no
+TM anticollision devices	@lang=en;match=ci,no
+TM horizon sensors (aircraft)	@lang=en;match=ci,no
+TM recording devices (aircraft)	@lang=en;match=ci,no
+TM aircraft instrumentation	@lang=en;match=ci,no
+TM display devices (aircraft)	@lang=en;match=ci,no
+TM engine oil temperature gages	@lang=en;match=ci,no
+TM fluid flow sensors (aircraft)	@lang=en;match=ci,no
+TM navigation instruments (design and development)	@lang=en;match=ci,no
+TM telemetry devices (aircraft)	@lang=en;match=ci,no
+TM onboard computer systems for aircraft	@lang=en;match=ci,no
+TM instrument landing systems (ILS)	@lang=en;match=ci,no
+TM flight instruments (aircraft)	@lang=en;match=ci,no
+TM fire warning systems	@lang=en;match=ci,no
+TM turn and bank indicators	@lang=en;match=ci,no
+TM instrument design (aircraft)	@lang=en;match=ci,no
+TM compasses	@lang=en;match=ci,no
+TM avionics	@lang=en;match=ci,no
+TM warning systems (aircraft)	@lang=en;match=ci,no
+TM airspeed indicators	@lang=en;match=ci,no
+TM aircraft control computer systems	@lang=en;match=ci,no
+TM position indicators (aircraft)	@lang=en;match=ci,no
+TM sensors for aircraft equipment and operation	@lang=en;match=ci,no
+TM skin temperature indicators (aircraft)	@lang=en;match=ci,no
+TM rate of climb indicators	@lang=en;match=ci,no
+TM airborne radar displays	@lang=en;match=ci,no
+TM control position indicators (aircraft)	@lang=en;match=ci,no
+TM power plant instruments and gages (aircraft)	@lang=en;match=ci,no
+TM attitude indicators (aircraft)	@lang=en;match=ci,no
+TM detecting devices (aircraft)	@lang=en;match=ci,no
+TM alarm systems (aircraft)	@lang=en;match=ci,no
+TM engine propulsion system instruments and gages	@lang=en;match=ci,no
+TM instrument displays (aircraft)	@lang=en;match=ci,no
+TM instrument arrangement (aircraft)	@lang=en;match=ci,no
+TM target-signature modeling (aircraft)	@lang=en;match=ci,no
+TM flight control computer systems	@lang=en;match=ci,no
+TM propulsion system instruments and gages (aircraft)	@lang=en;match=ci,no
+TM engine oil pressure gages	@lang=en;match=ci,no
+TM analyzing devices (aircraft)	@lang=en;match=ci,no
+TM Mach meters	@lang=en;match=ci,no
+TM infrared sensors (aircraft)	@lang=en;match=ci,no
+TM heads-up displays (aircraft)	@lang=en;match=ci,no
+TM engine fuel quantity gages	@lang=en;match=ci,no
+TM target acquisition	@lang=en;match=ci,no
+TM laser altimeters (aircraft)	@lang=en;match=ci,no
+TM cockpit display devices	@lang=en;match=ci,no
+TM blind flying instruments	@lang=en;match=ci,no
+TM engine RPM indicators	@lang=en;match=ci,no
+TM stall indicators	@lang=en;match=ci,no
+TM terrain clearance indicators	@lang=en;match=ci,no
+TM landing gear position indicators (aircraft)	@lang=en;match=ci,no
+TM aircraft systems monitoring instruments	@lang=en;match=ci,no
+TM fire control radar	@lang=en;match=ci,no
+TM |DEFINITION|Includes all avionics systems, cockpit and cabin display    devices, and flight instruments intended for use in    aircraft. For related information see also 04 Aircraft    Communications and Navigation; 08 Aircraft Stability and    Control; 19 Spacecraft Instrumentation and Astrionics; and    35 Instrumentation and Photography.  
+--
+ID 80
+NA Exobiology	@lang=en;match=ci,no
+TM Exobiology	@lang=en;match=ci,no
+TM spontaneous generation of life	@lang=en;match=ci,no
+TM life detection	@lang=en;match=ci,no
+TM amino acid analysis (extraterrestrial)	@lang=en;match=ci,no
+TM enzyme analysis (extraterrestrial)	@lang=en;match=ci,no
+TM space biology	@lang=en;match=ci,no
+TM magnetic field effects	@lang=en;match=ci,no
+TM biochemical detection of life	@lang=en;match=ci,no
+TM extraterrestrial life	@lang=en;match=ci,no
+TM extraterrestrial water	@lang=en;match=ci,no
+TM chemical evolution	@lang=en;match=ci,no
+TM origin of life (extraterrestrial)	@lang=en;match=ci,no
+TM extraterrestrial biology	@lang=en;match=ci,no
+TM abiogenesis	@lang=en;match=ci,no
+TM protobiological evolution	@lang=en;match=ci,no
+TM gravitational effects (exobiology)	@lang=en;match=ci,no
+TM extraterrestrial environment effect (exobiology)	@lang=en;match=ci,no
+TM astrobiology	@lang=en;match=ci,no
+TM soil sampling and analysis (extraterrestrial life)	@lang=en;match=ci,no
+TM biology (extraterrestrial)	@lang=en;match=ci,no
+TM reproduction of extraterrestrial life	@lang=en;match=ci,no
+TM extraterrestrial biochemistry	@lang=en;match=ci,no
+TM bioinstrumentation (extraterrestrial life)	@lang=en;match=ci,no
+TM biomarkers (exobiology)	@lang=en;match=ci,no
+TM extreme temperature effects (exobiology)	@lang=en;match=ci,no
+TM culturing, cell (exobiology)	@lang=en;match=ci,no
+TM nature of life	@lang=en;match=ci,no
+TM planetary biology	@lang=en;match=ci,no
+TM |DEFINITION|Includes astrobiology; planetary biology; and    extraterrestrial life. For the biological effects of    aerospace environments on humans see 52 Aerospace Medicine;    on animals and plants see 51 Life Sciences. For    psychological and behavioral effects of aerospace    environments see 53 Behavioral Science.  
+--
+ID 81
+NA Air Transportation and Safety	@lang=en;match=ci,no
+TM Air Transportation and Safety	@lang=en;match=ci,no
+TM emergency locater transmitters	@lang=en;match=ci,no
+TM flight hazards (aircraft)	@lang=en;match=ci,no
+TM aircraft in-flight collision	@lang=en;match=ci,no
+TM airport security	@lang=en;match=ci,no
+TM aircraft safety	@lang=en;match=ci,no
+TM escape systems (aircraft)	@lang=en;match=ci,no
+TM aircrew licensing	@lang=en;match=ci,no
+TM flight safety (aircraft)	@lang=en;match=ci,no
+TM collision avoidance (aircraft safety)	@lang=en;match=ci,no
+TM bird ingestion (air transportation and safety)	@lang=en;match=ci,no
+TM aircrew training	@lang=en;match=ci,no
+TM taxiing (aircraft)	@lang=en;match=ci,no
+TM crashworthiness (aircraft)	@lang=en;match=ci,no
+TM lightning discharge on aircraft	@lang=en;match=ci,no
+TM search and rescue operations (air)	@lang=en;match=ci,no
+TM foreign object damage (FOD)	@lang=en;match=ci,no
+TM clear air turbulence (aircraft safety)	@lang=en;match=ci,no
+TM survival (aircraft operations)	@lang=en;match=ci,no
+TM air piracy (incident or safety aspects)	@lang=en;match=ci,no
+TM runway safety	@lang=en;match=ci,no
+TM cargo handling (aircraft)	@lang=en;match=ci,no
+TM passenger air transport operations	@lang=en;match=ci,no
+TM restraint harness (aircraft)	@lang=en;match=ci,no
+TM airport operations	@lang=en;match=ci,no
+TM air safety	@lang=en;match=ci,no
+TM bird collision (air transportation and safety)	@lang=en;match=ci,no
+TM public nuisance implications	@lang=en;match=ci,no
+TM ejection systems and seats (air transportation and safety)	@lang=en;match=ci,no
+TM flotation devices	@lang=en;match=ci,no
+TM aircraft operating problems	@lang=en;match=ci,no
+TM cargo transportation (aircraft)	@lang=en;match=ci,no
+TM fire (aircraft)	@lang=en;match=ci,no
+TM airworthiness	@lang=en;match=ci,no
+TM aircraft search and rescue operations	@lang=en;match=ci,no
+TM aircraft ditching	@lang=en;match=ci,no
+TM aircraft emergencies	@lang=en;match=ci,no
+TM icing (aircraft)	@lang=en;match=ci,no
+TM aircraft durability	@lang=en;match=ci,no
+TM passenger handling (air transportation)	@lang=en;match=ci,no
+TM inspection (aircraft safety)	@lang=en;match=ci,no
+TM shoulder harness (aircraft)	@lang=en;match=ci,no
+TM parachutes (personal and aircraft applications)	@lang=en;match=ci,no
+TM aircraft aging (safety)	@lang=en;match=ci,no
+TM foreign object ingestion (air transportation and safety)	@lang=en;match=ci,no
+TM airport noise	@lang=en;match=ci,no
+TM air transportation	@lang=en;match=ci,no
+TM passenger transportation (air)	@lang=en;match=ci,no
+TM accidents and emergencies (aircraft)	@lang=en;match=ci,no
+TM severe storms (aircraft safety)	@lang=en;match=ci,no
+TM fail safety systems (aircraft)	@lang=en;match=ci,no
+TM aircraft licensing	@lang=en;match=ci,no
+TM seat belts (aircraft)	@lang=en;match=ci,no
+TM safety systems (aircraft)	@lang=en;match=ci,no
+TM explosions (aircraft)	@lang=en;match=ci,no
+TM aircraft accidents	@lang=en;match=ci,no
+TM cargo air transport operations	@lang=en;match=ci,no
+TM aircraft health management	@lang=en;match=ci,no
+TM aircraft near miss	@lang=en;match=ci,no
+TM baggage handling (aircraft)	@lang=en;match=ci,no
+TM |DEFINITION|Includes passenger and cargo air transport operations;    airport ground operations; flight safety and hazards; and    aircraft accidents. Systems and hardware specific to ground    operations of aircraft and to airport construction are    covered in 09 Research and Support Facilities (Air). Air    traffic control is covered in 04 Aircraft Communications    and Navigation. For related information see also 16 Space    Transportation and Safety; and 85 Technology Utilization    and Surface Transportation.  
+--
+ID 82
+NA Mechanical Engineering	@lang=en;match=ci,no
+TM Mechanical Engineering	@lang=en;match=ci,no
+TM seals (stoppers)	@lang=en;match=ci,no
+TM plasma spraying	@lang=en;match=ci,no
+TM clutches	@lang=en;match=ci,no
+TM materials forming	@lang=en;match=ci,no
+TM centrifugal compressors (non-aircraft)	@lang=en;match=ci,no
+TM grinding	@lang=en;match=ci,no
+TM materials handling	@lang=en;match=ci,no
+TM pressure vessels	@lang=en;match=ci,no
+TM machining	@lang=en;match=ci,no
+TM vacuum forming	@lang=en;match=ci,no
+TM bearings	@lang=en;match=ci,no
+TM packaging	@lang=en;match=ci,no
+TM servomechanisms (mechanical aspects)	@lang=en;match=ci,no
+TM gears	@lang=en;match=ci,no
+TM pumps (non-aircraft)	@lang=en;match=ci,no
+TM shafts (machine elements)	@lang=en;match=ci,no
+TM lubrication	@lang=en;match=ci,no
+TM nanodevices (mechanical)	@lang=en;match=ci,no
+TM rotary engines (non-aircraft)	@lang=en;match=ci,no
+TM manufacturing processes	@lang=en;match=ci,no
+TM brazing	@lang=en;match=ci,no
+TM drives	@lang=en;match=ci,no
+TM electron beam welding	@lang=en;match=ci,no
+TM heating, ventilation, and air conditioning (HVAC)	@lang=en;match=ci,no
+TM reciprocating engines (non-aircraft)	@lang=en;match=ci,no
+TM internal combustion engines (non-aircraft)	@lang=en;match=ci,no
+TM Stirling cycle engines (non-aircraft)	@lang=en;match=ci,no
+TM refrigeration	@lang=en;match=ci,no
+TM friction stir welding	@lang=en;match=ci,no
+TM bonding	@lang=en;match=ci,no
+TM powertrains	@lang=en;match=ci,no
+TM turbine engines (non-aircraft)	@lang=en;match=ci,no
+TM mechanical equipment	@lang=en;match=ci,no
+TM auxiliary systems (mechanical)	@lang=en;match=ci,no
+TM plating	@lang=en;match=ci,no
+TM hydraulic systems (general)	@lang=en;match=ci,no
+TM ceramic engines	@lang=en;match=ci,no
+TM heat pumps	@lang=en;match=ci,no
+TM electrodeposition	@lang=en;match=ci,no
+TM airbreathing engines (non-aircraft)	@lang=en;match=ci,no
+TM micromachining	@lang=en;match=ci,no
+TM springs (mechanical)	@lang=en;match=ci,no
+TM materials fabrication	@lang=en;match=ci,no
+TM cams	@lang=en;match=ci,no
+TM machine elements	@lang=en;match=ci,no
+TM gaskets	@lang=en;match=ci,no
+TM machinery	@lang=en;match=ci,no
+TM tools	@lang=en;match=ci,no
+TM rollers	@lang=en;match=ci,no
+TM fittings	@lang=en;match=ci,no
+TM piston engines (non-aircraft)	@lang=en;match=ci,no
+TM coatings	@lang=en;match=ci,no
+TM electroplating	@lang=en;match=ci,no
+TM joining	@lang=en;match=ci,no
+TM Brayton cycle turbines (mechanical engineering)	@lang=en;match=ci,no
+TM friction phenomena	@lang=en;match=ci,no
+TM packing (machine elements)	@lang=en;match=ci,no
+TM impact testing	@lang=en;match=ci,no
+TM gasoline engines (non-aircraft)	@lang=en;match=ci,no
+TM friction welding	@lang=en;match=ci,no
+TM fasteners	@lang=en;match=ci,no
+TM dies	@lang=en;match=ci,no
+TM valves	@lang=en;match=ci,no
+TM pneumatic systems (general)	@lang=en;match=ci,no
+TM robotics (hardware)	@lang=en;match=ci,no
+TM diesel engines (non-aircraft)	@lang=en;match=ci,no
+TM cladding	@lang=en;match=ci,no
+TM containers	@lang=en;match=ci,no
+TM mechanics (practical)	@lang=en;match=ci,no
+TM flywheels	@lang=en;match=ci,no
+TM laser welding	@lang=en;match=ci,no
+TM compression ignition engines (non-aircraft)	@lang=en;match=ci,no
+TM materials manufacturing	@lang=en;match=ci,no
+TM impact phenomena	@lang=en;match=ci,no
+TM throttle controls (non-aircraft)	@lang=en;match=ci,no
+TM friction measurement	@lang=en;match=ci,no
+TM filters (mechanical)	@lang=en;match=ci,no
+TM mounts (supports)	@lang=en;match=ci,no
+TM centrifugal pumps	@lang=en;match=ci,no
+TM spark ignition engines (non-aircraft)	@lang=en;match=ci,no
+TM machine processes	@lang=en;match=ci,no
+TM reaction wheels	@lang=en;match=ci,no
+TM metal forming	@lang=en;match=ci,no
+TM fixtures	@lang=en;match=ci,no
+TM tribology	@lang=en;match=ci,no
+TM welding techniques	@lang=en;match=ci,no
+TM |DEFINITION|Includes mechanical devices and equipment; machine elements    and processes. For cases where the application of a device    or the host vehicle is emphasized see also the specific    category where the application or vehicle is treated. For    robotics see 63 Cybernetics, Artificial Intelligence, and    Robotics; and 54 Man/System Technology and Life Support.  
+--
+ID 83
+NA Man/System Technology and Life Support	@lang=en;match=ci,no
+TM Man/System Technology and Life Support	@lang=en;match=ci,no
+TM food (space missions)	@lang=en;match=ci,no
+TM space cabin oxygen supplies	@lang=en;match=ci,no
+TM remote manipulator arms (human interface)	@lang=en;match=ci,no
+TM waste products disposal (aerospace vehicles)	@lang=en;match=ci,no
+TM space hygiene	@lang=en;match=ci,no
+TM protection measures (human)	@lang=en;match=ci,no
+TM manned maneuvering units	@lang=en;match=ci,no
+TM extravehicular activity (EVA) (equipment)	@lang=en;match=ci,no
+TM space cabin atmosphere	@lang=en;match=ci,no
+TM food preparation (space missions)	@lang=en;match=ci,no
+TM spacecraft sterilization (interior)	@lang=en;match=ci,no
+TM space suits	@lang=en;match=ci,no
+TM closed ecological systems	@lang=en;match=ci,no
+TM helmets	@lang=en;match=ci,no
+TM cabin pressurization (life support)	@lang=en;match=ci,no
+TM protective clothing	@lang=en;match=ci,no
+TM flight suits	@lang=en;match=ci,no
+TM bioengineering (man-machine systems)	@lang=en;match=ci,no
+TM space sanitation	@lang=en;match=ci,no
+TM space flight feeding	@lang=en;match=ci,no
+TM diets (space missions)	@lang=en;match=ci,no
+TM human productivity in space	@lang=en;match=ci,no
+TM waste products conversion (aerospace vehicles)	@lang=en;match=ci,no
+TM radiation safety measures (physiological)	@lang=en;match=ci,no
+TM work place design	@lang=en;match=ci,no
+TM man-system interfaces	@lang=en;match=ci,no
+TM bionics	@lang=en;match=ci,no
+TM farming in space (life support)	@lang=en;match=ci,no
+TM quarantine procedures	@lang=en;match=ci,no
+TM man-machine systems	@lang=en;match=ci,no
+TM waste products storage (aerospace vehicles)	@lang=en;match=ci,no
+TM life support	@lang=en;match=ci,no
+TM human factors engineering	@lang=en;match=ci,no
+TM bioinstrumentation (physiological monitoring)	@lang=en;match=ci,no
+TM space cabin water supplies	@lang=en;match=ci,no
+TM food storage (space missions)	@lang=en;match=ci,no
+TM pressurized cabins (life support)	@lang=en;match=ci,no
+TM teleoperators (human interface)	@lang=en;match=ci,no
+TM oxygen systems (life support)	@lang=en;match=ci,no
+TM |DEFINITION|Includes human factors engineering, bionics, man-machine    systems, life support, space suits and protective clothing.    For related information see also 16 Space Transportation;    and 52 Aerospace Medicine.  
+--
+ID 84
+NA Astrodynamics	@lang=en;match=ci,no
+TM Astrodynamics	@lang=en;match=ci,no
+TM spacecraft orbits	@lang=en;match=ci,no
+TM orbital maneuvers (trajectories)	@lang=en;match=ci,no
+TM free-flight trajectories	@lang=en;match=ci,no
+TM propulsion effects on launching, trajectories, and orbits	@lang=en;match=ci,no
+TM orbit dynamics of spacecraft	@lang=en;match=ci,no
+TM reentry dynamics	@lang=en;match=ci,no
+TM launch vehicle trajectories	@lang=en;match=ci,no
+TM and spacecraft)	@lang=en;match=ci,no
+TM projectile trajectories	@lang=en;match=ci,no
+TM gravitational effects (orbital effects on launch vehicles	@lang=en;match=ci,no
+TM astroballistics	@lang=en;match=ci,no
+TM trajectory analysis	@lang=en;match=ci,no
+TM reentry trajectories	@lang=en;match=ci,no
+TM two-and three-body problems (trajectory analysis)	@lang=en;match=ci,no
+TM swingby maneuver	@lang=en;match=ci,no
+TM interplanetary trajectories	@lang=en;match=ci,no
+TM space flight dynamics (theory)	@lang=en;match=ci,no
+TM orbital rendezvous	@lang=en;match=ci,no
+TM powered trajectories	@lang=en;match=ci,no
+TM spacecraft trajectories	@lang=en;match=ci,no
+TM ballistic trajectories	@lang=en;match=ci,no
+TM launching dynamics	@lang=en;match=ci,no
+TM trajectory optimization	@lang=en;match=ci,no
+TM aerobraking	@lang=en;match=ci,no
+TM atmospheric entry effects	@lang=en;match=ci,no
+TM |DEFINITION|Includes powered and free-flight trajectories; orbital and    launching dynamics.  
+--
+ID 85
+NA Launch Vehicles and Launch Operations	@lang=en;match=ci,no
+TM Launch Vehicles and Launch Operations	@lang=en;match=ci,no
+TM separation and staging techniques (for stages of launch	@lang=en;match=ci,no
+TM light gas guns (operations)	@lang=en;match=ci,no
+TM launch vehicle preparation	@lang=en;match=ci,no
+TM launch vehicle testing	@lang=en;match=ci,no
+TM sounding rockets	@lang=en;match=ci,no
+TM orbit-on-demand vehicles	@lang=en;match=ci,no
+TM reusable vehicles	@lang=en;match=ci,no
+TM countdown	@lang=en;match=ci,no
+TM rockets	@lang=en;match=ci,no
+TM single-stage launch vehicles	@lang=en;match=ci,no
+TM launch vehicle configurations	@lang=en;match=ci,no
+TM launch vehicle stability	@lang=en;match=ci,no
+TM launch vehicle performance	@lang=en;match=ci,no
+TM nose cones	@lang=en;match=ci,no
+TM launch vehicle design	@lang=en;match=ci,no
+TM launch vehicle auxiliary systems	@lang=en;match=ci,no
+TM launch vehicles	@lang=en;match=ci,no
+TM commercial launch vehicles	@lang=en;match=ci,no
+TM satellite launching dynamics	@lang=en;match=ci,no
+TM multistage launch vehicles	@lang=en;match=ci,no
+TM vehicles)	@lang=en;match=ci,no
+TM launch operations	@lang=en;match=ci,no
+TM combinations of launch vehicles and space vehicles	@lang=en;match=ci,no
+TM reentry launch vehicles	@lang=en;match=ci,no
+TM electromagnetic launchers (operations)	@lang=en;match=ci,no
+TM boosters (launch vehicles)	@lang=en;match=ci,no
+TM rocket launchers	@lang=en;match=ci,no
+TM launch vehicle dynamics	@lang=en;match=ci,no
+TM design of launch vehicles, tanks, components, systems	@lang=en;match=ci,no
+TM |DEFINITION|Includes all classes of launch vehicles, launch/space    vehicle systems, and boosters; and launch operations. For    related information see also 18 Spacecraft Design, Testing,    and Performance; and 20 Spacecraft Propulsion and Power.  
+--
+ID 86
+NA Ground Support Systems and Facilities (Space)	@lang=en;match=ci,no
+TM Ground Support Systems and Facilities (Space)	@lang=en;match=ci,no
+TM astronaut training facilities	@lang=en;match=ci,no
+TM rocket test facilities	@lang=en;match=ci,no
+TM rocket sleds	@lang=en;match=ci,no
+TM low temperature test facilities (space)	@lang=en;match=ci,no
+TM light gas guns (launch facilities)	@lang=en;match=ci,no
+TM mobile transporters	@lang=en;match=ci,no
+TM spacecraft maintenance facilities	@lang=en;match=ci,no
+TM automatic picture transmission (APT) ground stations	@lang=en;match=ci,no
+TM temperature test facilities (space)	@lang=en;match=ci,no
+TM pressure test facilities (space)	@lang=en;match=ci,no
+TM surface exploration vehicles	@lang=en;match=ci,no
+TM range safety	@lang=en;match=ci,no
+TM extraterrestrial bases	@lang=en;match=ci,no
+TM checkout facilities (space)	@lang=en;match=ci,no
+TM high temperature test facilities (space)	@lang=en;match=ci,no
+TM engine test blocks (space)	@lang=en;match=ci,no
+TM test facilities (space)	@lang=en;match=ci,no
+TM vacuum test facilities	@lang=en;match=ci,no
+TM engine test stands (space)	@lang=en;match=ci,no
+TM rover vehicles	@lang=en;match=ci,no
+TM test ranges	@lang=en;match=ci,no
+TM maintenance facilities (space based, ground based)	@lang=en;match=ci,no
+TM launch vehicle simulators	@lang=en;match=ci,no
+TM ground support systems (space)	@lang=en;match=ci,no
+TM repair facilities (space based, ground based)	@lang=en;match=ci,no
+TM spaceport planning	@lang=en;match=ci,no
+TM clean rooms (space)	@lang=en;match=ci,no
+TM assembly buildings	@lang=en;match=ci,no
+TM launch towers	@lang=en;match=ci,no
+TM space vacuum simulators	@lang=en;match=ci,no
+TM ground support facilities (space)	@lang=en;match=ci,no
+TM ground support vehicles (space)	@lang=en;match=ci,no
+TM ground support equipment (space)	@lang=en;match=ci,no
+TM overhaul facilities (space)	@lang=en;match=ci,no
+TM deep space instrumentation facilities	@lang=en;match=ci,no
+TM payload operations and support	@lang=en;match=ci,no
+TM remote launch monitoring facilities	@lang=en;match=ci,no
+TM lunar and planetary bases	@lang=en;match=ci,no
+TM test range facilities	@lang=en;match=ci,no
+TM launch facilities	@lang=en;match=ci,no
+TM mobile planetary laboratories	@lang=en;match=ci,no
+TM laser range finder facilities	@lang=en;match=ci,no
+TM research facilities (space)	@lang=en;match=ci,no
+TM accelerators (aerospace)	@lang=en;match=ci,no
+TM gravity simulators	@lang=en;match=ci,no
+TM laser space communications facilities	@lang=en;match=ci,no
+TM space facility for cryogenic materials	@lang=en;match=ci,no
+TM block houses	@lang=en;match=ci,no
+TM wind tunnel tests (launch and space vehicles)	@lang=en;match=ci,no
+TM flight simulators (space)	@lang=en;match=ci,no
+TM wind tunnel test facilities (launch and space vehicles)	@lang=en;match=ci,no
+TM solar heating simulators	@lang=en;match=ci,no
+TM spaceports	@lang=en;match=ci,no
+TM development facilities (space)	@lang=en;match=ci,no
+TM launch pads and bases	@lang=en;match=ci,no
+TM mobile lunar laboratories	@lang=en;match=ci,no
+TM electromagnetic launchers (facilities)	@lang=en;match=ci,no
+TM astronautic-oriented equipment)	@lang=en;match=ci,no
+TM solar simulators	@lang=en;match=ci,no
+TM simulators (space)	@lang=en;match=ci,no
+TM support facilities	@lang=en;match=ci,no
+TM checkout systems (space)	@lang=en;match=ci,no
+TM space simulators	@lang=en;match=ci,no
+TM shuttlecraft landing facilities	@lang=en;match=ci,no
+TM lunar gravity simulators	@lang=en;match=ci,no
+TM planetary roving vehicles	@lang=en;match=ci,no
+TM umbilical towers	@lang=en;match=ci,no
+TM rail accelerators, railguns, launchers (applications)	@lang=en;match=ci,no
+TM rocket engine test pads	@lang=en;match=ci,no
+TM lunar roving vehicles	@lang=en;match=ci,no
+TM structures test facilities (space)	@lang=en;match=ci,no
+TM spacecraft production facilities	@lang=en;match=ci,no
+TM recovery equipment and vehicles	@lang=en;match=ci,no
+TM special vehicles (land, sea, air) (used as bases and for	@lang=en;match=ci,no
+TM launch complexes	@lang=en;match=ci,no
+TM optical tracking stations	@lang=en;match=ci,no
+TM storage facilities for propellants and cryogenics	@lang=en;match=ci,no
+TM space research facilities	@lang=en;match=ci,no
+TM spacecraft simulators	@lang=en;match=ci,no
+TM transportation or rescue of astronautics or	@lang=en;match=ci,no
+TM |DEFINITION|Includes launch complexes, research and production    facilities; ground support equipment, e.g., mobile    transporters; and test chambers and simulators. Also    includes extraterrestrial bases and supporting equipment.    For related information see also 09 Research and Support    Facilities (Air).  
+--
+ID 87
+NA Astronautics (General)	@lang=en;match=ci,no
+TM Astronautics (General)	@lang=en;match=ci,no
+TM spacecraft manufacturing	@lang=en;match=ci,no
+TM space station assembly	@lang=en;match=ci,no
+TM space vehicle production	@lang=en;match=ci,no
+TM space vehicle manufacturing	@lang=en;match=ci,no
+TM space colonization	@lang=en;match=ci,no
+TM launch vehicle maintenance	@lang=en;match=ci,no
+TM space colonies	@lang=en;match=ci,no
+TM space exploration (mission planning)	@lang=en;match=ci,no
+TM launch vehicle production	@lang=en;match=ci,no
+TM spacecraft production	@lang=en;match=ci,no
+TM spacecraft maintenance	@lang=en;match=ci,no
+TM mission planning (space)	@lang=en;match=ci,no
+TM in-orbit maintenance, servicing and refueling	@lang=en;match=ci,no
+TM space based maintenance and servicing;	@lang=en;match=ci,no
+TM space programs	@lang=en;match=ci,no
+TM space vehicle maintenance	@lang=en;match=ci,no
+TM space station maintenance	@lang=en;match=ci,no
+TM maintenance (spacecraft)	@lang=en;match=ci,no
+TM space manufacturing and assembly	@lang=en;match=ci,no
+TM launch vehicle manufacturing	@lang=en;match=ci,no
+TM |DEFINITION|Includes general research topics related to space flight    and manned and unmanned space vehicles, platforms or    objects launched into, or assembled in, outer space; and    related components and equipment. Also includes    manufacturing and maintenance of such vehicles or    platforms. For specific topics in astronautics see    categories 13 through 20. For extraterrestrial exploration    see 91 Lunar and Planetary Science and Exploration.  
+--
+ID 88
+NA Aeronautics	@lang=en;match=ci,no
+TM Aeronautics	@lang=en;match=ci,no
+TM |DEFINITION|Includes aeronautics (general); aerodynamics; air    transportation and safety; aircraft communications and    navigation; aircraft design, testing and performance;    avionics and aircraft instrumentation; aircraft propulsion    and power; aircraft stability and control; and research and    support facilities (air). For related information see also    Astronautics (categories 12 through 20).  
+--

@@ -1,0 +1,100 @@
+
+<html><head><!-- meta ignored --><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="popup.css">
+<link rel="stylesheet" href="tabs.css">
+
+<script src="jquery.tools.min.js"></script>
+<script src="tabs.js"></script>
+<script src="jquery.bpopup-0.8.0.min.js"></script>
+</head>
+<body>
+<span class="test popup">
+ <a class="button bClose">X<a/>
+	<div  class="usual"> 
+	  <ul> 
+		<li><a href="#tab1" >Tab 1</a></li> 
+		<li><a href="#tab2">Tab 2</a></li> 
+		<li><a href="#tab3">Tab 3</a></li> 
+	  </ul> 
+	  <div id="tab1">This is tab 1.</div> 
+	  <div id="tab2">More content in tab 2.</div> 
+	  <div id="tab3">Tab 3 is always last!</div> 
+	</div> 
+</span> 
+  <span class="button small pop2 content" data-bpopup='010010010110011000100000011110<br>010110111101110101001000000110<br>001101100001011011100010000001<br>101110011011110111010000100000<br>011001110110010101110100001000<br>000110100101110100001000000111<br>010101110000001000000010110100<br>100000011101010111001101100101<br>001000000110001001010000011011<br>110111000001110101011100000010<br>0001'>Pop some text</span>
+
+<script>
+
+;(function($) {
+        $(function() {
+            $('.pop2').bind('click', function(e) {
+                e.preventDefault();
+				var self = $(this) //button
+				, content = $(".content"); 
+				$(".test").bPopup({
+					modalClose: false,
+					opacity: 0.6,
+					positionStyle: 'fixed' //'fixed' or 'absolute'
+				});
+				/*$('.pop2').bPopup({
+					onOpen: function() {
+						content.html(self.data('bpopup') || '');
+					},
+					onClose: function() {
+						content.empty();
+					}
+				}); */
+				
+            });
+         });
+     })(jQuery);
+
+</script>
+
+<span class="test2 popup">
+ <a class="button bClose">X<a/>
+	<div  class="usual"> 
+	  <ul> 
+		<li><a href="#tab1a" >Tab 1</a></li> 
+		<li><a href="#tab2a">Tab 2</a></li> 
+		<li><a href="#tab3a">Tab 3</a></li> 
+	  </ul> 
+	  <div id="tab1a">adfasdftab 1.</div> 
+	  <div id="tab2a">ahfh2323 in tab 2.</div> 
+	  <div id="tab3a">qqqqqq last!</div> 
+	</div> 
+</span> 
+  <span class="button small pop3 content" data-bpopup='010010010110011000100000011110<br>010110111101110101001000000110<br>001101100001011011100010000001<br>101110011011110111010000100000<br>011001110110010101110100001000<br>000110100101110100001000000111<br>010101110000001000000010110100<br>100000011101010111001101100101<br>001000000110001001010000011011<br>110111000001110101011100000010<br>0001'>Pop some text</span>
+
+  <script>
+
+;(function($) {
+        $(function() {
+            $('.pop3').bind('click', function(e) {
+                e.preventDefault();
+				var self = $(this) //button
+				, content = $(".content"); 
+				$(".test2").bPopup({
+					modalClose: false,
+					opacity: 0.6,
+					positionStyle: 'fixed' //'fixed' or 'absolute'
+				});
+				/*$('.pop2').bPopup({
+					onOpen: function() {
+						content.html(self.data('bpopup') || '');
+					},
+					onClose: function() {
+						content.empty();
+					}
+				}); */
+				
+            });
+         });
+     })(jQuery);
+
+</script>
+  <script type="text/javascript"> 
+  $(".popup ul").idTabs(); 
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+<html><head><!-- meta ignored --><meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="popup.css">
+
+<script src="jquery.tools.min.js"></script>
+<script src="jquery.bpopup-0.8.0.min.js"></script>
+
+</head><!-- script not allowed --><body>
+this is a test.
+P.S. This gene is a malaria - resistant gene!
+<span class="panes">
+
+</span>
+<span class="test popup">
+ <a class="button bClose">X<a/>
+<ul class="tabs">
+	<li><a href="#">Tab 1</a></li>
+	<li><a href="#">Tab 2</a></li>
+	<li><a href="#">Tab 3</a></li>
+</ul>
+
+<!-- tab "panes" -->
+<div class="panes">
+	<div>First tab content. Tab contents are called "panes"</div>
+	<div>Second tab content</div>
+	<div>Third tab content</div>
+</div>
+ </span> 
+<span class="button small pop2 content" data-bpopup='010010010110011000100000011110<br>010110111101110101001000000110<br>001101100001011011100010000001<br>101110011011110111010000100000<br>011001110110010101110100001000<br>000110100101110100001000000111<br>010101110000001000000010110100<br>100000011101010111001101100101<br>001000000110001001010000011011<br>110111000001110101011100000010<br>0001'>Pop some text</span>
+
+<script>
+
+;(function($) {
+        $(function() {
+            $('.pop2').bind('click', function(e) {
+                e.preventDefault();
+				var self = $(this) //button
+				, content = $(".content"); 
+				$(".test").bPopup({
+					modalClose: false,
+					opacity: 0.6,
+					positionStyle: 'fixed' //'fixed' or 'absolute'
+				});
+				/*$('.pop2').bPopup({
+					onOpen: function() {
+						content.html(self.data('bpopup') || '');
+					},
+					onClose: function() {
+						content.empty();
+					}
+				}); */
+				
+            });
+         });
+     })(jQuery);
+
+</script>
+</body></html>

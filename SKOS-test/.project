@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>SKOS-test</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/examples</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/School/Project/skosapi/version_3/src/examples</locationURI>
+		</link>
+		<link>
+			<name>src/org</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/School/Project/skosapi/version_3/src/org</locationURI>
+		</link>
+		<link>
+			<name>src/uk</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Desktop/School/Project/skosapi/version_3/src/uk</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

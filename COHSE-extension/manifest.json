@@ -1,0 +1,24 @@
+{
+  "name": "COHSE 0.02",
+  "description": "Test",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["alarms", "tabs", "http://peregrine.nbiceng.net/*", "file:///*", "http://localhost:8080/*", "*://*/*"],
+  "options_page": "options.html",
+  "background": {
+    "page": "background.html",
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon" : "icon_032.png",
+    "default_title": "COHSE",
+	"default_popup": "popup.html"  
+  },
+  "content_scripts" : [
+    {
+      "matches" : ["file:///*", "http://www.nap.edu/*", "http://www.ncbi.nlm.nih.gov/*", "http://www.code.jquery.com/*", "https://www.googleapis.com/*", "http://localhost:8080/*", "*://*/*"],
+	  "css" : ["popup.css"],
+      "js" : [ "jquery-1.9.1.js", "contentscript.js", "jquery-ui-1.10.1.custom.min.js" ]
+    }
+  ]
+}

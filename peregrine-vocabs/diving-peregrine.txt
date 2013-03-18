@@ -1,0 +1,1282 @@
+# ErasmusMC ontology file
+VR 1.0
+ON Test SKOS Conv 01
+--
+ID 1
+NA Qualification	
+TM Qualification	@lang=en;match=ci,no
+--
+ID 2
+NA Bar	
+TM Bar	@lang=en;match=ci,no
+TM |DEFINITION|A measure of pressure, 1 bar = atmospheric pressure or about 15lbs per square inch.
+TM |HIERARCHY|broader__Measurement
+--
+ID 3
+NA Tidal Volume	
+TM Tidal Volume	@lang=en;match=ci,no
+TM |DEFINITION|The quantity of gas that is inhaled and exhaled with each breath.
+TM |HIERARCHY|broader__Measurement
+--
+ID 4
+NA Nitrox	
+TM Nitrox	@lang=en;match=ci,no
+TM |DEFINITION|Literally, any breathing gas consisting of a mixture of Nitrogen and Oxygen. Generically referred to when the Oxygen percentage in the mix is in the range of 21-50%.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 5
+NA HardBoat	
+TM HardBoat	@lang=en;match=ci,no
+TM |HIERARCHY|inScheme__Diving
+TM |HIERARCHY|broader__Boat|--|broader__Equipment
+--
+ID 6
+NA Heliox	
+TM Heliox	@lang=en;match=ci,no
+TM |DEFINITION|A breathing gas consisting of a mixture of Helium and Oxygen.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 7
+NA Alternate Air Source	
+TM Alternate Air Source	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 8
+NA Ambient pressure	
+TM Ambient pressure	@lang=en;match=ci,no
+TM |DEFINITION|The sum of air and water pressure at depth expressed in terms of absolute pressure
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 9
+NA Helium	
+TM Helium	@lang=en;match=ci,no
+TM He	@lang=en;match=ci,no
+TM |DEFINITION|A gas which is easily eliminated from body in long dives and builds up fast in short dives. It is the least narcotic of standard gases and causes that "micky mouse" voice effect.It is a poor insulator and moderately costly.
+TM |HIERARCHY|broader__Gas
+--
+ID 10
+NA Night Dive	
+TM Night Dive	@lang=en;match=ci,no
+TM |DEFINITION|A dive taken during the hours of darkness. At night, divers are likely to see different active fauna such as crustacea and night hunters like lionfish. Night dives usually require special procedures.
+TM |HIERARCHY|broader__Dive
+--
+ID 11
+NA Hyperbaric Chamber	
+TM Hyperbaric Chamber	@lang=en;match=ci,no
+TM |DEFINITION|A recompression chamber.
+TM |HIERARCHY|broader__Equipment
+--
+ID 12
+NA Hypercapnea	
+TM Hypercapnea	@lang=en;match=ci,no
+TM |DEFINITION|An undue amount of CO2 in the blood caused by improper breathing habits and incomplete scrubbing of breathing gases in closed circuit re-breathers or excessive amounts in the breathing mixture. As concentrations of CO2 approach a PPCO2 of 0.10ATM symptoms begin to appear. Confusion & drowsiness, then muscle spasms, rigidity and unconsciousness. High PPO2, high gas density and high breathing resistance add to the severity of Hypercapnea. Treatment is a reduction of the PPCO2 and administration of oxygen.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 13
+NA Squeeze	
+TM Squeeze	@lang=en;match=ci,no
+TM |DEFINITION|A pressure-related situation resulting from the failure to equalise on descent. Air-filled cavities such as sinuses, the middle ear, mask and dry-suits are the most commonly affected.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 14
+NA Hypocapnia	
+TM Hypocapnia	@lang=en;match=ci,no
+TM |DEFINITION|An insufficient amount of CO2 in the blood (defined as pCO2 levels less than 35 mmHg), often the result of hyperventilation.Hypocapnia can cause weakness, faintness, headache, blurred vision and if untreated possibly unconsciousness. The body's breathing stimulus results from the monitoring of the CO2 and oxygen (the oxygen drive is only active at extremely low oxygen levels, CO2 is the MAJOR controlling factor) levels in the blood stream. An increase in CO2 and a decrease in oxygen trigger the body to breathe. As the CO2 levels drop, so does the body's natural stimulus to breathe. This is one of the primary causes of shallow water blackout.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 15
+NA Carbon Monoxide	
+TM Carbon Monoxide	@lang=en;match=ci,no
+TM CO	@lang=en;match=ci,no
+TM |DEFINITION|Carbon monoxide (CO) is produced from the incomplete combustion of organic fuels, most commonly gasoline engines. Carbon monoxide is a colourless, odourless, tasteless gas, and it is largely because CO cannot be readily detected that it is so dangerous. Inhaled CO will bond with haemoglobin with an affinity 200 times greater than oxygen.
+TM |HIERARCHY|broader__Gas
+--
+ID 16
+NA Apnea	
+TM Apnea	@lang=en;match=ci,no
+TM |DEFINITION|Cessation of breathing for short intervals of time. If left untreated it will proceed to respiratory arrest.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 17
+NA CAGE	
+TM CAGE	@lang=en;match=ci,no
+TM |DEFINITION|Coronary Arterial Gas Embolism. A lung over-expansion injury that involves air bubbles escaping from the lungs into the pulmonary capillaries. The bubbles can then travel to the heart and eventually follow the circulatory route to the brain. In severe cases, CAGE can be fatal. Treatment is immediate O2 breathing and transport to a recompression chamber. Also known as air embolism. Symptoms may be similar to DCS.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 18
+NA TemperateWaters	
+TM TemperateWaters	@lang=en;match=ci,no
+TM |DEFINITION|Cooler seas such as those found around the UK.
+TM |HIERARCHY|broader__Environment|--|inScheme__Diving
+--
+ID 19
+NA ACR	
+TM ACR	@lang=en;match=ci,no
+TM |DEFINITION|Air Consumption Rate, same as SAC, Surface Air Consumption.
+TM |HIERARCHY|broader__Measurement
+--
+ID 20
+NA Square Profile Dive	
+TM Square Profile Dive	@lang=en;match=ci,no
+TM |DEFINITION|A type of dive that involves staying at one particular depth for the entire bottom time and then ascending directly to the surface.
+TM |HIERARCHY|broader__Dive
+--
+ID 21
+NA Stage Bottle	
+TM Stage Bottle	@lang=en;match=ci,no
+TM |DEFINITION|Extra breathing cylinder carried in addition to the main gas supply. Usually carried on front or side mount clips, but may be attached to a decompression line. These cylinders are designed to provide additional bottom mix gas supply or to provide alternate mixtures for decompression efficiency.
+TM |HIERARCHY|broader__Cylinder|--|broader__Equipment
+--
+ID 22
+NA Bottom Mix	
+TM Bottom Mix	@lang=en;match=ci,no
+TM |DEFINITION|A breathing mixture used at the deepest portion of a dive.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 23
+NA Twin Set	
+TM Twin Set	@lang=en;match=ci,no
+TM |DEFINITION|A dual cylinder diving configuration. They may be ganged together or completely separate.
+TM |HIERARCHY|broader__Equipment
+--
+ID 24
+NA Otitis	
+TM Otitis	@lang=en;match=ci,no
+TM |DEFINITION|Otitis Externa - Inflammation of the external auditory canal due to infection. Otitis Media - Inflammation of the middle ear. This condition generally requires treatment with antibiotics and may cause impairment of balance.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 25
+NA Maximum Depth	
+TM Maximum Depth	@lang=en;match=ci,no
+TM |DEFINITION|The deepest depth reached during a dive.
+TM |HIERARCHY|broader__Measurement
+--
+ID 26
+NA Oxygen Service	
+TM Oxygen Service	@lang=en;match=ci,no
+TM |DEFINITION|Refers to the suitability of a system or component for use in an oxygen environment. Oxygen service requires both oxygen clean and oxygen compatible components.
+TM |HIERARCHY|broader__Procedure
+--
+ID 27
+NA Depth Gauge	
+TM Depth Gauge	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Instrument|--|broader__Equipment
+--
+ID 28
+NA Cyanosis	
+TM Cyanosis	@lang=en;match=ci,no
+TM |DEFINITION|A bluish discoloration of the skin that results from an oxygen deficiency in the blood.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 29
+NA Redundancy	
+TM Redundancy	@lang=en;match=ci,no
+TM |DEFINITION|The concept of carrying fully functional backup systems to replace primaries in the event of failure.
+TM |HIERARCHY|broader__Procedure
+--
+ID 30
+NA Master Scuba Diver	
+TM Master Scuba Diver	@lang=en;match=ci,no
+TM MSD	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+--
+ID 31
+NA Sports Diver	
+TM Sports Diver	@lang=en;match=ci,no
+TM SD	@lang=en;match=ci,no
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 32
+NA Tachycardia	
+TM Tachycardia	@lang=en;match=ci,no
+TM |DEFINITION|A rapid heartbeat of over 100 beats per minute.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 33
+NA Global Positioning System	
+TM Global Positioning System	@lang=en;match=ci,no
+TM |DEFINITION|An electronic navigation device that uses satellites to give a precise display of your position.
+TM |HIERARCHY|broader__Equipment
+--
+ID 34
+NA Buddy	
+TM Buddy	@lang=en;match=ci,no
+TM |DEFINITION|Your diving partner. BSAC strongly recommend that divers always dive in pairs for safety.
+--
+ID 35
+NA Watch	
+TM Watch	@lang=en;match=ci,no
+TM |HIERARCHY|broader__TimingDevice
+--
+ID 36
+NA Pony Bottle	
+TM Pony Bottle	@lang=en;match=ci,no
+TM |DEFINITION|A small cylinder commonly used as an emergency breathing system, also known as a Bailout Bottle.
+TM |HIERARCHY|broader__Cylinder|--|broader__Equipment
+--
+ID 37
+NA Oxygen Toxicity	
+TM Oxygen Toxicity	@lang=en;match=ci,no
+TM |DEFINITION|Short or long term physiological effects of elevated partial pressures of Oxygen. Also referred to as CNS Oxygen Toxicity.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 38
+NA EANx	
+TM EANx	@lang=en;match=ci,no
+TM |DEFINITION|Enriched Air NITROX. A mixture containing more than 21% oxygen.
+TM |HIERARCHY|broader__Nitrox|--|broader__MixedGases
+--
+ID 39
+NA Narcosis	
+TM Narcosis	@lang=en;match=ci,no
+TM |DEFINITION|The intoxicating effects of breathing inert gases, such as Argon, Nitrogen or Hydrogen when the diver is exposed to elevated partial pressures at depth. The condition is generally alleviated upon ascending, or by changing the mixture ratios to reduce the partial pressure of the offending gas.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 40
+NA Buddy Breathing	
+TM Buddy Breathing	@lang=en;match=ci,no
+TM |DEFINITION|An emergency out-of-air procedure where two divers share one second stage regulator while ascending to the surface.
+TM |HIERARCHY|broader__Procedure
+--
+ID 41
+NA Nitrogen	
+TM Nitrogen	@lang=en;match=ci,no
+TM |DEFINITION|A gas that makes up approximately 78% of the air we breathe. It is usually the gas responsible for DCS when diving on compressed air. It also causes narcosis from about 30m
+TM |HIERARCHY|broader__Gas
+--
+ID 42
+NA Bailout	
+TM Bailout	@lang=en;match=ci,no
+TM |DEFINITION|A small cylinder, (usually 3-4 litre) commonly used as an emergency breathing system in commercial diving, also known as a Pony bottle.
+TM |HIERARCHY|broader__Equipment
+--
+ID 43
+NA PolarWaters	
+TM PolarWaters	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Environment|--|inScheme__Diving
+--
+ID 44
+NA Pillar Valve	
+TM Pillar Valve	@lang=en;match=ci,no
+TM |DEFINITION|The metal fitting on the neck of a cylinder. It consists of an on/off valve and a connection point for the regulator 1st stage.
+TM |HIERARCHY|broader__Equipment
+--
+ID 45
+NA Oxygen Cleaned	
+TM Oxygen Cleaned	@lang=en;match=ci,no
+TM |DEFINITION|Refers to the cleanliness of the system or component, or more specifically, the absence of contaminants. Contaminants vary but the most serious are those that act as a source of combustion such as oil, grease, paint, fingerprints, soot, lint, dust, metal particles, rust, cleaning solvents, and cleaning detergents. New SCUBA equipment is generally NOT oxygen clean.
+--
+ID 46
+NA Assistant Instructor	
+TM Assistant Instructor	@lang=en;match=ci,no
+TM AI	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+--
+ID 47
+NA Rule of Thirds	
+TM Rule of Thirds	@lang=en;match=ci,no
+TM |DEFINITION|A rule used primarily by cave and wreck divers that basically states that after having consumed 1/3 of your gas supply you should begin your exit from the cave/wreck. The remaining 2/3 of the gas supply is left for the exit, ascent and any emergency that may arise.
+TM |HIERARCHY|broader__Procedure
+--
+ID 48
+NA DIN	
+TM DIN	@lang=en;match=ci,no
+TM |DEFINITION|(Deutsches Institut für Normung, or German Institute for Standardisation). Valve and regulator fittings featuring the"captured o-ring" design whereby the regulator is screwed into the cylinder valve. This is primarily used on the continent and for pressures exceeding 232 Bar.
+TM |HIERARCHY|broader__Equipment
+--
+ID 49
+NA Shortie	
+TM Shortie	@lang=en;match=ci,no
+TM |DEFINITION|A short wet suit, worn either on its own in warmer water, or over the top of a long john or full suit in colder water.
+TM |HIERARCHY|broader__WetSuit
+--
+ID 50
+NA Club Diver	
+TM Club Diver	@lang=en;match=ci,no
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 51
+NA Diluent	
+TM Diluent	@lang=en;match=ci,no
+TM |DEFINITION|An inert gas, usually nitrogen or helium, that provides volume in a breathing mix to ensure the partial pressure of oxygen remains within safe limits of exposure.
+TM |HIERARCHY|broader__Gas
+--
+ID 52
+NA Tables	
+TM Tables	@lang=en;match=ci,no
+TM |DEFINITION|These are tables from which you calculate how long and how deep you can safely dive and also details of any decompression stops you have to make on your ascent.
+TM |HIERARCHY|broader__Equipment
+--
+ID 53
+NA Rescue Diver	
+TM Rescue Diver	@lang=en;match=ci,no
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 54
+NA Hyperbaric	
+TM Hyperbaric	@lang=en;match=ci,no
+TM |DEFINITION|Dealing with pressures greater than 1 bar.
+TM |HIERARCHY|broader__Measurement
+--
+ID 55
+NA Cylinder Markings	
+TM Cylinder Markings	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 56
+NA Repetitive Dive	
+TM Repetitive Dive	@lang=en;match=ci,no
+TM |DEFINITION|Any dive following a previous dive within a particular time frame. This will vary according to the particular decompression model being used.
+TM |HIERARCHY|broader__Dive
+--
+ID 57
+NA Divemaster	
+TM Divemaster	@lang=en;match=ci,no
+TM DM	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+--
+ID 58
+NA Absolute Pressure	
+TM Absolute Pressure	@lang=en;match=ci,no
+TM |DEFINITION|Absolute pressure is a measure of the pressure exerted on an object from all sources; includes water pressure and atmospheric pressure.
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 59
+NA Regulator	
+TM Regulator	@lang=en;match=ci,no
+TM |DEFINITION|Any device which changes air pressure from one level to a lower level.
+TM |HIERARCHY|broader__SecondStage
+--
+ID 60
+NA Lifting Bag	
+TM Lifting Bag	@lang=en;match=ci,no
+TM |DEFINITION|A bag like device that is inflated underwater to lift objects from the bottom.
+TM |HIERARCHY|broader__Equipment
+--
+ID 61
+NA Staged Decompression	
+TM Staged Decompression	@lang=en;match=ci,no
+TM |DEFINITION|Decompression performed at specific depths where the diver remains for a period of time to offgas. This is the most common form of decompression for divers. Continuous decompression is generally not available to divers as it requires a very controlled continuous ascent, generally this is only available in a decompression chamber, or on dives that require only a minimum of decompression.
+TM |HIERARCHY|broader__Procedure
+--
+ID 62
+NA Pulmonary Oxygen Toxicity	
+TM Pulmonary Oxygen Toxicity	@lang=en;match=ci,no
+TM |DEFINITION|The cumulative effect (over time) of being exposed to Oxygen while the body is under pressure.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 63
+NA BSAC 88 Tables	
+TM BSAC 88 Tables	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Tables|--|broader__Equipment
+--
+ID 64
+NA A Clamp	
+TM A Clamp	@lang=en;match=ci,no
+TM |DEFINITION|A type of fitting for connecting the regulator 1st stage to the cylinder pillar valve.
+TM |HIERARCHY|broader__Equipment
+--
+ID 65
+NA Gas Consumption	
+TM Gas Consumption	@lang=en;match=ci,no
+TM |DEFINITION|(RMV)*(Bar) = gas consumption at depth. Total gas required for a dive= the sum of the gas required at each stage of the dive. Gas required at each stage of the dive=(Bar) x (RMV) x (Time) x (Work modifier). Bar= Pressure at each stage Bar=(depth / 10)1 RMV= Respiratory Minute Volume (in litres per minute) Time= Time in minutes spent at that stage/depth Work=A modifier to take into account that you breath more when working. 1, at rest 1.5 working mildly 2 working moderately 3-5 working heavily Descent consumption = average depth plus time spent descending. Gas consumption during ascent is calculated by average depth method:(max. depth 1st deco stop depth)/2. This average depth is then used in the gas consumption equation.
+TM |HIERARCHY|broader__Measurement
+--
+ID 66
+NA Dive profile	
+TM Dive profile	@lang=en;match=ci,no
+TM |DEFINITION|The depth/time measurements of a particular dive usually expressed in a graphical form.
+--
+ID 67
+NA Dive	
+TM Dive	@lang=en;match=ci,no
+--
+ID 68
+NA Measurement	
+TM Measurement	@lang=en;match=ci,no
+--
+ID 69
+NA Octopus	
+TM Octopus	@lang=en;match=ci,no
+TM |DEFINITION|An extra breathing second stage for use in the event of a failure or an out-of-gas emergency with a diving buddy. They are usually coloured yellow.
+TM |HIERARCHY|broader__AlternateAirSource
+TM |HIERARCHY|broader__Regulator|--|broader__SecondStage
+--
+ID 70
+NA Oxygen	
+TM Oxygen	@lang=en;match=ci,no
+TM O2	@lang=en;match=ci,no
+TM |DEFINITION|A colourless, tasteless, odourless, non-flammable gas that accounts for 20.95% of the air we breathe.
+TM |HIERARCHY|broader__Gas
+--
+ID 71
+NA Hypobaric	
+TM Hypobaric	@lang=en;match=ci,no
+TM |DEFINITION|Dealing with pressures less than 1 Bar
+TM |HIERARCHY|broader__Measurement
+--
+ID 72
+NA Buddy Check	
+TM Buddy Check	@lang=en;match=ci,no
+TM |DEFINITION|A pre-dive check where two divers familiarise themselves and check each others equipment prior to a dive.
+TM |HIERARCHY|broader__Procedure
+--
+ID 73
+NA Ascent Check Depth	
+TM Ascent Check Depth	@lang=en;match=ci,no
+TM |DEFINITION|A point reached during the ascent where dive time is checked against the plan. This is usually at the first decompression stop or 6m for no-stop dives.
+TM |HIERARCHY|broader__Measurement
+--
+ID 74
+NA Snorkel	
+TM Snorkel	@lang=en;match=ci,no
+TM |DEFINITION|A breathing tube enabling the user to breathe when lying face down on the surface of the water. Snorkels can be useful for preserving air during surface swims to and from dive sites and are used during breath-hold or skin diving.
+TM |HIERARCHY|broader__Equipment
+--
+ID 75
+NA Submersible Pressure Gauge	
+TM Submersible Pressure Gauge	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Instrument|--|broader__Equipment
+--
+ID 76
+NA Demand Valve	
+TM Demand Valve	@lang=en;match=ci,no
+TM |DEFINITION|The part of a regulator that you put in your mouth and breathe from. It supplies air 'on demand' when you want it and at the right (absolute) pressure.
+TM |HIERARCHY|broader__Equipment
+--
+ID 77
+NA Nitrogen Narcosis	
+TM Nitrogen Narcosis	@lang=en;match=ci,no
+TM |DEFINITION|Loss of judgement and motor skills caused by the narcotic effect of breathing the nitrogen component of any breathing gas at elevated partial pressures (i.e. at depth). The condition is alleviated upon ascending. Also known as Rapture of the deep or narcs. Nitrogen narcosis, a common form of inert gas narcosis, can be incurred at depths as shallow as 30m, and possibly even shallower by individuals who are more susceptible.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 78
+NA SCUBA	
+TM SCUBA	@lang=en;match=ci,no
+TM |DEFINITION|Self Contained Underwater Breathing Apparatus.
+--
+ID 79
+NA First Stage	
+TM First Stage	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 80
+NA On Gassing	
+TM On Gassing	@lang=en;match=ci,no
+TM |DEFINITION|As a person breathes air or any mixture of gases, a portion of those gases are absorbed through the lungs into the blood stream. Ongassing occurs primarily in the alveoli of the lungs (though it does occur at all levels, lungs, blood, tissues). This absorbed (or dissolved) gas is carried dissolved in the bloodstream and diffuses from areas of high partial pressure to areas of lower partial pressure throughout the various tissues (or compartments). As oxygen is metabolised it is generally not considered to be ongassing but does have limits as to how much can be absorbed safely. Excessively high partial pressures of oxygen can be absorbed and contribute to DCS, so ongassing as a term can be applied to oxygen. However, the partial pressures that can cause this are higher than those considered safe in relation to CNS O2 toxicity, so this is more an academic concern, rather than a real concern.
+TM |HIERARCHY|broader__Procedure
+--
+ID 81
+NA Air embolism	
+TM Air embolism	@lang=en;match=ci,no
+TM |DEFINITION|Bubble of air in the blood stream.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 82
+NA Alveoli	
+TM Alveoli	@lang=en;match=ci,no
+TM |DEFINITION|Small air cells in the lungs.
+TM |HIERARCHY|broader__BodyPart
+--
+ID 83
+NA Advanced Open Water Diver	
+TM Advanced Open Water Diver	@lang=en;match=ci,no
+TM AOW	@lang=en;match=ci,no
+TM |DEFINITION|Advanced Open Water. A PADI diver qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 84
+NA Visibility	
+TM Visibility	@lang=en;match=ci,no
+TM |DEFINITION|A measure of how clear the water is. Visibility can be affected by a number of factors including silt, sand or mud, or plankton bloom.
+TM |HIERARCHY|broader__Measurement
+--
+ID 85
+NA Residual Nitrogen	
+TM Residual Nitrogen	@lang=en;match=ci,no
+TM |DEFINITION|The residual nitrogen (above normoxic levels) left in the body as a result of a previous dive.
+TM |HIERARCHY|broader__Measurement
+--
+ID 86
+NA Heliar	@lang=en;match=ci,no
+TM Heliar	@lang=en;match=ci,no
+TM Poor Man's Trimix	@lang=en;match=ci,no
+TM |DEFINITION|Oxygen, Nitrogen and Helium
+TM |HIERARCHY|broader__Trimix|--|broader__MixedGases
+--
+ID 87
+NA MGR	
+TM MGR	@lang=en;match=ci,no
+TM |DEFINITION|Mixed Gas Rebreather.
+TM |HIERARCHY|broader__Equipment
+--
+ID 88
+NA Console	
+TM Console	@lang=en;match=ci,no
+TM |DEFINITION|A term often used to describe the housing for instruments such as the SPG, depth gauge and compass.
+TM |HIERARCHY|broader__Equipment
+--
+ID 89
+NA Recompression Chamber	
+TM Recompression Chamber	@lang=en;match=ci,no
+TM |DEFINITION|Hyperbaric chamber
+TM |HIERARCHY|broader__Equipment
+--
+ID 90
+NA Respiration	
+TM Respiration	@lang=en;match=ci,no
+TM |DEFINITION|The voluntary or involuntary movement of gas into and out of the lungs and the associated metabolic process of oxygen and carbon-dioxide transfer.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 91
+NA Inflator Hose	
+TM Inflator Hose	@lang=en;match=ci,no
+TM |DEFINITION|Connects the first stage to a BCD or dry suit.
+TM |HIERARCHY|broader__Equipment
+--
+ID 92
+NA Body Part	
+TM Body Part	@lang=en;match=ci,no
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 93
+NA CNS Oxygen Toxicity	
+TM CNS Oxygen Toxicity	@lang=en;match=ci,no
+TM |DEFINITION|The effects of breathing high-pressure O2. An extremely dangerous manifestation which can include convulsion and collapse. Although 1.6 Bar has been held as the standard limit by NOAA, many divers prefer to restrict their activities to no more than 1.4 Bar PPO2 for added safety. Recent tests by the US Navy suggest that CNS O2 Toxicity can be seen as low as 1.3 Bar PPO2. CNS O2 toxicity can be prevented by a reduction in the PPO2 in the breathing gas via a different gas mixture or via ascending.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 94
+NA Inert Gases	
+TM Inert Gases	@lang=en;match=ci,no
+TM |DEFINITION|Those gases present in a breathing mixture which are not metabolised.
+TM |HIERARCHY|broader__Gas
+--
+ID 95
+NA First Class Diver	
+TM First Class Diver	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+--
+ID 96
+NA Bottom Time	
+TM Bottom Time	@lang=en;match=ci,no
+TM |DEFINITION|Often calculated from the start of the diver's descent until the beginning of his ascent, or to the safety stop or first decompression stop. Note: This measurement varies widely from organisation to organisation, and some divers do not calculate the safety stop into their total bottom time.
+TM |HIERARCHY|broader__Measurement
+--
+ID 97
+NA Anoxia	
+TM Anoxia	@lang=en;match=ci,no
+TM |DEFINITION|The total lack of Oxygen to the tissues. Also see Hypoxia
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 98
+NA Stop Dive	
+TM Stop Dive	@lang=en;match=ci,no
+TM |DEFINITION|A dive which requires stops at certain depths for a set period of time. This is done on the final ascent and allows sufficient time to decompress.
+TM |HIERARCHY|broader__Dive
+--
+ID 99
+NA Surfacing Code	
+TM Surfacing Code	@lang=en;match=ci,no
+TM |DEFINITION|The Code describing the degree of tissue saturation on surfacing from a dive. BSAC use A (no saturation) to G fully saturated).
+TM |HIERARCHY|broader__Measurement
+--
+ID 100
+NA Thermocline	
+TM Thermocline	@lang=en;match=ci,no
+TM |DEFINITION|A subsurface layer of water characterised by a rapid change in temperature and density in a narrow range of depth.
+TM |HIERARCHY|broader__Environment|--|inScheme__Diving
+--
+ID 101
+NA Port	
+TM Port	@lang=en;match=ci,no
+TM |DEFINITION|A connection for hoses on the the first stage of a regulator. The first stage may contain 4-6 of these and they are usually marked with LP (low pressure) or HP (High Pressure).
+TM |HIERARCHY|broader__Equipment
+--
+ID 102
+NA Descent Rate	
+TM Descent Rate	@lang=en;match=ci,no
+TM |DEFINITION|The speed in which a diver descends. BSAC recommend 30m/min.
+TM |HIERARCHY|broader__Measurement
+--
+ID 103
+NA Safety Stop	
+TM Safety Stop	@lang=en;match=ci,no
+TM |DEFINITION|A procedure that calls for a making a safety stop at 6m for 1-3 minutes at the end of every dive for degassing purposes.
+TM |HIERARCHY|broader__Procedure
+--
+ID 104
+NA Fahrenheit	
+TM Fahrenheit	@lang=en;match=ci,no
+TM |DEFINITION|A unit of measure for temperature. Fahrenheit (1.8 * C) 32 or 9/5C 32)
+TM |HIERARCHY|broader__Measurement
+--
+ID 105
+NA Mares	
+TM Mares	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Manufacturer|--|broader__Equipment
+--
+ID 106
+NA Procedure	
+TM Procedure	@lang=en;match=ci,no
+--
+ID 107
+NA PSI	
+TM PSI	@lang=en;match=ci,no
+TM |DEFINITION|Pounds per square inch.
+TM |HIERARCHY|related__Pressure|--|broader__Measurement
+TM |HIERARCHY|broader__Measurement
+--
+ID 108
+NA Dive Leader	
+TM Dive Leader	@lang=en;match=ci,no
+TM DL	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+--
+ID 109
+NA Medical Condition	
+TM Medical Condition	@lang=en;match=ci,no
+--
+ID 110
+NA Air	
+TM Air	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Gas
+--
+ID 111
+NA Environment	
+TM Environment	@lang=en;match=ci,no
+TM |HIERARCHY|inScheme__Diving
+--
+ID 112
+NA Recreational Dive Planner	
+TM Recreational Dive Planner	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Tables|--|broader__Equipment
+--
+ID 113
+NA Hydrostatic Pressure	
+TM Hydrostatic Pressure	@lang=en;match=ci,no
+TM |DEFINITION|The pressure exerted underwater by the surrounding water column.
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 114
+NA US Navy Tables	
+TM US Navy Tables	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Tables|--|broader__Equipment
+--
+ID 115
+NA Decompression Stop Dive	
+TM Decompression Stop Dive	@lang=en;match=ci,no
+TM |DEFINITION|A dive which contains mandatory in water decompression or"offgassing" stops.
+TM |HIERARCHY|broader__Dive
+--
+ID 116
+NA Ascent Rate	
+TM Ascent Rate	@lang=en;match=ci,no
+TM |DEFINITION|The speed in which a diver ascends. BSAC recommend 15m/min up to 6m and then 6m/min for the final 6m.
+TM |HIERARCHY|broader__Measurement
+--
+ID 117
+NA Wet Suit Jacket	
+TM Wet Suit Jacket	@lang=en;match=ci,no
+TM |DEFINITION|A jacket, normally combined with a Long John or full suit.
+TM |HIERARCHY|broader__WetSuit
+--
+ID 118
+NA Advanced Diver	
+TM Advanced Diver	@lang=en;match=ci,no
+TM AD	@lang=en;match=ci,no
+TM |DEFINITION|Advanced Diver. A BSAC diver qualification.
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 119
+NA Instructor	
+TM Instructor	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+--
+ID 120
+NA Partial Pressure	
+TM Partial Pressure	@lang=en;match=ci,no
+TM |DEFINITION|The portion of the total gas pressure exerted by a single gas in a breathing mixture, expressed as Pg for an unknown gas or PO2 in the case of Oxygen.
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 121
+NA Computer	
+TM Computer	@lang=en;match=ci,no
+TM |DEFINITION|An electronic device either worn on the wrist or console mounted which constantly displays information such as current depth, maximum depth, dive time and remaining no stop time. It can also calculate the decompression requirements for the dive and provide other information such as temperature ascent rates etc...
+TM |HIERARCHY|broader__DepthGauge
+TM |HIERARCHY|broader__TimingDevice
+--
+ID 122
+NA Hydrostatic Test	
+TM Hydrostatic Test	@lang=en;match=ci,no
+TM |DEFINITION|A test that is required every five years on SCUBA cylinders. This test involves pressurising the cylinder to test pressure.
+TM |HIERARCHY|broader__Procedure
+--
+ID 123
+NA Wet Suit	
+TM Wet Suit	@lang=en;match=ci,no
+TM |DEFINITION|An exposure suit for temperate and tropical water conditions. A layer of water is trapped between the suit and the skin. This then insulates the diver from surrounding cooler temperatures. Wet suits are usually made of neoprene rubber.
+TM |HIERARCHY|broader__ExposureSuit
+--
+ID 124
+NA Decompression Stop	
+TM Decompression Stop	@lang=en;match=ci,no
+TM |DEFINITION|The actual time to be spent at the decompression stop depth.
+TM |HIERARCHY|broader__Procedure
+--
+ID 125
+NA Hypothermia	
+TM Hypothermia	@lang=en;match=ci,no
+TM |DEFINITION|A condition in which the deep tissue or core temperature of the body falls below the normal physiological range, approximately 36.9C. Heat loss is the result of exposure to cold, and most divers are exposed to water temperatures below that of their body. The rate of the heat loss is dependent on body area, the difference in the temperature between the body and the surrounding environment, body fat, external insulation and the level of physical exertion. As the core temperature begins to drop signs of hypothermia will begin to appear. This will trigger the body to begin producing extra heat, usually in the form of shivering. If the cooling is allowed to continue the core temperature will begin to drop and all bodily processes will slowly grind to a halt as pulse and respiration's slow. Death will follow if the diver is not treated promptly.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 126
+NA Long John	
+TM Long John	@lang=en;match=ci,no
+TM |DEFINITION|A Long John or Farmer John is a sleeveless wetsuit with long legs, generally worn under a shortie or jacket.
+TM |HIERARCHY|broader__WetSuit
+--
+ID 127
+NA Gas Mixing	
+TM Gas Mixing	@lang=en;match=ci,no
+TM |DEFINITION|Gas mixing or blending is accomplished via one of four different ways: 1. By partial pressure,where only the pressures of the constituent gases are considered in determining their percentages in the final mix. 2. By continuous flow, where the appropriate amount of each gas is metered and injected into a gas flow stream, and then delivered to a mixing chamber or compressor inlet. 3. By volume, where known volumes of each gas are delivered to a container near atmospheric pressure, then compressed into high pressure cylinders. 4. By weight, where the gases are proportioned in the final mixture by the weight that each gas adds to the initial weight of the container.
+TM |HIERARCHY|broader__Procedure
+--
+ID 128
+NA Bradycardia	
+TM Bradycardia	@lang=en;match=ci,no
+TM |DEFINITION|A heartbeat of less than 60 beats per minute.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 129
+NA Trimix	
+TM Trimix	@lang=en;match=ci,no
+TM |DEFINITION|A breathing mixture of three gases, usually Oxygen, Helium and Nitrogen.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 130
+NA Shot Line	
+TM Shot Line	@lang=en;match=ci,no
+TM |DEFINITION|A rope attached to a heavy weight at one end and a buoy at the other. It is sank onto a wreck or other sea bed feature and used to guide divers.
+TM |HIERARCHY|broader__Equipment
+--
+ID 131
+NA Dyspnea	
+TM Dyspnea	@lang=en;match=ci,no
+TM |DEFINITION|Difficulty in breathing, in divers it can result from an increase in depth or density of breathing gas.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 132
+NA Decompression Line	
+TM Decompression Line	@lang=en;match=ci,no
+TM |DEFINITION|A line used as a point of reference or loose attachment for divers who are decompressing.
+TM |HIERARCHY|broader__Equipment
+--
+ID 133
+NA Saturation	
+TM Saturation	@lang=en;match=ci,no
+TM |DEFINITION|When a tissue has absorbed all of a given gas at a given depth that it can, it is considered saturated. The amount of dissolved gas a tissue can hold is dependent on the depth at which it is ongassing. The deeper the depth, the greater the amount of ongassing that can occur. As a rule it takes 6 halftimes for a tissue to become 99% saturated.
+TM |HIERARCHY|broader__Measurement
+--
+ID 134
+NA SAA	
+TM SAA	@lang=en;match=ci,no
+TM |DEFINITION|Sub Aqua Association. A UK based Diving club.
+TM |HIERARCHY|broader__Organisation
+--
+ID 135
+NA Mask	
+TM Mask	@lang=en;match=ci,no
+TM |DEFINITION|A mask provides an air space around the eyes allowing the diver to see underwater.
+TM |HIERARCHY|broader__Equipment
+--
+ID 136
+NA Celsius	
+TM Celsius	@lang=en;match=ci,no
+TM |DEFINITION|A unit of measure for temperature. Celsius = (Fahrenheit - 32) / 1.8 or 5/9 (Fahrenheit-32)
+TM |HIERARCHY|broader__Measurement
+--
+ID 137
+NA Residual Volume	
+TM Residual Volume	@lang=en;match=ci,no
+TM |DEFINITION|The quantity of air remaining in the lungs after a forceful exhalation.
+TM |HIERARCHY|broader__Measurement
+--
+ID 138
+NA No Stop Dive	
+TM No Stop Dive	@lang=en;match=ci,no
+TM |DEFINITION|A dive in which there are no decompression or"offgassing" stops
+TM |HIERARCHY|broader__Dive
+--
+ID 139
+NA Organisation	
+TM Organisation	@lang=en;match=ci,no
+--
+ID 140
+NA Current Tissue Code	
+TM Current Tissue Code	@lang=en;match=ci,no
+TM |DEFINITION|The code which identifies a divers current nitrogen saturation level. Calculated from the last dive's surfacing code and the surface interval.
+TM |HIERARCHY|broader__Measurement
+--
+ID 141
+NA R380	
+TM R380	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Regulator|--|broader__SecondStage
+TM |HIERARCHY|related__Scubapro|--|broader__Manufacturer
+--
+ID 142
+NA Buoyancy Control Device	
+TM Buoyancy Control Device	@lang=en;match=ci,no
+TM Stab Jacket	@lang=en;match=ci,no
+TM |DEFINITION|An inflatable jacket worn by divers. This provides buoyancy and holds the diving cylinder. Often called a stab jacket (stability) in the UK.
+TM |HIERARCHY|broader__Equipment
+--
+ID 143
+NA END	
+TM END	@lang=en;match=ci,no
+TM |DEFINITION|Equivalent Narcosis Depth. Means of equating the relative narcotic influence of inert gases to air. See EAD
+TM |HIERARCHY|broader__Measurement
+--
+ID 144
+NA Barotrauma	
+TM Barotrauma	@lang=en;match=ci,no
+TM |DEFINITION|Injuries resulting from the inability of expanding gasses to exit the body. For example, ear drum rupture, lung over expansion injury, pneumothorax, squeeze, sinusitis.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 145
+NA MDT	
+TM MDT	@lang=en;match=ci,no
+TM |DEFINITION|Maximum Dive Time. The length of time that may be spent at a given depth without being required to make a mandatory decompression stop. Also referred to as No-Stop Time and Non-Decompression Time.
+TM |HIERARCHY|broader__Measurement
+--
+ID 146
+NA Equipment	
+TM Equipment	@lang=en;match=ci,no
+--
+ID 147
+NA Technical Diving	
+TM Technical Diving	@lang=en;match=ci,no
+TM |DEFINITION|A general term used to describe more advanced diving that requires the use of different gas mixtures.
+TM |HIERARCHY|broader__Procedure
+--
+ID 148
+NA PADI	
+TM PADI	@lang=en;match=ci,no
+TM |DEFINITION|Professional Association of Diving Instructors
+TM |HIERARCHY|broader__Organisation
+--
+ID 149
+NA Hydrogen	
+TM Hydrogen	@lang=en;match=ci,no
+TM H	@lang=en;match=ci,no
+TM |DEFINITION|A gas that is easily eliminated from the body in long dives and builds up fast in short dives. It has a slight narcosis affect at depth and cause a large voice distortion:
+TM |HIERARCHY|broader__Gas
+--
+ID 150
+NA Gas analysis	
+TM Gas analysis	@lang=en;match=ci,no
+TM |DEFINITION|A procedure whereby the fractions of gas in a breathing mixture are determined. Generally it is used to determine the fraction of oxygen to within 1 %, to control the effects of Oxygen toxicity. Most diving operations will analyse for oxygen only. In more complex Trimixes, it is be desirable to analyse for the inert gases as well.
+TM |HIERARCHY|broader__Procedure
+--
+ID 151
+NA Off Gassing	
+TM Off Gassing	@lang=en;match=ci,no
+TM |DEFINITION|The process of eliminating excess dissolved gasses from the body. The reverse of ongassing, more commonly referred to as decompression.
+TM |HIERARCHY|broader__Procedure
+--
+ID 152
+NA Central Nervous System	
+TM Central Nervous System	@lang=en;match=ci,no
+TM |DEFINITION|Central nervous system
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 153
+NA TropicalWaters	
+TM TropicalWaters	@lang=en;match=ci,no
+TM |DEFINITION|Warmer waters. Rich coral reefs are generally found in warm, tropical, waters.
+TM |HIERARCHY|broader__Environment|--|inScheme__Diving
+--
+ID 154
+NA High Pressure Hose	
+TM High Pressure Hose	@lang=en;match=ci,no
+TM |DEFINITION|Connects the first stage to an SPG or Computer, allowing monitoring of the cylinder pressure.
+TM |HIERARCHY|broader__Equipment
+--
+ID 155
+NA Haemoglobin	
+TM Haemoglobin	@lang=en;match=ci,no
+TM |DEFINITION|The most important constituent of the red blood cell is the molecule of haemoglobin, an iron containing protein that has the ability to unite with oxygen and transport it to cells throughout the body it also combines with CO2 and adds in the transport and removal of CO2 from the body.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 156
+NA Full Wet Suit	
+TM Full Wet Suit	@lang=en;match=ci,no
+TM |DEFINITION|A suit with long arms and legs. May be combined with a shortie or jacket in colder water.
+TM |HIERARCHY|broader__WetSuit
+--
+ID 157
+NA FSW	
+TM FSW	@lang=en;match=ci,no
+TM |DEFINITION|Depth measured in feet of sea water.
+TM |HIERARCHY|broader__Measurement
+--
+ID 158
+NA Multi Level Dive	
+TM Multi Level Dive	@lang=en;match=ci,no
+TM |DEFINITION|A type of a dive that will not conform to a maximum depth and time profile. Ideally, such dives are conducted with the deepest sections first and then the diver ascends progressively to various shallower depths.
+TM |HIERARCHY|broader__Dive
+--
+ID 159
+NA Club Instructor	
+TM Club Instructor	@lang=en;match=ci,no
+TM CI	@lang=en;match=ci,no
+TM |DEFINITION|Club Instructor. A BSAC instructor qualification
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 160
+NA Cylinder	
+TM Cylinder	@lang=en;match=ci,no
+TM |HIERARCHY|inScheme__Diving
+TM |HIERARCHY|broader__Equipment
+--
+ID 161
+NA RMV	
+TM RMV	@lang=en;match=ci,no
+TM |DEFINITION|Respiratory Minute Volume. The amount of air that is consumed in one minute on the surface.This is expressed in cubic feet per minute.
+TM |HIERARCHY|broader__Measurement
+--
+ID 162
+NA Instrument	
+TM Instrument	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 163
+NA Manufacturer	
+TM Manufacturer	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 164
+NA Dehydration	
+TM Dehydration	@lang=en;match=ci,no
+TM |DEFINITION|The loss of bodily fluids, can contribute to DCS. In divers this can be brought about by diving with a hangover, consuming caffeinated beverages prior to diving, overexertion, or diving when ill. Immersion in water also produces a diuresis (production of urine by the kidneys) that can contribute to diver dehydration.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 165
+NA Backup	
+TM Backup	@lang=en;match=ci,no
+TM |DEFINITION|The concept of carrying fully functional backup systems to replace primaries in the event of failure.
+--
+ID 166
+NA Dump Valve	
+TM Dump Valve	@lang=en;match=ci,no
+TM |DEFINITION|A term for the exhaust fittings on dry suits, lift bags and BC's.
+TM |HIERARCHY|broader__Equipment
+--
+ID 167
+NA Carbon Dioxide	
+TM Carbon Dioxide	@lang=en;match=ci,no
+TM CO2	@lang=en;match=ci,no
+TM |DEFINITION|A gas generated by the metabolic process of generating energy to sustain life. Carbon Dioxide (CO2) is normally regulated through the breathing process where CO2 (with its high dissolved PPCO2) is moved out of the bloodstream, and Oxygen (with its high ambient PPO2) is moved into the bloodstream.In normoxic air the percentage of CO2 is negligible, about 0.03%. CO2 appears to be a factor in DCS, narcosis, hyperoxia and Hypoxia.
+TM |HIERARCHY|broader__Gas
+--
+ID 168
+NA Argon	
+TM Argon	@lang=en;match=ci,no
+TM Ar	@lang=en;match=ci,no
+TM |DEFINITION|An inert gas which is very narcotic in the normal diving range, twice that of Nitrogen. It is a good insulator however and sometimes used in diving suits.
+TM |HIERARCHY|broader__Gas
+--
+ID 169
+NA Open Water Diver	
+TM Open Water Diver	@lang=en;match=ci,no
+TM OW	@lang=en;match=ci,no
+TM |DEFINITION|Open Water. A PADI diver qualification
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__PADI|--|broader__Organisation
+--
+ID 170
+NA MK16	
+TM MK16	@lang=en;match=ci,no
+TM |HIERARCHY|related__Scubapro|--|broader__Manufacturer
+TM |HIERARCHY|broader__FirstStage
+--
+ID 171
+NA Dive Time	
+TM Dive Time	@lang=en;match=ci,no
+TM |DEFINITION|The time from leaving the surface to the first decompression stop or 6m in no stop dives.
+TM |HIERARCHY|broader__Measurement
+--
+ID 172
+NA Fins	
+TM Fins	@lang=en;match=ci,no
+TM |DEFINITION|Worn on the feet for faster swimming and to increase maneuverability. They are not called flippers... Flipper is a dolphin.
+TM |HIERARCHY|broader__Equipment
+--
+ID 173
+NA Neon	
+TM Neon	@lang=en;match=ci,no
+TM Ne	@lang=en;match=ci,no
+TM |DEFINITION|A gas sometimes used in diving.
+TM |HIERARCHY|broader__Gas
+--
+ID 174
+NA Auto Air/Air II	
+TM Auto Air/Air II	@lang=en;match=ci,no
+TM |DEFINITION|A form of alternate air source build into Buddy stab jackets.
+TM |HIERARCHY|broader__Equipment
+--
+ID 175
+NA EAD	
+TM EAD	@lang=en;match=ci,no
+TM |DEFINITION|Equivalent Air Depth. A means of equating gas mixes (such as Nitrox) to air.
+TM |HIERARCHY|broader__Measurement
+--
+ID 176
+NA Scubapro	
+TM Scubapro	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Manufacturer|--|broader__Equipment
+--
+ID 177
+NA Pressure	
+TM Pressure	@lang=en;match=ci,no
+TM |DEFINITION|Absolute Pressure - Absolute pressure is a measure of the pressure exerted on an object from all sources; includes water (hydrostatic) and air (atmospheric) pressure. Atmospheric Pressure -The measure of the weight of the surrounding column of air. At Sea level this is about One bar. Hydrostatic Pressure - The measure of the weight of the surrounding column of water.
+TM |HIERARCHY|broader__Measurement
+--
+ID 178
+NA Hyperoxia	
+TM Hyperoxia	@lang=en;match=ci,no
+TM |DEFINITION|Elevated oxygen levels in the tissues. See oxygen toxicity, CNS oxygen toxicity.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 179
+NA Boat	
+TM Boat	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 180
+NA Suunto	
+TM Suunto	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Manufacturer|--|broader__Equipment
+--
+ID 181
+NA Normoxic	
+TM Normoxic	@lang=en;match=ci,no
+TM |DEFINITION|A breathing mixture that yields a partial pressure of Oxygen at normal (.21bar) levels.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 182
+NA Exposure Suit	
+TM Exposure Suit	@lang=en;match=ci,no
+TM |DEFINITION|A suit offering protection from cold or other hazardous conditions.
+TM |HIERARCHY|broader__Equipment
+--
+ID 183
+NA Pneumothorax	
+TM Pneumothorax	@lang=en;match=ci,no
+TM |DEFINITION|A lung over expansion injury that involves air bubbles escaping into the chest area and causing lung collapse. This can result from ascending to rapidly and/or breath holding.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 184
+NA Adjustable Bouyancy Life Jacket	
+TM Adjustable Bouyancy Life Jacket	@lang=en;match=ci,no
+TM |DEFINITION|An older style of buoyancy device still used by some divers.
+TM |HIERARCHY|broader__Equipment
+--
+ID 185
+NA Decompression Theory	
+TM Decompression Theory	@lang=en;match=ci,no
+TM |DEFINITION|The attempt to quantify gas dynamics in living tissues while exposed to hyper- or hypobaric environments.
+TM |HIERARCHY|broader__Procedure
+--
+ID 186
+NA Hypoxia	
+TM Hypoxia	@lang=en;match=ci,no
+TM |DEFINITION|A Condition brought on due to an insufficient Partial Pressure of Oxygen (PPO2) in a breathing gas. A failure of the tissues to receive sufficient Oxygen.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 187
+NA Second Stage	
+TM Second Stage	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Equipment
+--
+ID 188
+NA Recompression	
+TM Recompression	@lang=en;match=ci,no
+TM |DEFINITION|The accepted treatment for decompression sickness, CAGE and Lung over expansion injuries. Treatment is instituted by returning the diver to a higher pressure environment in a Hyperbaric chamber.
+TM |HIERARCHY|broader__Procedure
+--
+ID 189
+NA Advanced Instructor	
+TM Advanced Instructor	@lang=en;match=ci,no
+TM AI	@lang=en;match=ci,no
+TM |DEFINITION|Advanced Instructor. A BSAC instructor qualification
+TM |HIERARCHY|broader__Qualification
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+--
+ID 190
+NA Test Pressure	
+TM Test Pressure	@lang=en;match=ci,no
+TM |DEFINITION|The pressure to which a cylinder is taken to, during hydrostatic testing.
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 191
+NA Cardiopulmonary Resuscitation	
+TM Cardiopulmonary Resuscitation	@lang=en;match=ci,no
+TM CPR	@lang=en;match=ci,no
+TM |DEFINITION|A process utilising the combination of external heart massage and mouth-to-mouth respiration (artificial ventilation) to artificially maintain the heartbeat and respiration of a victim.
+TM |HIERARCHY|broader__Procedure
+--
+ID 192
+NA Dry Suit	
+TM Dry Suit	@lang=en;match=ci,no
+TM |DEFINITION|A completely waterproof exposure suit for use in cold water conditions. The diver stays dry and insulation is thus provided by the layer of air trapped between the body and the suit. Additional layers of protection, such as a woolly bear, can be worn underneath.
+TM |HIERARCHY|broader__ExposureSuit
+--
+ID 193
+NA Timing Device	
+TM Timing Device	@lang=en;match=ci,no
+TM |DEFINITION|An instrument that records the time spent at depth.
+TM |HIERARCHY|broader__Instrument|--|broader__Equipment
+--
+ID 194
+NA Manifold	
+TM Manifold	@lang=en;match=ci,no
+TM |DEFINITION|A device that connects two cylinders of a twin set together. It may contain its own 'isolation' valve in the middle.
+TM |HIERARCHY|broader__Equipment
+--
+ID 195
+NA BSAC	
+TM BSAC	@lang=en;match=ci,no
+TM |DEFINITION|British Sub Aqua Club.
+TM |HIERARCHY|broader__Organisation
+--
+ID 196
+NA High Pressure Port	
+TM High Pressure Port	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Port|--|broader__Equipment
+--
+ID 197
+NA Low Pressure Port	
+TM Low Pressure Port	@lang=en;match=ci,no
+TM |HIERARCHY|broader__Port|--|broader__Equipment
+--
+ID 198
+NA Surface Interval	
+TM Surface Interval	@lang=en;match=ci,no
+TM |DEFINITION|The time from leaving the water at the end of one dive to leaving the surface on the next dive. A minimum of one hour is strongly recommended.
+TM |HIERARCHY|broader__Measurement
+--
+ID 199
+NA Atmospheric Pressure	
+TM Atmospheric Pressure	@lang=en;match=ci,no
+TM |DEFINITION|The local atmospheric pressure produced at a particular altitude by current weather conditions.
+TM |HIERARCHY|broader__Pressure|--|broader__Measurement
+--
+ID 200
+NA SEEDS	
+TM SEEDS	@lang=en;match=ci,no
+TM |DEFINITION|A BSAC pneumonic that can help to remember the components of a dive briefing. It stands for: S=Safety - safety aspects of dive e.g., currents, visibility E=Exercise - what the dive plan is E=Equipment - special equipment e.g., SMBs D=Discipline - leadership, positioning etc S=Signals - signals that will be used in the dive
+TM |HIERARCHY|broader__Procedure
+--
+ID 201
+NA Buoyancy	
+TM Buoyancy	@lang=en;match=ci,no
+TM |DEFINITION|The upward force equal to the weight of water which is being displaced by an immersed object.
+TM |HIERARCHY|broader__Procedure
+--
+ID 202
+NA Assistant Club Instructor	
+TM Assistant Club Instructor	@lang=en;match=ci,no
+TM ACI	@lang=en;match=ci,no
+TM |DEFINITION|Assistant Club Instructor. A BSAC instructor qualification.
+TM |HIERARCHY|related__BSAC|--|broader__Organisation
+TM |HIERARCHY|broader__Qualification
+--
+ID 203
+NA SMB	
+TM SMB	@lang=en;match=ci,no
+TM |DEFINITION|Surface Marker Buoy.
+TM |HIERARCHY|broader__Equipment
+--
+ID 204
+NA Hyperventilation	
+TM Hyperventilation	@lang=en;match=ci,no
+TM |DEFINITION|The process of rapidly inhaling and exhaling to purge the body of carbon dioxide, thus decreasing the natural urge to breath. Hyperventilation is a potentially dangerous practice and can lead to, hypocapnia, shallow water blackout, unconsciousness and drowning.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 205
+NA SAC	
+TM SAC	@lang=en;match=ci,no
+TM |DEFINITION|Surface Air Consumption. The rate of underwater gas consumption converted to an equivalent surface rate, commonly measured in litres per minute. The average is about 25 l/min.
+TM |HIERARCHY|broader__Measurement
+--
+ID 206
+NA Gas	
+TM Gas	@lang=en;match=ci,no
+--
+ID 207
+NA Hyperthermia	
+TM Hyperthermia	@lang=en;match=ci,no
+TM |DEFINITION|Inadequate loss of heat from the body resulting in a rise in core temperature.This is most commonly seen in areas with high ambient temperatures and divers with low body fluid levels.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 208
+NA Full Face Mask	
+TM Full Face Mask	@lang=en;match=ci,no
+TM |DEFINITION|A diving system with the regulator built into a diving mask that completely covers the face, nose and mouth. Provides extra safety margin with high PO2 exposures (helps prevent drowning in case of a seizure) and is easily adaptable to communication units.
+TM |HIERARCHY|broader__Mask|--|broader__Equipment
+--
+ID 209
+NA Decompression Sickness	
+TM Decompression Sickness	@lang=en;match=ci,no
+TM |DEFINITION|Decompression sickness. A condition caused by Nitrogen bubbles forming in various parts of the body when a diver ascends too quickly and/or exceeds their ceiling. Also known as the bends The onset of DCS can be within minutes of the ascent, though usually within 1 to 3 hours and infrequently up to 12 hours.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 210
+NA Physiology	
+TM Physiology	@lang=en;match=ci,no
+TM |DEFINITION|The study of the body's actions and reactions. Diving physiology is primarily concerned with the effects of water pressure on the diver.
+TM |HIERARCHY|broader__MedicalCondition
+--
+ID 211
+NA Artificial Ventilation	
+TM Artificial Ventilation	@lang=en;match=ci,no
+TM AV	@lang=en;match=ci,no
+TM |DEFINITION|Artificial Ventilation
+TM |HIERARCHY|broader__Procedure
+--
+ID 212
+NA IANTD	
+TM IANTD	@lang=en;match=ci,no
+TM |DEFINITION|International Association of Nitrox and Technical Divers
+TM |HIERARCHY|broader__Organisation
+--
+ID 213
+NA Hydrox	
+TM Hydrox	@lang=en;match=ci,no
+TM |DEFINITION|Breathing gas consisting of a mixture of Hydrogen and Oxygen.
+TM |HIERARCHY|broader__MixedGases
+--
+ID 214
+NA Mixed Gas	@lang=en;match=ci,no
+TM Mixed Gas	@lang=en;match=ci,no
+TM |DEFINITION|Any mixture of gas that deviates from normal (normoxic) atmospheric air.
+TM |HIERARCHY|broader__Gas
+--
+ID 215
+NA RIB
+TM RIB	@lang=en;match=ci,no
+TM |DEFINITION|Rigid Inflatable Boat, commonly used by divers.
+TM |HIERARCHY|broader__Boat|--|broader__Equipment
+--

@@ -1,0 +1,252 @@
+var parseXml;
+var taggedData;
+if (typeof window.DOMParser != "undefined") {
+    parseXml = function(xmlStr) {
+        return ( new window.DOMParser() ).parseFromString(xmlStr, "text/xml");
+    };
+} else if (typeof window.ActiveXObject != "undefined" &&
+       new window.ActiveXObject("Microsoft.XMLDOM")) {
+    parseXml = function(xmlStr) {
+        var xmlDoc = new window.ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async = "false";
+        xmlDoc.loadXML(xmlStr);
+        return xmlDoc;
+    };
+} else {
+    throw new Error("No XML parser found");
+}
+var HTMLtext = getBodyText(window);
+var prefVocab = "";
+chrome.extension.sendMessage({method: "getPrefVocab"}, function(response) {
+  prefVocab = response.status;
+  console.log(prefVocab);
+  
+});
+//var URL = "http://peregrine.nbiceng.net/index/indexText?text=" + encodeURIComponent(HTMLtext) + "&format=json&lang=en&disambiguate=peregrine&vocab=" + prefVocab;
+var URL = "http://localhost:8080/uk.co.nasko.jersey.jaxb/rest/tag?text=" + encodeURIComponent(HTMLtext) + "&vocab=semweb";
+console.log(URL);
+function getBodyText(win) {
+    var doc = win.document, body = doc.body, selection, range, bodyText;
+    if (body.createTextRange) {
+        return body.createTextRange().text;
+    } else if (win.getSelection) {
+        selection = win.getSelection();
+        range = doc.createRange();
+        range.selectNodeContents(body);
+        selection.addRange(range);
+        bodyText = selection.toString();
+        selection.removeAllRanges();
+        return bodyText.replace(/(\r\n|\n|\r)/gm," ");
+    }
+}
+
+
+/* idTabs ~ Sean Catchpole - Version 2.2 - MIT/GPL */
+
+makeRequest(function(data) {
+	console.log(data);
+	taggedData = JSON.parse(data);
+      // Render the results.
+      //renderQuestions(JSON.parse(data));
+	  var l = taggedData.result.taggedTerms.length;
+		console.log(l);
+		//Update Icon:
+		chrome.extension.sendMessage({termCount: l}, function(response) {
+			console.log(response);
+		});
+	  
+    });
+
+	
+chrome.extension.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    console.log(sender.tab ?
+                "from a content script:" + sender.tab.url :
+                "from the extension");
+    if (request.displayResults == "OK")
+      sendResponse({farewell: "Displaying Results..."});
+	  renderQuestions(taggedData);
+  });	
+//redo with jquery
+function makeRequest(callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', URL);
+  xhr.setRequestHeader("Accept","application/json");
+  console.log(URL);
+  xhr.addEventListener('load', function(e) {
+    var result = xhr.responseText;
+    callback(result);
+  });
+  xhr.send();
+}
+
+function renderQuestions(data) {
+	var l = data.result.taggedTerms.length;
+
+	for(var i = 0; i < l; i++) {
+		var q = data.concept[i].word.length;
+		for(var j = 0; j < q; j++) {
+			//console.log(data.concept[i].semantictypes.semantictype[0].value);
+			var search = "http://www.google.com/search?q=" + data.concept[i].word[j].value.replace(" ", "+");
+			/*
+			  <ul class="tabs">
+				<li><a href="#">Tab 1</a></li>
+				<li><a href="#">Tab 2</a></li>
+				<li><a href="#">Tab 3</a></li>
+			</ul>
+			
+			*/
+			//var results = "<ul class=\"tabs\"> <li><a href=\"#first\">" + data.concept[i].semantictypes.semantictype[0].value + "</a></li><li><a href=\"#second\"> " + data.concept[i].name + "</a></li></ul>"
+			var results = data.concept[i].word[j].value.replace(" ","_");
+			var tabs = "<span class=\"popup p" + results +"\"> <a class=\"button bClose\">X</a> <div  class=\"usual\"> <ul> <li><a href=\"#"+results+"_tab1\" >Google</a></li> <li><a href=\"#"+results+ "_tab2\">PubMed</a></li></ul>" 
+			var	tabs_content ="<div id=\""+results+"_tab1\"><a href=\"javascript:void(0);\" class=\"tabLink\" title=\""+results+"_tab1\">Load Data</a>"+data.concept[i].semantictypes.semantictype[0].value+".</div><div id=\""+results+"_tab2\">More content in tab 2.</div></div></span>" 
+			
+			//var tabs = "<span class=\"panes\"><span>First tab content. Tab contents of <a href=\"#second\">second</a></span> <span>Second tab content</span> </span>";
+			//findAndReplace(data.concept[i].word[j].value, "<a href=\"" + search + "\" title='" + results +  "'>" + data.concept[i].word[j].value + "</a>" );
+			findAndReplace(data.concept[i].word[j].value, "<span class=\"button b" + results + "\">" + data.concept[i].word[j].value + "</span> " + tabs + tabs_content );
+			;(function($) {
+				$(function() {
+					var sel1 = ".b" + results;
+					var sel2 = ".p" + results;
+					$(sel1).bind('click', function(e) {
+						e.preventDefault();
+						var self = $(this) //button
+						, content = $(".content"); 
+						$(sel2).bPopup({
+							modalClose: false,
+							opacity: 0.6,
+							position: ['auto', 100],
+							positionStyle: 'fixed' //'fixed' or 'absolute'
+						});
+						/*$('.pop2').bPopup({
+							onOpen: function() {
+								content.html(self.data('bpopup') || '');
+							},
+							onClose: function() {
+								content.empty();
+							}
+						}); */
+						
+					});
+				 });
+			 })(jQuery);
+			 
+		}
+	}
+	//note: add persistance
+	
+	$('a[class=tabLink]').click(
+		function (e) {
+			e.preventDefault();
+			var title = $(this).attr("title");
+			//var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCVkDf2lSJOMwYETOP9qF_jTBU0k_h4meA&cx=016963398958569568888:poqdfodsdzs&q=site:ncbi.nlm.nih.gov+" + title.replace(" ", "+").replace("_tab1","").replace("_tab2","") + "&callback=?";
+			//atradev: AIzaSyCHyAv7VOvFo7TwBan8Qd3Fh_OdJo5nRpU  017520011284633168625:ejm7w0magme
+			//var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCHyAv7VOvFo7TwBan8Qd3Fh_OdJo5nRpU&cx=016963398958569568888:poqdfodsdzs&q=site:ncbi.nlm.nih.gov+" + title.replace(" ", "+").replace("_tab1","").replace("_tab2","")+ "&callback=?";
+			var res = "";
+			/*$.getJSON(url, '', function(data){
+				alert("success");
+				for (var i = 0; i < response.items.length; i++) {
+					var item = response.items[i];
+					// in production code, item.htmlTitle should have the HTML entities escaped.
+					res += "<a href=\"" + item.link + "\">" + item.htmlTitle + " " + "</a> <br /><i>" + item.htmlSnippet + "</i><br />";
+				} 
+			});*/
+			var url = "https://www.googleapis.com/customsearch/v1?key=AIzaSyCHyAv7VOvFo7TwBan8Qd3Fh_OdJo5nRpU&cx=016963398958569568888:poqdfodsdzs&q=site:ncbi.nlm.nih.gov+" + title.replace(" ", "+").replace("_tab1","").replace("_tab2","")+ "";
+			var xhr = new XMLHttpRequest();
+			xhr.overrideMimeType("application/json"); 
+			xhr.open("GET", url, true);
+			xhr.onreadystatechange = function() {
+				if (xhr.readyState == 4) {
+				   
+					var json = JSON.parse(xhr.responseText);
+					//alert(json.items[0].htmlSnippet);
+					for (var i = 0; i < json.items.length; i++) {
+						var item = json.items[i];
+						// in production code, item.htmlTitle should have the HTML entities escaped.
+						res += "<a href=\"" + item.link + "\">" + item.htmlTitle + " " + "</a> <br /><i>" + item.htmlSnippet + "</i><br />";
+						var t_class = "#" + title;
+					}
+					$(t_class).append(res);
+			  }
+			}
+			xhr.send();
+						
+			
+				//$(this).attr("title", res);
+			
+				//alert(res);
+		}
+	); 
+	
+	//$(".popup ul").idTabs(); 
+	
+	//$("[title]").tooltip({offset: [10, 2]}).dynamic({ bottom: { direction: 'down', bounce: true } });
+	//$("ul.tabs").tabs("span.panes > span");
+}
+function renderQuestions2(data) {
+  var $results = document.querySelector('#results');
+  var questions = data.questions;
+  for (var i = 0; i < Math.min(10, questions.length); i++) {
+    var question = questions[i];
+    var $question = document.createElement('li');
+    var url = ROOT + question.question_answers_url;
+    $question.innerHTML = '<a href="' + url + '" target="_blank">' +
+        question.title + '</a>';
+    results.appendChild($question);
+  }
+  // Update title too.
+  document.querySelector('#title').innerText = 'Top Chrome Extension Questions';
+}
+	
+//createDiv();
+
+/*
+chrome.extension.sendMessage({text: HTMLtext}, function(response) {
+  console.log(response.farewell);
+});
+*/
+
+function createDiv(){
+var divTag = document.createElement("div");
+divTag.id = "peregrineResponse";
+divTag.setAttribute("display","none");
+document.body.appendChild(divTag);
+//document.getElementById("peregrineResponse").innerText = "test";
+}
+
+function findAndReplace(searchText, replacement, searchNode) {
+    if (!searchText || typeof replacement === 'undefined') {
+        // Throw error here if you want...
+        return;
+    }
+    var regex = typeof searchText === 'string' ?
+                new RegExp(searchText, 'g') : searchText,
+        childNodes = (searchNode || document.body).childNodes,
+        cnLength = childNodes.length,
+        excludes = 'html,head,style,title,link,meta,script,object,iframe,a'; //REMOVE A IF IT BREAKS STUFF.
+		excludes_classes = 'button';
+    while (cnLength--) {
+        var currentNode = childNodes[cnLength];
+        if (currentNode.nodeType === 1 &&
+            (excludes + ',').indexOf(currentNode.nodeName.toLowerCase() + ',') === -1 &&
+            (excludes_classes).indexOf(currentNode.className.toLowerCase().split(" ")[0]) === -1) {
+            arguments.callee(searchText, replacement, currentNode);
+        }
+        if (currentNode.nodeType !== 3 || !regex.test(currentNode.data) ) {
+            continue;
+        }
+        var parent = currentNode.parentNode,
+            frag = (function(){
+                var html = currentNode.data.replace(regex, replacement),
+                    wrap = document.createElement('div'),
+                    frag = document.createDocumentFragment();
+                wrap.innerHTML = html;
+                while (wrap.firstChild) {
+                    frag.appendChild(wrap.firstChild);
+                }
+                return frag;
+            })();
+        parent.insertBefore(frag, currentNode);
+        parent.removeChild(currentNode);
+    }
+}
